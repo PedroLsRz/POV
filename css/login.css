@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family:sans-serif ;
+}
+.fundo {
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-image: url(../img/4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.forms {
+    background-color: rgb(18, 95, 56);
+    padding: 100px 70px;
+    border-radius: 5px;
+    
+}
+.tituloform{
+    
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    border-radius: 3px;
+   
+}
+.titulogin {
+    color: white;
+    font-size: 18px;
+    margin: 2px;
+    margin-top: 30px;
+    font-weight: 400;
+}
+.textologin {
+    padding: 7px 50px;
+    background-color: rgb(28, 175, 101);
+    border: none;
+    color: white;
+    outline: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 0px 4px rgb(11, 59, 35);
+}
+.titulosenha {
+    color: white;
+    font-size: 18px;
+    margin: 2px;
+    margin-bottom: 3px;
+    font-weight: 400;
+    
+}
+.textosenha{
+    padding: 7px 50px;
+    background-color: rgb(28, 175, 101);
+    border: none;
+    color: white;
+    outline: none;
+    margin-bottom: 13px;
+    border-radius: 5px;
+    box-shadow: 2px 0px 4px rgb(11, 59, 35);
+}
+.botao {
+    display: flex;
+    width: 100%;
+    padding: 20px 0px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(9, 44, 27);
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    justify-content: center;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: 3px 1px 10px 1px rgb(11, 59, 35);
+}
+.botao:hover{
+    background-color: rgb(24, 73, 48);
+    transition: 0.3s;
+}
+.cadastrar{
+    color: white;
+    font-size: 10pt;
+}
