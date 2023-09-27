@@ -1,0 +1,16 @@
+{
+    "name": "pedro/pov",
+    "autoload": {
+        "psr-4": {
+            "Pedro\\Pov\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "pedro"
+        }
+    ],
+    "require": {
+        "chillerlan/php-qrcode": "^4.3"
+    }
+}
