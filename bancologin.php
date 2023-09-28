@@ -25,7 +25,7 @@ if ($user == $dado[1] && $senha == $dado[2] && $user != NULL && $senha != NULL) 
 exit();
 } 
 else {
-    echo 'Dados inválidos';
+    echo 'Dados inválidos!';
 
 }
 
