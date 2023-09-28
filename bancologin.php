@@ -20,12 +20,8 @@ $query = mysqli_query($conexao, $select);
 $dado = mysqli_fetch_row($query);
 
 
-if ($user == NULL && $senha == NULL) {
-    header('Location: http://131.72.176.95:8111/POV/bancologin.php');
-exit();
-} 
-elseif ($user == $dado[1] && $senha == $dado[2]) {
-    header('Location: http://131.72.176.95:8111/POV/menu.php');
+if ($user == $dado[1] && $senha == $dado[2] && $user != NULL && $senha != NULL) {
+    header('Location: menu.php');
 exit();
 } 
 else {
