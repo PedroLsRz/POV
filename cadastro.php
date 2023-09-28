@@ -27,7 +27,7 @@
             </h1>
 
         <button class="botao">
-        ENTRAR
+        CADASTRAR
         </button>
         <a class = "cadastrar" href="./login.php">Logue-se aqui!</a>
     

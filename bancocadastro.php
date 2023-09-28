@@ -12,10 +12,12 @@ $senha= $_POST ['senhatexto'];
 #fazendo uma variável que recebe o SELECT
 $select = "INSERT into usuarios (nome, login, senha) values ('$nome', '$user', '$senha')";
 
+try{
 #executa a $conexao e o $select dentro dela
-if ($query = mysqli_query($conexao, $select)){
-    header('Location: http://131.72.176.95:8111/POV/login.php');
-exit();
+$query = mysqli_query($conexao, $select);
+    header('Location: login.php');
+}catch(Exception $e){
+    echo "RA já cadastrado!";
 }
 
 
