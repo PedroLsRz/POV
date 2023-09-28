@@ -6,9 +6,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link href="./css/login.css" rel="stylesheet">
   <!--  <link href="./css/bootstrap.min.css" rel="stylesheet">  -->
-    <title>PoV página de login</title>
+    <title>PoV-Página de login</title>
 </head>
 <body>
 <div class="fundo">
