@@ -15,10 +15,10 @@
     <form class= "forms" id=" form-login" action = "bancologin.php" method = "POST" >
         <h1 class = "tituloform">LOGIN</h1>
     <h1 class ="titulogin">RA:</h1>
-        <input class = "textologin" type = "text" name = "login"> 
+        <input class = "textologin" type = "text" name = "login" required> 
     
     <h1 class ="titulosenha">Senha:</h1>
-        <input class= "textosenha" type = "password" name="senha">
+        <input class= "textosenha" type = "password" name="senha" required>
     <br>
         <button class="botao">
         ENTRAR

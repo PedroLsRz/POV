@@ -14,16 +14,16 @@
         <h1 class = "tituloform">CADASTRO</h1>
 
         <h1 class ="login">RA: <br>
-            <input type = "text" name = "logintexto"> 
+            <input type = "text" name = "logintexto" required> 
             <h1 class= descricao>Não é preciso digitar @ulife.com.br</h1>
         </h1>
 
         <h1 class ="curso">Nome: <br>
-            <input type = "text" name = "nometexto">
+            <input type = "text" name = "nometexto" required>
         </h1>
 
         <h1 class ="senha">Senha: <br>
-            <input type = "password" name="senhatexto">
+            <input type = "password" name="senhatexto" required>
             </h1>
 
         <button class="botao">
