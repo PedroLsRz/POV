@@ -41,6 +41,7 @@ body {
     color: white;
     outline: none;
     border-radius: 5px;
+    box-shadow: 2px 0px 4px rgb(11, 59, 35);
 }
 .descricao {
     font-size: 11px;
@@ -63,7 +64,7 @@ body {
     outline: none;
     margin-bottom: 10px;
     border-radius: 5px;
-    
+    box-shadow: 2px 0px 4px rgb(11, 59, 35);
 }
 .senha {
     color: white;
@@ -81,6 +82,7 @@ body {
     outline: none;
     margin-bottom: 13px;
     border-radius: 5px;
+    box-shadow: 2px 0px 4px rgb(11, 59, 35);
 }
 .botao {
     display: flex;
@@ -94,7 +96,7 @@ body {
     justify-content: center;
     letter-spacing: 1px;
     cursor: pointer;
-    
+    box-shadow: 3px 1px 10px 1px rgb(11, 59, 35);
 }
 .botao:hover{
     background-color: rgb(97, 96, 177);

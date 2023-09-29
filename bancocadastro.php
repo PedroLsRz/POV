@@ -1,6 +1,5 @@
 <?php
 
-
 #include adiciona as funcionalidades do arquivo incluído
 include ('conexao.php');
 
