@@ -20,12 +20,18 @@ $query = mysqli_query($conexao, $select);
 $dado = mysqli_fetch_row($query);
 
 
-if ($user == $dado[1] && $senha == $dado[2] && $user != NULL && $senha != NULL) {
+if ($user == isset($dado[1]) && $senha == isset($dado[2])) {
+    session_start();
+    $_SESSION['nome'] = $dado[0];
+    $_SESSION['logado'] = true;
     header('Location: menu.php');
 exit();
 } 
 else {
-    echo 'Dados inválidos!';
+    
+    echo '<script>alert("Usuário ou senha inválidos");
+    window.location= "login.php";    
+    </script>';
 
 }
 

@@ -1,3 +1,14 @@
+<?php
+
+session_start();
+
+if ($_SESSION['logado'] <> true) {
+  header('Location: login.php');
+}
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +22,8 @@
     
 <nav class="navbar bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand">Olá! Seja bem-vindo</a>
+    <a class="navbar-brand">Olá! Seja bem-vindo <?php echo $_SESSION['nome'] ?></a>
+    <a href="logout.php">Sair</a>
     <form class="d-flex" role="search">
       <input class="form-control me-2" type="search" placeholder="Salas" aria-label="Search">
       <button class="btn btn-outline-success" type="submit">Procurar</button>
