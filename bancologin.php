@@ -28,12 +28,9 @@ if ($user == isset($dado[1]) && $senha == isset($dado[2])) {
 exit();
 } 
 else {
-    
     echo '<script>alert("Usuário ou senha inválidos");
     window.location= "login.php";    
     </script>';
-
 }
-
 
 ?>
