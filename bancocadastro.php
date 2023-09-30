@@ -1,6 +1,6 @@
 <?php
 
-#include adiciona as funcionalidades do arquivo incluído
+#include adiciona as funcionalidades do arquivo incluído!
 include ('conexao.php');
 
 #variáves, cada uma corresponde aos inputs do arquivo cadastro
