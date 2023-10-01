@@ -34,6 +34,7 @@
      if(isset($_POST['entrar'])){
         login();
      }
+     
     ?>
     
     </form>
