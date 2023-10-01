@@ -1,3 +1,5 @@
+<?php require_once "bancocadastro.php"?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +14,7 @@
 <!-- Classe para manipular o fundo da pagina-->
 <div class="fundo">
                         <!-- Formuláro de cadastro-->
-    <form class= "forms" id=" form-cadastro" action = "bancocadastro.php" method = "POST" >
+    <form class= "forms" id=" form-cadastro" action = "" method = "POST" >
         <h1 class = "tituloform">CADASTRO</h1>
         <h1 class ="login">RA: <br>
             <input type = "text" name = "logintexto" required> 
@@ -24,10 +26,15 @@
         <h1 class ="senha">Senha: <br>
             <input type = "password" name="senhatexto" required>
         </h1>
-        <button class="botao">
+        <button type= "submit" class="botao" name = "entrar">
             CADASTRAR
         </button>
         <a class = "cadastrar" href="./login.php">Logue-se aqui!</a>
+        <?php 
+     if(isset($_POST['entrar'])){
+        cadastro();
+     }
+     ?>
     </form>
 
 </div>
