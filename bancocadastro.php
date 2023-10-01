@@ -18,7 +18,6 @@ $query = mysqli_query($conexao, $select);
 }catch(Exception $e){
     echo '<a class="cadastrofail">RA já cadastrado!</a>';
 }
-echo '<div class="cadastrar">Cadastro realizado com sucesso!</div>';
 }
 
 ?>
