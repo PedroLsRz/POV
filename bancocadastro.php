@@ -1,5 +1,5 @@
 <?php
-
+function cadastro(){
 #include adiciona as funcionalidades do arquivo incluído!
 include ('conexao.php');
 
@@ -14,13 +14,10 @@ $select = "INSERT into usuarios (nome, login, senha) values ('$nome', '$user', '
 try{
 #executa a $conexao e o $select dentro dela
 $query = mysqli_query($conexao, $select);
-    header('Location: login.php');
+    echo '<div class="cadastrofail">Cadastro realizado com sucesso!</div>';
 }catch(Exception $e){
-    echo "RA já cadastrado!";
+    echo '<a class="cadastrofail">RA já cadastrado!</a>';
 }
-
-
-
-
+}
 
 ?>

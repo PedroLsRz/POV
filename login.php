@@ -1,3 +1,5 @@
+<?php require_once "bancologin.php"?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,7 +18,7 @@
 <!-- Classe para manipular o fundo da pagina-->
 <div class="fundo">
                         <!-- Formuláro de cadastro-->
-    <form class= "forms" id=" form-login" action = "bancologin.php" method = "POST" >
+    <form class= "forms" action="" id="form-login" method = "POST" >
         <h1 class = "tituloform">LOGIN</h1>
             <h1 class ="titulogin">RA: <br>
                 <input class ="textologin" type = "text" name = "login" required> 
@@ -24,14 +26,23 @@
         <h1 class ="titulosenha">Senha:</h1>
             <input class= "textosenha" type = "password" name="senha" required>
                 <br>
-            <button class="botao">
+            <button type= "submit" class= "botao" name= "entrar">
                 ENTRAR
-            </button>
+        </button>
         <a class = "cadastrar" href="./cadastro.php">Crie sua conta aqui!</a>
+        <br>
+        
+        <?php 
+     if(isset($_POST['entrar'])){
+        login();
+     }
+    ?>
+    
     </form>
-
+    
 </div>
- 
+
+    
 </body>
 
 </html>
