@@ -30,6 +30,7 @@
             CADASTRAR
         </button>
         <a class = "cadastrar" href="./login.php">Logue-se aqui!</a>
+        <br>
         <?php 
      if(isset($_POST['entrar'])){
         cadastro();
