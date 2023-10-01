@@ -103,13 +103,13 @@ body {
     transition: 0.3s;
     color: aqua;
 }
-.cadastrar{
-    color: white;
-    font-size: 10pt;
-}
 .errocadastro{
     color: rgb(251, 255, 0);
     font-size: 11pt;
     text-align: center;
     margin-top: 10px;
+}
+.cadastrar{
+    color: white;
+    font-size: 10pt;
 }
