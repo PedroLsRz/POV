@@ -19,8 +19,4 @@ $query = mysqli_query($conexao, $select);
     echo "RA já cadastrado!";
 }
 
-
-
-
-
 ?>

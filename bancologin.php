@@ -28,13 +28,10 @@ exit();
 }
 #Se não for igual ou se forem nulos os valores, alerte o que foi declarado e redirecione
 #o usuário para a página indicada.
-else {
-    
-    echo '<div class="cadastrar">RA ou Senha Incorretos!</div>';
-    
-    
-
+else { 
+    echo '<div class="errologin">RA ou Senha Incorretos!</div>';
 }
+
 }
 
 ?>
