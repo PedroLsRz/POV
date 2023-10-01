@@ -89,5 +89,6 @@ body {
 .errologin{
     color: rgb(87, 0, 0);
     font-size: 11pt;
-    text-align: right;
+    text-align: center;
+    border-radius: 5px;
 }
