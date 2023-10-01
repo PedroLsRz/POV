@@ -1,7 +1,8 @@
 <?php
+
+function login(){
 #include adiciona as funcionalidades do arquivo incluído
 include ('conexao.php');
-
 
 $user= $_POST ['login'];
 $senha= $_POST ['senha'];
@@ -29,11 +30,11 @@ exit();
 #o usuário para a página indicada.
 else {
     
-    echo '<script>alert("Usuário ou senha inválidos");
-    window.location= "login.php";    
-    </script>';
+    echo '<div class="cadastrar">RA ou Senha Incorretos!</div>';
+    
+    
 
 }
-
+}
 
 ?>
