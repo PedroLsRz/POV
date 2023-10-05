@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <link href="./estilos/styleslogin.css" rel="stylesheet">
   <!--  <link href="./css/bootstrap.min.css" rel="stylesheet">  -->
     <title>PoV-Página de login</title>
@@ -15,6 +15,7 @@
 
 <!-- Classe para manipular o fundo da pagina-->
 <div class="fundo">
+<img class= "img" src="img/logo.png" width="250">
                         <!-- Formuláro de cadastro-->
     <form class= "forms" action="" id="form-login" method = "POST" >
         <h1 class = "tituloform">LOGIN</h1>
