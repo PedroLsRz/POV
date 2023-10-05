@@ -15,7 +15,7 @@ body {
 }
 .forms {
     background-color: rgb(18, 95, 56);
-    padding: 90px 35px 40px;
+    padding: 60px 30px;
     border-radius: 5px;
     margin: 0;
 }
@@ -27,24 +27,25 @@ body {
     flex-direction: column;
     color: rgb(255, 255, 255);
     font-weight: 400;
-    border-radius: 3px;
-   
+
 }
-.titulogin {
+.user {
+
+    margin-top: 20px;
     color: white;
-    font-size: 15px;
+    font-size: 11pt;
     margin: 2px;
     font-weight: 400;
    
 }
-.titulogin > i{
+.user > i{
 
     padding: 10px;
     background-repeat: no-repeat;
     background-image: url(../img/user-solid.svg);
     
 }
-.titulogin > input {
+.user > input {
 
     text-align: center;
     padding-right: 60px;
@@ -55,16 +56,16 @@ body {
     border-bottom: 1px solid rgb(26, 68, 31);
     outline: none;
 }
-.titulosenha {
+.senha {
 
     color: white;
-    font-size: 15px;
+    font-size: 11pt;
     margin: 2px;
     margin-bottom: 3px;
     font-weight: 400;
     
 }
-.titulosenha > i{
+.senha > i{
 
     margin-top: 10px;
     padding: 10px;
@@ -72,7 +73,7 @@ body {
     background-image: url(../img/key-solid.svg);
     
 }
-.titulosenha > input{
+.senha > input{
 
     padding-right: 60px;
     background-color: rgba(18, 95, 57, 0);
@@ -100,10 +101,17 @@ body {
     
 }
 .botao:hover{
-    background-color: rgb(24, 73, 48);
+    background-color: rgb(97, 96, 177);
     transition: 0.3s;
+    color: aqua;
 }
 .cadastrar{
     color: white;
     font-size: 10pt;
+}
+.errologin{
+    color: rgb(251, 255, 0);
+    font-size: 11pt;
+    text-align: center;
+    margin-top: 10px;
 }

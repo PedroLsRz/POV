@@ -16,7 +16,7 @@ body {
 }
 .forms {
     background-color: rgb(18, 95, 56);
-    padding: 100px 70px;
+    padding: 60px 50px;
     border-radius: 5px;
 }
 .tituloform{
@@ -25,78 +25,81 @@ body {
     align-items: center;
     flex-direction: column;
     color: rgb(255, 255, 255);
-    
+    font-weight: 400;
 }
-.login {
+.user {
     color: white;
-    font-size: 16px;
+    font-size: 11pt;
     margin: 2px;
     margin-top: 30px;
     font-weight: 400;
 }
-.login > input {
-    padding: 7px 50px;
-    background-color: rgb(28, 175, 101);
+.user > input {
+
+    text-align: center;
+    padding-right: 60px;
+    background-color: rgba(18, 95, 57, 0);
     border: none;
     color: white;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(26, 68, 31);
     outline: none;
-    border-radius: 5px;
-    box-shadow: 2px 0px 4px rgb(11, 59, 35);
 }
 .descricao {
     font-size: 11px;
     margin: 2px;
     color: white;
+    margin-bottom: 20px;
 }
-.curso{
+.nome{
     color: white;
-    font-size: 16px;
+    font-size: 11pt;
     margin: 2px;
     margin-top: 10px;
     font-weight: 400;
     
 }
-.curso > input {
-    padding: 7px 50px;
-    background-color: rgb(28, 175, 101);
+.nome > input {
+    text-align: center;
+    padding-right: 60px;
+    background-color: rgba(18, 95, 57, 0);
     border: none;
     color: white;
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgb(26, 68, 31);
     outline: none;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    box-shadow: 2px 0px 4px rgb(11, 59, 35);
 }
 .senha {
     color: white;
-    font-size: 16px;
+    font-size: 11pt;
     margin: 2px;
     margin-bottom: 3px;
     font-weight: 400;
     
 }
 .senha > input{
-    padding: 7px 50px;
-    background-color: rgb(28, 175, 101);
+    text-align: center;
+    padding-right: 60px;
+    background-color: rgba(18, 95, 57, 0);
     border: none;
     color: white;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(26, 68, 31);
     outline: none;
-    margin-bottom: 13px;
-    border-radius: 5px;
-    box-shadow: 2px 0px 4px rgb(11, 59, 35);
 }
 .botao {
     display: flex;
     width: 100%;
     padding: 20px 0px;
     border: none;
-    border-radius: 5px;
+    border-radius: 35px;
     background-color: rgb(9, 44, 27);
     color: rgb(255, 255, 255);
     font-weight: 400;
     justify-content: center;
     letter-spacing: 1px;
     cursor: pointer;
-    box-shadow: 3px 1px 10px 1px rgb(11, 59, 35);
+    
 }
 .botao:hover{
     background-color: rgb(97, 96, 177);
