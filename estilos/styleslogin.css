@@ -1,8 +1,9 @@
 body {
     margin: 0;
-    font-family:sans-serif ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
 .fundo {
+    
     width: 100vw;
     height: 100vh;
     justify-content: center;
@@ -14,9 +15,9 @@ body {
 }
 .forms {
     background-color: rgb(18, 95, 56);
-    padding: 100px 70px;
+    padding: 60px 30px;
     border-radius: 5px;
-    
+    margin: 0;
 }
 .tituloform{
     
@@ -26,61 +27,83 @@ body {
     flex-direction: column;
     color: rgb(255, 255, 255);
     font-weight: 400;
-    border-radius: 3px;
+
+}
+.user {
+
+    margin-top: 20px;
+    color: white;
+    font-size: 11pt;
+    margin: 2px;
+    font-weight: 400;
    
 }
-.titulogin {
-    color: white;
-    font-size: 18px;
-    margin: 2px;
-    margin-top: 30px;
-    font-weight: 400;
+.user > i{
+
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-image: url(../img/user-solid.svg);
+    
 }
-.textologin {
-    padding: 7px 50px;
-    background-color: rgb(28, 175, 101);
+.user > input {
+
+    text-align: center;
+    padding-right: 60px;
+    background-color: rgba(18, 95, 57, 0);
     border: none;
     color: white;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(26, 68, 31);
     outline: none;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    box-shadow: 2px 0px 4px rgb(11, 59, 35);
 }
-.titulosenha {
+.senha {
+
     color: white;
-    font-size: 18px;
+    font-size: 11pt;
     margin: 2px;
     margin-bottom: 3px;
     font-weight: 400;
     
 }
-.textosenha{
-    padding: 7px 50px;
-    background-color: rgb(28, 175, 101);
+.senha > i{
+
+    margin-top: 10px;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-image: url(../img/key-solid.svg);
+    
+}
+.senha > input{
+
+    padding-right: 60px;
+    background-color: rgba(18, 95, 57, 0);
     border: none;
     color: white;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(26, 68, 31);
     outline: none;
-    margin-bottom: 13px;
-    border-radius: 5px;
-    box-shadow: 2px 0px 4px rgb(11, 59, 35);
 }
+
 .botao {
+
     display: flex;
     width: 100%;
-    padding: 20px 0px;
+    padding: 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 35px;
     background-color: rgb(9, 44, 27);
     color: rgb(255, 255, 255);
     font-weight: 400;
     justify-content: center;
     letter-spacing: 1px;
     cursor: pointer;
-    box-shadow: 3px 1px 10px 1px rgb(11, 59, 35);
+    align-items: center;
+    
 }
 .botao:hover{
-    background-color: rgb(24, 73, 48);
+    background-color: rgb(97, 96, 177);
     transition: 0.3s;
+    color: aqua;
 }
 .cadastrar{
     color: white;
