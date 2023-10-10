@@ -16,9 +16,12 @@
 
 <!-- Classe para manipular o fundo da pagina-->
 <div class="fundo">
-<img class= "img" src="img/logo.png" >
+    <!-- Logo da aplicação -->
+    
                         <!-- Formuláro de cadastro-->
+                        <img class= "img" src="img/logoPov.png" >
     <form class= "forms" action="" id="form-login" method = "POST" >
+    
         <h1 class = "tituloform">LOGIN</h1>
             <h1 class ="user">RA<br><br>
             <i></i>
