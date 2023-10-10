@@ -18,8 +18,8 @@
 <div class="fundo">
     <!-- Logo da aplicação -->
     
+    <img class= "img" src="img/logoPov.png" >
                         <!-- Formuláro de cadastro-->
-                        <img class= "img" src="img/logoPov.png" >
     <form class= "forms" action="" id="form-login" method = "POST" >
     
         <h1 class = "tituloform">LOGIN</h1>
