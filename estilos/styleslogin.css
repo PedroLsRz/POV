@@ -3,21 +3,23 @@ body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
 .fundo {
-    
+    flex-direction: column;
     width: 100vw;
     height: 100vh;
     justify-content: center;
     display: flex;
     align-items: center;
-    background-image: url(../img/4.jpg);
+    background-image: url(../img/fundo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    min-height: 600px;
 }
 .forms {
-    background-color: rgb(18, 95, 56);
+    background-color: rgba(255, 255, 255, 0.503);
     padding: 60px 30px;
     border-radius: 5px;
-    margin: 0;
+    
+    
 }
 .tituloform{
     
@@ -25,17 +27,17 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    color: rgb(255, 255, 255);
-    font-weight: 400;
+    color: rgb(0, 31, 84);
+    font-weight: 500;
 
 }
 .user {
 
     margin-top: 20px;
-    color: white;
+    color: rgb(0, 31, 84);
     font-size: 11pt;
     margin: 2px;
-    font-weight: 400;
+    font-weight: 500;
    
 }
 .user > i{
@@ -47,22 +49,22 @@ body {
 }
 .user > input {
 
-    text-align: center;
-    padding-right: 60px;
+    padding-right: 58px;
+    margin-left: 3px;
     background-color: rgba(18, 95, 57, 0);
     border: none;
-    color: white;
-    margin-bottom: 20px;
+    color: rgb(0, 31, 84);
+    margin-bottom: 10px;
     border-bottom: 1px solid rgb(26, 68, 31);
     outline: none;
 }
 .senha {
 
-    color: white;
+    color: rgb(0, 31, 84);
     font-size: 11pt;
     margin: 2px;
     margin-bottom: 3px;
-    font-weight: 400;
+    font-weight: 500;
     
 }
 .senha > i{
@@ -78,7 +80,7 @@ body {
     padding-right: 60px;
     background-color: rgba(18, 95, 57, 0);
     border: none;
-    color: white;
+    color: rgb(0, 31, 84);
     margin-bottom: 10px;
     border-bottom: 1px solid rgb(26, 68, 31);
     outline: none;
@@ -91,7 +93,7 @@ body {
     padding: 20px;
     border: none;
     border-radius: 35px;
-    background-color: rgb(9, 44, 27);
+    background-color: rgb(66, 3, 130);
     color: rgb(255, 255, 255);
     font-weight: 400;
     justify-content: center;
@@ -101,17 +103,24 @@ body {
     
 }
 .botao:hover{
-    background-color: rgb(97, 96, 177);
+    background-color: rgb(96, 10, 181);
     transition: 0.3s;
-    color: aqua;
+    color: rgb(227, 230, 230);
 }
 .cadastrar{
-    color: white;
+    color: rgb(0, 31, 84);
     font-size: 10pt;
 }
 .errologin{
-    color: rgb(251, 255, 0);
+    color: rgb(173, 4, 4);
     font-size: 11pt;
     text-align: center;
     margin-top: 10px;
+}
+.img{
+    display: flex;
+    height: 12vw;
+    min-height: 130px;
+    margin-bottom: 5px;
+    
 }
