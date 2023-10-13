@@ -41,8 +41,7 @@ if ($_SESSION['logado'] <> true) {
             <script>
                 function onScanSuccess(decodedText, decodedResult) {
             // handle the scanned code as you like, for example:
-            alert(decodedText);
-            window.location.href = "http://www.devmedia.com.br";
+                alert(decodedText);
                 } 
 
             function onScanFailure(error) {
