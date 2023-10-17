@@ -1,4 +1,5 @@
 <?php
+require_once "bancosalas.php";
 #Iniciar sessão
 session_start();
 #Se a sessão LOGADO for diferente de VERDADEIRA, redirecione para a página indicada
@@ -26,40 +27,41 @@ if ($_SESSION['logado'] <> true) {
                 <img class= "logo" src="img/logoNavBar.png" > 
                 <!-- Cabeçalho da barra de navegação printando o nome do 
                 usuário registrado no banco de dados ao se logar com sucesso-->
-                <a class="saudacao">Olá <?php echo $_SESSION['nome'] ?><br>Seja bem-vindo!</a>
+                <a class="saudacao">Escolha a sala<br>que deseja ir!</a>
                 <!-- Link para encerrar a sessão montada no arquivo declarado abaixo-->
 
                 <a class = "sair" href="logout.php">Sair</a>
 
             </nav>
+        
 
         <div class= "format">
-
-            <script src="js/html5-qrcode.js" type="text/javascript"></script>
-            
-            <div id="reader" class="camera"></div>
-            <script>
-                function onScanSuccess(decodedText, decodedResult) {
-            // handle the scanned code as you like, for example:
-                alert(decodedText);
-                } 
-
-            function onScanFailure(error) {
-                // handle scan failure, usually better to ignore and keep scanning.
-                // for example:
-                console.warn(`Code scan error = ${error}`);
-                }
-
-                let html5QrcodeScanner = new Html5QrcodeScanner(
-                "reader",
-                { fps: 10 },
-                /* verbose= */ false);
-                html5QrcodeScanner.render(onScanSuccess, onScanFailure);
-                
-            </script>
-            <img class= "img" src="img/guia.png" >
+            <input class="search-fruits" type="text">
+            <ul class="fruits-list">
+            <?php
+            salas();
+            ?>
+            </ul>
         </div>
 
+        <script>
+            let inputElement = document.querySelector("input")
+            let listElement = document.querySelector("ul")
+            let itemElement = listElement.querySelectorAll("h")
+
+            inputElement.addEventListener("input", (e) => {
+            let inputed = e.target.value.toLowerCase()
+            itemElement.forEach((h) => {
+                let text = h.textContent.toLowerCase()
+                if(text.includes(inputed)){
+                h.style.display = "block"
+                }else{
+                h.style.display = "none"
+                }
+                
+            })
+            })
+        </script>
         
     </div>
 </body>
