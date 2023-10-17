@@ -23,7 +23,7 @@ if ($user == isset($dado[1]) && $senha == isset($dado[2])) {
     session_start();
     $_SESSION['nome'] = $dado[0];
     $_SESSION['logado'] = true;
-    header('Location: menu.php');
+    header('Location: inicio.php');
 exit();
 }
 #Se não for igual ou se forem nulos os valores, alerte o que foi declarado e redirecione

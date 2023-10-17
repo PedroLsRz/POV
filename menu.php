@@ -14,23 +14,26 @@ if ($_SESSION['logado'] <> true) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./estilos/bootstrap.min.css" rel="stylesheet">
+    <link href="./estilos/stylesmenu.css" rel="stylesheet">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <title>Document</title>
     
 </head>
 
 <body>
+<div class="fundo">
+  <!-- Barra de navegação-->  
+  <nav class="navbar">
 
-  <nav class="navbar bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand">Olá! Seja bem-vindo <?php echo $_SESSION['nome'] ?></a>
-      <a href="logout.php">Sair</a>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Salas" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Procurar</button>
-      </form>
-    </div>
+     <img class= "logo" src="img/logoNavBar.png" > 
+      
+      <!-- Link para encerrar a sessão montada no arquivo declarado abaixo-->
+      
+        <button class="mudartrajeto" type="submit">Mudar Trajeto</button>
+        <a class = "sair" href="logout.php">Sair</a>
+    
   </nav>
+  <!-- Lista-->
   <ul class="list-group">
     <li class="list-group-item">An item</li>
     <li class="list-group-item">A second item</li>
@@ -39,7 +42,7 @@ if ($_SESSION['logado'] <> true) {
     <li class="list-group-item">And a fifth one</li>
   </ul>
 
-  <script src="./js/bootstrap.script.js"></script>
+    <script src="./js/bootstrap.script.js"></script>
 </body>
 
 </html>
