@@ -72,12 +72,11 @@ body {
     transition: 0.3s;
     color: rgb(227, 230, 230);
 }
-.qrcode {
+.format {
     flex-direction: column;
     justify-content: baseline;
     display: flex;
     align-items: center;
-    height: 60%;
 }
 .camera{
     margin-top: 20px;
@@ -92,3 +91,25 @@ body {
     width: 70%;
     margin-top: 20px;
 }
+
+.search-fruits{
+    width: 200px;
+    height: 30px;
+    margin-top: 50px;
+    
+  }
+  
+  .fruits-list{
+    padding: 0px;
+    
+  }
+  
+  h{
+    padding: 5px;
+    margin: 0px;
+    background: #ffffff9d;
+    width: 200px;
+    border: 1px solid rgb(43, 234, 255);
+    display: flex;
+    
+  }
