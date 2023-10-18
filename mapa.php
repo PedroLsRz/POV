@@ -32,7 +32,10 @@ if ($_SESSION['logado'] <> true) {
     
   </nav>
       
-      
+      <?php
+      echo $_SESSION['loc']."<br>";
+      echo $_SESSION['sala'];
+      ?>
     
 </div>
 

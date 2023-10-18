@@ -92,24 +92,24 @@ body {
     margin-top: 20px;
 }
 
-.search-fruits{
+.inputsalas{
     width: 200px;
     height: 30px;
     margin-top: 50px;
     
   }
   
-  .fruits-list{
+  .listasalas{
     padding: 0px;
-    
   }
   
-  h{
+  .salas{
     padding: 5px;
     margin: 0px;
     background: #ffffff9d;
     width: 200px;
     border: 1px solid rgb(43, 234, 255);
     display: flex;
-    
+    text-decoration:none;
+    color: rgb(0, 31, 84);
   }

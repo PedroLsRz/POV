@@ -41,7 +41,9 @@ if ($_SESSION['logado'] <> true) {
             <script>
                 function onScanSuccess(decodedText, decodedResult) {
             // handle the scanned code as you like, for example:
-                alert(decodedText);
+                $loc = decodedText;
+                window.location = "./localiza.php?loc="+$loc;
+                
                 } 
 
             function onScanFailure(error) {
@@ -57,9 +59,11 @@ if ($_SESSION['logado'] <> true) {
                 html5QrcodeScanner.render(onScanSuccess, onScanFailure);
                 
             </script>
+            
             <img class= "img" src="img/guia.png" >
+            
         </div>
-
+                    
         
     </div>
 </body>

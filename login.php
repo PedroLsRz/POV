@@ -37,7 +37,7 @@
         </button>
         <a class = "cadastrar" href="./cadastro.php">Crie sua conta aqui!</a>
         <br>
-        
+
         <?php 
      if(isset($_POST['entrar'])){
         login();

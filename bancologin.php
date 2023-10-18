@@ -30,6 +30,7 @@ exit();
 #o usuário para a página indicada.
 else { 
     echo '<div class="errologin">RA ou Senha Incorretos!</div>';
+    
 }
 
 }
