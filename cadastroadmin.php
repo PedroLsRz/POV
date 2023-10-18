@@ -1,4 +1,4 @@
-<?php require_once "bancocadastro.php"?>
+<?php require_once "bancocadastroadmin.php"?>
 
 <!DOCTYPE html>
 <html lang="en">
