@@ -33,7 +33,7 @@ if ($_SESSION['logado'] <> true) {
             </nav>
                 <div class="menu">
                  <h1 class="usuario">Usuário</h1>
-                 <button type="submit" class="botao" name="cadastro">Criar Usuário</button>
+                 <button type="submit" class="botao" name="cadastro" onclick="window.location.href='./cadastroadmin.php'">Criar Usuário</button>
                  <button type="submit" class="botao" name="excluir">Excluir Usuário</button>
                  <button type="submit" class="botao" name="edicao">Editar dados <br>de um Usuário</button>
                  <h1 class="aplicacao">Aplicação</h1>
