@@ -107,6 +107,26 @@ body {
     transition: 0.3s;
     color: rgb(227, 230, 230);
 }
+.botao2 {
+    display: flex;
+    width: 100%;
+    padding: 20px 0px;
+    border: none;
+    border-radius: 35px;
+    background-color: rgb(66, 3, 130);
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    justify-content: center;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
+.botao2:hover{
+    background-color: rgb(96, 10, 181);
+    transition: 0.3s;
+    color: rgb(227, 230, 230);
+}
 .cadastrar{
     color: rgb(0, 31, 84);
     font-size: 10pt;

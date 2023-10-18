@@ -2,6 +2,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +13,7 @@
   <!--  <link href="./css/bootstrap.min.css" rel="stylesheet">  -->
     <title>PoV-Página de login</title>
 </head>
+
 <body>
 
 <!-- Classe para manipular o fundo da pagina-->
@@ -51,4 +53,5 @@
 
     
 </body>
-</html>      
+
+</html>

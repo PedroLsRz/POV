@@ -9,6 +9,7 @@ if ($_SESSION['logado'] <> true) {
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,6 +19,7 @@ if ($_SESSION['logado'] <> true) {
     <title>Document</title>
     
 </head>
+
 <body>
 <div class="fundo">
   <!-- Barra de navegação-->  
@@ -40,4 +42,5 @@ if ($_SESSION['logado'] <> true) {
 </div>
 
 </body>
+
 </html>

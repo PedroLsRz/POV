@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.fundo {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+
+.navbar{
+    display: flexbox;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.453);
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;  
+}
+
+.logo{
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.saudacao{
+    text-align: center;
+    text-decoration:none;
+    color: rgb(0, 31, 84);
+}
+
+.sair{
+    display: flex;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(124, 34, 162);
+    font-weight: 500;
+    justify-content: center;
+    letter-spacing: 1px;
+    cursor: pointer;
+    align-items: center;
+    box-shadow: 0px 3px 10px black;
+    text-decoration:none;
+}
+
+.sair:hover{
+    background-color: rgb(96, 10, 181);
+    transition: 0.3s;
+    color: rgb(227, 230, 230);
+}
+
+.img{
+    flex-direction: column;
+    justify-content: baseline;
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin-top: 20px;
+}
+
+.menu{
+    margin-top: 15px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.usuario {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    text-shadow: #000 2px 1px 2px;
+}
+
+.aplicacao {
+    margin-top: 60px;
+    text-align: center;
+    color: white;
+    text-shadow: #000 2px 1px 2px;
+}
+
+.botao{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    text-shadow: #000 1px 1px 2px;
+    background-color: rgba(255, 255, 255, 0.534);
+    border: none;
+    margin-top: 15px;
+    border-radius: 7px;
+    width: 200px;
+    height: 50px;
+}
+
+
+
+
+  
