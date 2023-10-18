@@ -8,7 +8,7 @@ $user= $_POST ['login'];
 $senha= $_POST ['senha'];
 
 #fazendo uma variável que recebe o SELECT
-$select = "SELECT nome, login, senha FROM usuarios
+$select = "SELECT nome, login, senha, tipo FROM usuarios
 WHERE login = '$user' AND senha = '$senha'";
 
 #executa a $conexao e o $select dentro dela
@@ -23,7 +23,11 @@ if ($user == isset($dado[1]) && $senha == isset($dado[2])) {
     session_start();
     $_SESSION['nome'] = $dado[0];
     $_SESSION['logado'] = true;
-    header('Location: inicio.php');
+    if($dado[3] == 0) {
+        header('Location: inicio.php');
+    } else {
+        header('Location: admin.php');
+    }
 exit();
 }
 #Se não for igual ou se forem nulos os valores, alerte o que foi declarado e redirecione
