@@ -1,4 +1,16 @@
-<?php require_once "bancocadastroadmin.php"?>
+<?php 
+require_once "bancocadastroadmin.php";
+#Iniciar sessão
+session_start();
+#Se a sessão LOGADO for diferente de VERDADEIRA, redirecione para a página indicada
+if ($_SESSION['logado'] <> true) {
+  header('Location: login.php');
+}
+#Se a sessão admin for diferente de 1, redirecione para a página indicada
+if ($_SESSION['admin'] <> 1) {
+    header('Location: login.php');
+  }
+?>
 
 <!DOCTYPE html>
 <html lang="en">

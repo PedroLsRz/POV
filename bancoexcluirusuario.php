@@ -14,7 +14,7 @@ $query = mysqli_query($conexao, $select);
 while ($usuarios = mysqli_fetch_assoc($query)) {
     $usuario = $usuarios['nome'];
     $ra = $usuarios['login'];
-    echo "<h><a class= 'salas'>$usuario - $ra<br></a></h>";
+    echo "<h><button class= 'salas'>$usuario - $ra<br></button></h>";
 }
 
 }

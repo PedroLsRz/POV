@@ -23,6 +23,7 @@ if ($user == isset($dado[1]) && $senha == isset($dado[2])) {
     session_start();
     $_SESSION['nome'] = $dado[0];
     $_SESSION['logado'] = true;
+    $_SESSION['admin'] = $dado[3];
     if($dado[3] == 0) {
         header('Location: inicio.php');
     } else {
