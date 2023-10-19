@@ -29,16 +29,16 @@
         </h1>
         <h1 class ="senha">Tipo de login: <br></h1>
         <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="1" name="tipologin" id="flexCheckDefault">
-        <label class="form-check-label" for="flexCheckDefault">
-            Adminstrador
-        </label>
+            <input class="form-check-input" type="radio" value="1" name="tipologin" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+                Administrador
+            </label>
         </div>
         <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="0" name="tipologin" id="flexCheckChecked" checked>
-        <label class="form-check-label" for="flexCheckChecked">
-           Usuário Comum
-        </label>
+            <input class="form-check-input" type="radio" value="0" name="tipologin" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+                Usuário
+            </label>
         </div>
 
         <button type= "submit" class="botao2" name = "entrar">
