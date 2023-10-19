@@ -33,11 +33,13 @@ if ($_SESSION['logado'] <> true) {
                 <a class = "sair" href="logout.php">Sair</a>
 
             </nav>
+            
         
-
+            
+        
         <div class= "format">
-            <input class="search-fruits" type="text">
-            <ul class="fruits-list">
+            <input class="inputsalas" type="text">
+            <ul class="listasalas">
             <?php
             salas();
             ?>
