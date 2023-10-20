@@ -28,7 +28,7 @@ if ($_SESSION['admin'] <> 1) {
                 <!-- Barra de navegação-->  
             <nav class="navbar">
 
-                <img class= "logo" src="img/logoNavBar.png" > 
+                <img class= "logo" onclick='location.href="decisaovolta.php"' src="img/logoNavBar.png" > 
                 <!-- Cabeçalho da barra de navegação printando o nome do 
                 usuário registrado no banco de dados ao se logar com sucesso-->
                 <a class="saudacao">Escolha o usuario<br>que deseja excluir!</a>
