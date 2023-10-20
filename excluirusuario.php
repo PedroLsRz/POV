@@ -1,5 +1,6 @@
 <?php
-require_once "bancoexcluirusuario.php";
+require_once "bancolistaexcluirusuario.php";
+
 #Iniciar sessão
 session_start();
 #Se a sessão LOGADO for diferente de VERDADEIRA, redirecione para a página indicada
@@ -12,6 +13,7 @@ if ($_SESSION['admin'] <> 1) {
   }
 ?>
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,7 +21,7 @@ if ($_SESSION['admin'] <> 1) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./estilos/bootstrap.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <link href="./estilos/stylesmenu.css" rel="stylesheet">
+    <link href="./estilos/styleexcluirusuario.css" rel="stylesheet">
     <title>PoV</title>
 </head>
 <body>
@@ -37,6 +39,24 @@ if ($_SESSION['admin'] <> 1) {
                 <a class = "sair" href="logout.php">Sair</a>
 
             </nav>
+
+            
+            <div class="modal-container">
+                <div class="modal">
+                    <h2>Atenção!</h2>
+                    <hr/>
+                    <span>
+                        Deseja realmente excluir esse usuário?
+                    </span>
+                    <div class="btns">
+                
+                    <button class="btnOK" onclick="">Excluir</button>
+                    <button class="btnClose" onclick="closeModal()">Cancelar</button>
+                    </div>
+                </div>
+            </div>
+
+            <script src="./js/scriptpopup.js"></script>
             
         
         <div class= "format">
