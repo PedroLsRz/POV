@@ -39,24 +39,6 @@ if ($_SESSION['admin'] <> 1) {
                 <a class = "sair" href="logout.php">Sair</a>
 
             </nav>
-
-            
-            <div class="modal-container">
-                <div class="modal">
-                    <h2>Atenção!</h2>
-                    <hr/>
-                    <span>
-                        Deseja realmente excluir esse usuário?
-                    </span>
-                    <div class="btns">
-                
-                    <button class="btnOK" onclick="">Excluir</button>
-                    <button class="btnClose" onclick="closeModal()">Cancelar</button>
-                    </div>
-                </div>
-            </div>
-
-            <script src="./js/scriptpopup.js"></script>
             
         
         <div class= "format">

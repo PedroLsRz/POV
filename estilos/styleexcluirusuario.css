@@ -33,25 +33,6 @@ body {
     text-decoration:none;
     color: rgb(0, 31, 84);
 }
-.mudartrajeto{
-    display: flex;
-    padding: 10px;
-    border: none;
-    border-radius: 20px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(124, 34, 162);
-    font-weight: 500;
-    justify-content: center;
-    letter-spacing: 1px;
-    cursor: pointer;
-    align-items: center;
-    box-shadow: 0px 3px 10px black;
-}
-.mudartrajeto:hover{
-    background-color: rgb(96, 10, 181);
-    transition: 0.3s;
-    color: rgb(227, 230, 230);
-}
 .sair{
     display: flex;
     padding: 10px;
@@ -78,19 +59,6 @@ body {
     display: flex;
     align-items: center;
 }
-.camera{
-    margin-top: 20px;
-    width: 80%;
-    
-}
-.img{
-    flex-direction: column;
-    justify-content: baseline;
-    display: flex;
-    align-items: center;
-    width: 70%;
-    margin-top: 20px;
-}
 
 .inputsalas{
     width: 200px;
@@ -113,79 +81,4 @@ body {
     text-decoration:none;
     color: rgb(0, 31, 84);
 
-}
-
-hr {
-    border: 0px;
-    border-top: 1px solid rgb(63, 70, 72);
-}
-.modal-container {
-    width: 100vw;
-    position: fixed;
-    top: 30px;
-    z-index: 999;
-    justify-content: center;
-    display: none;
-    
-}
-
-.modal {
-    margin-left: 25%;
-    margin-top: 15%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-    background-color: white;
-    border-radius: 10px;
-    width: 50%;
-}
-.active {
-    display: flex;
-}
-
-.active .modal {
-    animation: none .4s;
-}
-
-@keyframes modal {
-    from {
-        opacity: 0;
-        transform: translate3d(0, -60px, 0);
-    }
-    to{
-        opacity: 1;
-        transform: translate3d(0, 0, 0);
-    }
-}
-
-span {
-    margin: 10px auto;
-}
-
-.btns {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-
-}
-
-.btns button {
-    font-size: medium;
-    padding: 10px;
-    border: mone;
-    color: white;
-    cursor: pointer;
-}
-
-.btnOK {
-    background-color: blueviolet;
-    border: none;
-    border-radius: 5px;
-}
-
-.btnClose {
-    background-color: blueviolet;
-    border: none;
-    border-radius: 5px;
 }
