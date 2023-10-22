@@ -38,6 +38,10 @@ if ($_SESSION['logado'] <> true) {
       echo $_SESSION['loc']."<br>";
       echo $_SESSION['sala'];
       ?>
+
+      <div class= "areamapa">
+        <img class= "mapa" src="../img/planta.png" >
+      </div>
     
 </div>
 
