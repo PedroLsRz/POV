@@ -37,7 +37,6 @@ body {
 }
 .user > input {
 
-    text-align: center;
     padding-right: 60px;
     background-color: rgba(18, 95, 57, 0);
     border: none;
@@ -61,7 +60,7 @@ body {
     
 }
 .nome > input {
-    text-align: center;
+    
     padding-right: 60px;
     background-color: rgba(18, 95, 57, 0);
     border: none;
@@ -79,7 +78,7 @@ body {
     
 }
 .senha > input{
-    text-align: center;
+    
     padding-right: 60px;
     background-color: rgba(18, 95, 57, 0);
     border: none;
@@ -144,3 +143,8 @@ body {
     margin-bottom: 5px;
     
 }
+.voltar{
+    color: rgb(0, 31, 84);
+    font-size: 10pt;
+}
+

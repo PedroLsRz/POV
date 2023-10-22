@@ -25,9 +25,9 @@ if ($user == isset($dado[1]) && $senha == isset($dado[2])) {
     $_SESSION['logado'] = true;
     $_SESSION['admin'] = $dado[3];
     if($dado[3] == 0) {
-        header('Location: inicio.php');
+        header('Location: ../view/inicio.php');
     } else {
-        header('Location: admin.php');
+        header('Location: ../view/admin.php');
     }
 exit();
 }

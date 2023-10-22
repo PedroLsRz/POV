@@ -1,13 +1,13 @@
 <?php
-require_once "bancoconfirmarexclusao.php";
+require_once "../funcoes/bancoconfirmarexclusao.php";
 #Iniciar sessão
 session_start();
 #Se a sessão LOGADO for diferente de VERDADEIRA, redirecione para a página indicada
 if ($_SESSION['logado'] <> true) {
-  header('Location: login.php');
+  header('Location: ../login.php');
 }
 if ($_SESSION['admin'] <> 1) {
-    header('Location: login.php');
+    header('Location: ../login.php');
   }
 ?>
 
@@ -18,8 +18,8 @@ if ($_SESSION['admin'] <> 1) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <link href="./estilos/stylecadastro.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <link href="../css/cadastro.css" rel="stylesheet">
     
   <!--  <link href="./css/bootstrap.min.css" rel="stylesheet">  -->
     <title>PoV-Página de login</title>

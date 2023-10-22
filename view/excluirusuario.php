@@ -1,21 +1,27 @@
 <?php
-require_once "bancosalas.php";
+require_once "../funcoes/bancolistaexcluirusuario.php";
+
 #Iniciar sessão
 session_start();
 #Se a sessão LOGADO for diferente de VERDADEIRA, redirecione para a página indicada
 if ($_SESSION['logado'] <> true) {
   header('Location: login.php');
 }
+#Se a sessão admin for diferente de 1, redirecione para a página indicada
+if ($_SESSION['admin'] <> 1) {
+    header('Location: login.php');
+  }
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./estilos/bootstrap.min.css" rel="stylesheet">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <link href="./estilos/stylesmenu.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <link href="../css/excluirusuario.css" rel="stylesheet">
     <title>PoV</title>
 </head>
 <body>
@@ -24,24 +30,22 @@ if ($_SESSION['logado'] <> true) {
                 <!-- Barra de navegação-->  
             <nav class="navbar">
 
-                <img class= "logo" onclick='location.href="decisaovolta.php"' src="img/logoNavBar.png" > 
+                <img class= "logo" onclick='location.href="../rotas/decisaovolta.php"' src="../img/logoNavBar.png" > 
                 <!-- Cabeçalho da barra de navegação printando o nome do 
                 usuário registrado no banco de dados ao se logar com sucesso-->
-                <a class="saudacao">Escolha a sala<br>que deseja ir!</a>
+                <a class="saudacao">Escolha o usuario<br>que deseja excluir!</a>
                 <!-- Link para encerrar a sessão montada no arquivo declarado abaixo-->
 
-                <a class = "sair" href="logout.php">Sair</a>
+                <a class = "sair" href="../funcoes/logout.php">Sair</a>
 
             </nav>
-            
-        
             
         
         <div class= "format">
             <input class="inputsalas" type="text">
             <ul class="listasalas">
             <?php
-            salas();
+            usuarios();
             ?>
             </ul>
         </div>

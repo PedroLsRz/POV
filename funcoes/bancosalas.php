@@ -14,7 +14,7 @@ $query = mysqli_query($conexao, $select);
 
 while ($salas = mysqli_fetch_assoc($query)) {
     $sala = $salas['nome'];
-    echo "<h><a class= 'salas' href='./destino.php?sala=".$sala."'>$sala<br></a></h>";
+    echo "<h><a class= 'salas' href='../rotas/destino.php?sala=".$sala."'>$sala<br></a></h>";
 }
 
 }

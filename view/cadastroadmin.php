@@ -1,5 +1,5 @@
 <?php 
-require_once "bancocadastroadmin.php";
+require_once "../funcoes/bancocadastroadmin.php";
 #Iniciar sessão
 session_start();
 #Se a sessão LOGADO for diferente de VERDADEIRA, redirecione para a página indicada
@@ -17,15 +17,18 @@ if ($_SESSION['admin'] <> 1) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="estilos/stylecadastro.css" rel="stylesheet">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link href="../css/cadastro.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
     <title>PoV-Cadastro</title>
 </head>
 <body>
-    
+        
 <!-- Classe para manipular o fundo da pagina-->
 <div class="fundo">
-    <img class= "img" src="img/logoPov.png" >
+    <!-- Barra de navegação-->  
+            
+    <img class= "img" src="../img/logoPov.png" >
+    
                         <!-- Formuláro de cadastro-->
     <form class= "forms" id=" form-cadastro" action = "" method = "POST" >
         <h1 class = "tituloform">CADASTRO</h1>
@@ -56,7 +59,7 @@ if ($_SESSION['admin'] <> 1) {
         <button type= "submit" class="botao2" name = "entrar">
             CADASTRAR
         </button>
-        
+        <a class = "voltar" href="./admin.php">Volte para o menu aqui!</a>
         <br>
         <?php 
      if(isset($_POST['entrar'])){

@@ -12,9 +12,9 @@ if ($_SESSION['logado'] <> true) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./estilos/bootstrap.min.css" rel="stylesheet">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <link href="./estilos/stylesmenu.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <link href="../css/menu.css" rel="stylesheet">
     <title>PoV</title>
 </head>
 <body>
@@ -23,26 +23,26 @@ if ($_SESSION['logado'] <> true) {
                 <!-- Barra de navegação-->  
             <nav class="navbar">
 
-                <img class= "logo" src="img/logoNavBar.png" > 
+                <img class= "logo" src="../img/logoNavBar.png" > 
                 <!-- Cabeçalho da barra de navegação printando o nome do 
                 usuário registrado no banco de dados ao se logar com sucesso-->
                 <a class="saudacao">Olá <?php echo $_SESSION['nome'] ?><br>Seja bem-vindo!</a>
                 <!-- Link para encerrar a sessão montada no arquivo declarado abaixo-->
 
-                <a class = "sair" href="logout.php">Sair</a>
+                <a class = "sair" href="../funcoes/logout.php">Sair</a>
 
             </nav>
 
         <div class= "format">
 
-            <script src="js/html5-qrcode.js" type="text/javascript"></script>
+            <script src="../js/html5-qrcode.js" type="text/javascript"></script>
             
             <div id="reader" class="camera"></div>
             <script>
                 function onScanSuccess(decodedText, decodedResult) {
             // handle the scanned code as you like, for example:
                 $loc = decodedText;
-                window.location = "./localiza.php?loc="+$loc;
+                window.location = "../rotas/localiza.php?loc="+$loc;
                 
                 } 
 
@@ -60,7 +60,7 @@ if ($_SESSION['logado'] <> true) {
                 
             </script>
             
-            <img class= "img" src="img/guia.png" >
+            <img class= "img" src="../img/guia.png" >
             
         </div>
                     

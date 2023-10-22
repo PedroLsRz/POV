@@ -64,8 +64,14 @@ body {
     width: 200px;
     height: 30px;
     margin-top: 50px; 
+    border-radius: 3px;
+    border: 2px solid  rgba(72, 177, 189, 0.158);
+    outline: 1px solid rgba(72, 177, 189, 0.158);
+    color: rgb(0, 31, 84);
+    margin-bottom: 3px;
+    box-shadow:1px 2px 3px 1px rgba(72, 177, 189, 0.616);
 }
-  
+
 .listasalas{
     padding: 0px;
 }
@@ -76,9 +82,19 @@ body {
     margin: 0px;
     background: #ffffff9d;
     width: 200px;
-    border: 1px solid rgb(43, 234, 255);
+    border: 2px solid rgba(72, 177, 189, 0.158);
     display: flex;
     text-decoration:none;
     color: rgb(0, 31, 84);
-
+    margin-bottom: 3px;
+    box-shadow:1px 2px 3px 1px rgba(72, 177, 189, 0.616);
+}
+.btnOpenModal:hover {
+    background-color: rgb(96, 10, 181);
+    border: none;
+    display: flex;
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+    padding: 10px;
 }

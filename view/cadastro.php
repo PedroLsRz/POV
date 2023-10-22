@@ -1,19 +1,19 @@
-<?php require_once "bancocadastro.php"?>
+<?php require_once "../funcoes/bancocadastro.php"?>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="estilos/stylecadastro.css" rel="stylesheet">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link href="../css/cadastro.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
     <title>PoV-Cadastro</title>
 </head>
 <body>
     
 <!-- Classe para manipular o fundo da pagina-->
 <div class="fundo">
-    <img class= "img" src="img/logoPov.png" >
+    <img class= "img" src="../img/logoPov.png" >
                         <!-- Formuláro de cadastro-->
     <form class= "forms" id=" form-cadastro" action = "" method = "POST" >
         <h1 class = "tituloform">CADASTRO</h1>

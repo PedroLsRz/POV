@@ -6,7 +6,7 @@ function excluirusuario() {
     $ra = $_SESSION['raexclusao'];
 
     #fazendo uma variável que recebe o SELECT
-    $select = "DELETE FROM usuarios WHERE login = $ra";
+    $select = "DELETE FROM usuarios WHERE login = '$ra'";
     
     
     
@@ -16,6 +16,6 @@ function excluirusuario() {
     $_SESSION['raexclusao'] = null;
     $_SESSION['nomeexclusao'] = null;
 
-    header('Location: excluirusuario.php');
+    header('Location: ../view/excluirusuario.php');
 }
 ?>

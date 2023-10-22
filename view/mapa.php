@@ -13,9 +13,9 @@ if ($_SESSION['logado'] <> true) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./estilos/bootstrap.min.css" rel="stylesheet">
-    <link href="./estilos/stylesmenu.css" rel="stylesheet">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/menu.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
     <title>Document</title>
     
 </head>
@@ -25,12 +25,12 @@ if ($_SESSION['logado'] <> true) {
   <!-- Barra de navegação-->  
   <nav class="navbar">
 
-     <img class= "logo" src="img/logoNavBar.png" > 
+     <img class= "logo" src="../img/logoNavBar.png" > 
       
       <!-- Link para encerrar a sessão montada no arquivo declarado abaixo-->
       
         <button class="mudartrajeto" type="submit">Mudar Trajeto</button>
-        <a class = "sair" href="logout.php">Sair</a>
+        <a class = "sair" href="../funcoes/logout.php">Sair</a>
     
   </nav>
       

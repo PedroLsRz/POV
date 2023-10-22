@@ -1,4 +1,4 @@
-<?php require_once "bancologin.php"?>
+<?php require_once "../funcoes/bancologin.php"?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -7,8 +7,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <link href="./estilos/styleslogin.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <link href="../css/login.css" rel="stylesheet">
     
   <!--  <link href="./css/bootstrap.min.css" rel="stylesheet">  -->
     <title>PoV-Página de login</title>
@@ -20,7 +20,7 @@
 <div class="fundo">
     <!-- Logo da aplicação -->
     
-    <img class= "img" src="img/logoPov.png" >
+    <img class= "img" src="../img/logoPov.png" >
                         <!-- Formuláro de cadastro-->
     <form class= "forms" action="" id="form-login" method = "POST" >
     

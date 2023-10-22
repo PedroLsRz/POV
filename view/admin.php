@@ -16,9 +16,9 @@ if ($_SESSION['admin'] <> 1) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./estilos/bootstrap.min.css" rel="stylesheet">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <link href="./estilos/stylesadmin.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <link href="../css/admin.css" rel="stylesheet">
     <title>PoV</title>
 </head>
 <body>
@@ -27,13 +27,13 @@ if ($_SESSION['admin'] <> 1) {
                 <!-- Barra de navegação-->  
             <nav class="navbar">
 
-                <img class= "logo" src="img/logoNavBar.png" > 
+                <img class= "logo" src="../img/logoNavBar.png" > 
                 <!-- Cabeçalho da barra de navegação printando o nome do 
                 usuário registrado no banco de dados ao se logar com sucesso-->
                 <a class="saudacao">Olá <?php echo $_SESSION['nome'] ?><br>Seja bem-vindo!</a>
                 <!-- Link para encerrar a sessão montada no arquivo declarado abaixo-->
 
-                <a class = "sair" href="logout.php">Sair</a>
+                <a class = "sair" href="../funcoes/logout.php">Sair</a>
             </nav>
                 <div class="menu">
                  <h1 class="usuario">Usuário</h1>
