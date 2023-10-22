@@ -14,7 +14,7 @@ if ($_SESSION['logado'] <> true) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <link href="../css/menu.css" rel="stylesheet">
+    <link href="../css/mapa.css" rel="stylesheet">
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
     <title>Document</title>
     
@@ -34,15 +34,23 @@ if ($_SESSION['logado'] <> true) {
     
   </nav>
       
-      <?php
-      echo $_SESSION['loc']."<br>";
-      echo $_SESSION['sala'];
-      ?>
-
-      <div class= "areamapa">
-        <img class= "mapa" src="../img/planta.png" >
-      </div>
+      
+    <div class= "format">
+    <div class="bg">
+    <!-- <img src="view/img/planta-supermercado.png" id="bg"> -->
+    <div class="bg-scroll" id="bg-scroll">
+    <script>
+      window.onload = function(){
+      window.scrollTo(150,150)
+      }
+      </script>
+        <img src="../img/planta.png" id="bg-mobile">
+        <div id="entrada" class="diventrada"></div>
+    </div>
     
+    </div>
+    
+</div>
 </div>
 
 </body>
