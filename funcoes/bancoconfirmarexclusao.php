@@ -8,8 +8,6 @@ function excluirusuario() {
     #fazendo uma variável que recebe o SELECT
     $select = "DELETE FROM usuarios WHERE login = '$ra'";
     
-    
-    
     #executa a $conexao e o $select dentro dela
     $query = mysqli_query($conexao, $select);
     

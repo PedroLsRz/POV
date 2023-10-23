@@ -68,7 +68,7 @@ if ($_SESSION['admin'] <> 1) {
             })
             })
         </script>
-        
+        <img class= "botaovoltar" onclick='location.href="../view/admin.php"' src="../img/voltar.png" >
     </div>
 </body>
 </html>

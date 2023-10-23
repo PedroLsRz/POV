@@ -1,0 +1,123 @@
+body {
+    
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif ;
+    
+}
+.fundo {
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(../img/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.forms {
+    background-color: rgba(255, 255, 255, 0.503);
+    padding: 60px 50px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.tituloform{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(0, 31, 84);
+    font-weight: 500;
+}
+.texto {
+    color: rgb(0, 31, 84);
+    font-size: 11pt;
+    margin: 2px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+.dado {
+    color: rgb(0, 31, 84);
+    font-size: 11pt;
+    margin: 2px;
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+.botao {
+    display: flex;
+    width: 100%;
+    padding: 20px 0px;
+    border: none;
+    border-radius: 35px;
+    background-color: rgb(66, 3, 130);
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    justify-content: center;
+    letter-spacing: 1px;
+    cursor: pointer;
+    
+}
+.botao:hover{
+    background-color: rgb(96, 10, 181);
+    transition: 0.3s;
+    color: rgb(227, 230, 230);
+}
+.botao2 {
+    display: flex;
+    width: 100%;
+    padding: 20px 0px;
+    border: none;
+    border-radius: 35px;
+    background-color: rgb(66, 3, 130);
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    justify-content: center;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
+.botao2:hover{
+    background-color: rgb(96, 10, 181);
+    transition: 0.3s;
+    color: rgb(227, 230, 230);
+}
+.navbar{
+    display: flexbox;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.453);
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0px;
+    margin-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;  
+}
+
+.logo{
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.saudacao{
+    text-align: center;
+    text-decoration:none;
+    color: rgb(0, 31, 84);
+}
+
+.sair{
+    display: flex;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(124, 34, 162);
+    font-weight: 500;
+    justify-content: center;
+    letter-spacing: 1px;
+    cursor: pointer;
+    align-items: center;
+    box-shadow: 0px 3px 10px black;
+    text-decoration:none;
+}

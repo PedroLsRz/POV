@@ -73,11 +73,14 @@ body {
 }
 
 .listasalas{
+    margin-top: 5px;
     padding: 0px;
+    height: 450px;
+    overflow: auto;
 }
 
 
-.btnOpenModal {
+.usuario {
     padding: 5px;
     margin: 0px;
     background: #ffffff9d;
@@ -89,7 +92,7 @@ body {
     margin-bottom: 3px;
     box-shadow:1px 2px 3px 1px rgba(72, 177, 189, 0.616);
 }
-.btnOpenModal:hover {
+.usuario:hover {
     background-color: rgb(96, 10, 181);
     border: none;
     display: flex;
@@ -98,3 +101,10 @@ body {
     transition: 0.3s;
     padding: 10px;
 }
+.botaovoltar{
+    height: 70px;
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+    
+  }

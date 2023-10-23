@@ -14,7 +14,7 @@ if ($_SESSION['logado'] <> true) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
-    <link href="../css/menu.css" rel="stylesheet">
+    <link href="../css/inicio.css" rel="stylesheet">
     <title>PoV</title>
 </head>
 <body>
@@ -60,7 +60,7 @@ if ($_SESSION['logado'] <> true) {
                 
             </script>
             
-            <img class= "img" src="../img/guia.png" >
+            <img class= "guia" src="../img/guia.png" >
             
         </div>
                     

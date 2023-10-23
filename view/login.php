@@ -20,7 +20,7 @@
 <div class="fundo">
     <!-- Logo da aplicação -->
     
-    <img class= "img" src="../img/logoPov.png" >
+    <img class= "logo" src="../img/logoPov.png" >
                         <!-- Formuláro de cadastro-->
     <form class= "forms" action="" id="form-login" method = "POST" >
     

@@ -18,8 +18,9 @@ if ($_SESSION['admin'] <> 1) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
-    <link href="../css/cadastro.css" rel="stylesheet">
+    <link href="../css/confirmarexclusao.css" rel="stylesheet">
     
   <!--  <link href="./css/bootstrap.min.css" rel="stylesheet">  -->
     <title>PoV-Página de login</title>
@@ -29,16 +30,24 @@ if ($_SESSION['admin'] <> 1) {
 
 <!-- Classe para manipular o fundo da pagina-->
 <div class="fundo">
-    <!-- Logo da aplicação -->
+    <!-- Barra de navegação-->  
+    <nav class="navbar">
+
+<img class= "logo" src="../img/logoNavBar.png" > 
+
+<!-- Link para encerrar a sessão montada no arquivo declarado abaixo-->
+<a class = "sair" href="../funcoes/logout.php">Sair</a>
+</nav>
+
                         <!-- Formuláro de cadastro-->
     <form class= "forms" action="" id="form-login" method = "POST" >
-    
+
         <h1 class = "tituloform">ATENÇÃO</h1>
-            <h1 class ="user">Deseja realmente excluir esse usuário?<br><br>
+            <h1 class ="texto">Deseja realmente excluir esse usuário?<br><br>
             </h1>
-        <h1 class ="senha">Nome: <?php echo $_SESSION['nomeexclusao']; ?><br><br>
+        <h1 class ="dado">Nome: <?php echo $_SESSION['nomeexclusao']; ?><br><br>
         </h1>
-        <h1 class ="senha">Ra: <?php echo $_SESSION['raexclusao']; ?><br><br>
+        <h1 class ="dado">Ra: <?php echo $_SESSION['raexclusao']; ?><br><br>
         </h1>
             <button type= "submit" class= "botao" name= "excluir">
                 Excluir

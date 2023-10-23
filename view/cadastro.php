@@ -13,7 +13,7 @@
     
 <!-- Classe para manipular o fundo da pagina-->
 <div class="fundo">
-    <img class= "img" src="../img/logoPov.png" >
+    <img class= "logo" src="../img/logoPov.png" >
                         <!-- Formuláro de cadastro-->
     <form class= "forms" id=" form-cadastro" action = "" method = "POST" >
         <h1 class = "tituloform">CADASTRO</h1>
@@ -30,7 +30,7 @@
         <button type= "submit" class="botao" name = "entrar">
             CADASTRAR
         </button>
-        <a class = "cadastrar" href="./login.php">Logue-se aqui!</a>
+        <a class = "voltarlogin" href="./login.php">Logue-se aqui!</a>
         <br>
         <?php 
      if(isset($_POST['entrar'])){

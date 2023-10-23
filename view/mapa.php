@@ -36,21 +36,16 @@ if ($_SESSION['logado'] <> true) {
       
       
     <div class= "format">
-    <div class="bg">
-    <!-- <img src="view/img/planta-supermercado.png" id="bg"> -->
-    <div class="bg-scroll" id="bg-scroll">
-    <script>
-      window.onload = function(){
-      window.scrollTo(150,150)
-      }
-      </script>
-        <img src="../img/planta.png" id="bg-mobile">
-        <div id="entrada" class="diventrada"></div>
+      <div class="bg">
+        <!-- <img src="view/img/planta-supermercado.png" id="bg"> -->
+        <div class="bg-scroll" id="bg-scroll">
+            <img src="../img/planta.png" id="bg-mobile">
+            <div id="entrada" class="diventrada"></div>
+        </div>
+        
+      </div>
+      
     </div>
-    
-    </div>
-    
-</div>
 </div>
 
 </body>

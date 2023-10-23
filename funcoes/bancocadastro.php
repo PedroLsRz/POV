@@ -14,9 +14,9 @@ $select = "INSERT into usuarios (nome, login, senha,tipo) values ('$nome', '$use
 try{
 #executa a $conexao e o $select dentro dela
 $query = mysqli_query($conexao, $select);
-    echo '<div class="cadastrofail">Cadastro realizado com sucesso!</div>';
+    echo '<div class="sucessocadastro">Cadastro realizado com sucesso!</div>';
 }catch(Exception $e){
-    echo '<div class="cadastrofail">RA já cadastrado!</div>';
+    echo '<div class="errocadastro">RA já cadastrado!</div>';
 }
 }
 

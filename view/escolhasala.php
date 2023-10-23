@@ -15,7 +15,7 @@ if ($_SESSION['logado'] <> true) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
-    <link href="../css/menu.css" rel="stylesheet">
+    <link href="../css/escolhasala.css" rel="stylesheet">
     <title>PoV</title>
 </head>
 <body>
@@ -45,7 +45,7 @@ if ($_SESSION['logado'] <> true) {
             ?>
             </ul>
         </div>
-
+        <img class= "botaovoltar" onclick='location.href="../view/inicio.php"' src="../img/voltar.png" >
         <script>
             let inputElement = document.querySelector("input")
             let listElement = document.querySelector("ul")

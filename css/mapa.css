@@ -71,29 +71,12 @@ body {
     transition: 0.3s;
     color: rgb(227, 230, 230);
 }
-.areamapa {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    width: 200px;
-    height: 450px;
-    background-image: url(../img/planta.png);
-    background-size: inherit;
-    background-repeat: no-repeat;
-}
-.mapa{
-    display: flex;
-    width: 300%;
-    position: relative;
-}
 .format {
     flex-direction: column;
     justify-content: baseline;
     display: flex;
     align-items: center;
 }
-
 .bg {
     width: 100%;
     height: 89vh;
@@ -101,9 +84,7 @@ body {
     overflow-x: auto;
     align-items: center;
     justify-content: center;
-    
 }
-    
 .bg img {
     display:block;
     min-height: 100vh;

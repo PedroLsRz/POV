@@ -17,7 +17,8 @@ if ($_SESSION['admin'] <> 1) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../css/cadastro.css" rel="stylesheet">
+    <link href="../css/cadastroadmin.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
     <title>PoV-Cadastro</title>
 </head>
@@ -25,9 +26,13 @@ if ($_SESSION['admin'] <> 1) {
         
 <!-- Classe para manipular o fundo da pagina-->
 <div class="fundo">
-    <!-- Barra de navegação-->  
-            
-    <img class= "img" src="../img/logoPov.png" >
+    <!-- Barra de navegação-->         
+    <nav class="navbar">
+
+<img class= "logo" src="../img/logoNavBar.png" > 
+<!-- Link para encerrar a sessão montada no arquivo declarado abaixo-->
+<a class = "sair" href="../funcoes/logout.php">Sair</a>
+</nav>
     
                         <!-- Formuláro de cadastro-->
     <form class= "forms" id=" form-cadastro" action = "" method = "POST" >
@@ -56,7 +61,7 @@ if ($_SESSION['admin'] <> 1) {
             </label>
         </div>
 
-        <button type= "submit" class="botao2" name = "entrar">
+        <button type= "submit" class="botao" name = "entrar">
             CADASTRAR
         </button>
         <a class = "voltar" href="./admin.php">Volte para o menu aqui!</a>
