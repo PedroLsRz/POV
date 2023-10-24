@@ -30,7 +30,7 @@ if ($_SESSION['admin'] <> 1) {
                 <img class= "logo" src="../img/logoNavBar.png" > 
                 <!-- Cabeçalho da barra de navegação printando o nome do 
                 usuário registrado no banco de dados ao se logar com sucesso-->
-                <a class="saudacao">Olá <?php echo $_SESSION['nome'] ?><br>Seja bem-vindo!</a>
+                <a class="saudacao">Olá, <?php echo $_SESSION['nome'] ?><br>Seja bem-vindo!</a>
                 <!-- Link para encerrar a sessão montada no arquivo declarado abaixo-->
 
                 <a class = "sair" href="../funcoes/logout.php">Sair</a>
