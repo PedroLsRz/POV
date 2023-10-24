@@ -5,7 +5,7 @@ function usuarios(){
 include ('conexao.php');
 
 #fazendo uma variável que recebe o SELECT
-$select = "SELECT nome, login, tipo, senha FROM usuarios";
+$select = "SELECT nome, login, tipo, senha, id FROM usuarios";
 
 #executa a $conexao e o $select dentro dela
 $query = mysqli_query($conexao, $select);
@@ -15,6 +15,7 @@ while ($usuarios = mysqli_fetch_assoc($query)) {
     $ra = $usuarios['login'];
     $tipo = $usuarios['tipo'];
     $senha = $usuarios['senha'];
+    $id = $usuarios['id'];
 
     if ($usuarios['tipo'] <> 0) {
         $tipo = "(Admin)";
@@ -22,8 +23,9 @@ while ($usuarios = mysqli_fetch_assoc($query)) {
         $tipo = "(Usuário)";
     }
 
-        echo "<h><a class= 'usuario' href='../rotas/dadosedicao.php?ra=".$ra."&&nome=".$usuario."&&tipo=".$tipo."&&senha=".$senha."'>$usuario - $ra $tipo <br></a></h>";
+        echo "<h><a class= 'usuario' href='../rotas/dadosedicao.php?ra=".$ra."&&nome=".$usuario."&&tipo=".$usuarios['tipo']."&&senha=".$senha."&&id=".$id."'>$usuario - $ra $tipo<br></a></h>";
 }
+
 /*echo "<?php
 
     if(isset('$_POST'['entrar'])){

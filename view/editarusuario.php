@@ -17,7 +17,7 @@ if ($_SESSION['admin'] <> 1) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../css/cadastroadmin.css" rel="stylesheet">
+    <link href="../css/editarusuario.css" rel="stylesheet">
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
     <title>PoV-Cadastro</title>
@@ -35,12 +35,15 @@ if ($_SESSION['admin'] <> 1) {
 </nav>
     
 
-
+<?php 
+    $tipo = $_SESSION['edicaotipo'];
+            
+    ?>
         <!--sessionStorage.getItem('nome') -->
 
                         <!-- Formuláro de cadastro-->
     <form class= "forms" id=" form-cadastro" action = "" method = "POST" >
-        <h1 class = "tituloform">CADASTRO</h1>
+        <h1 class = "tituloform">DADOS</h1>
         <h1 class ="user">RA: <br>
             <?php inputra(); ?>
         </h1>
@@ -52,27 +55,44 @@ if ($_SESSION['admin'] <> 1) {
             <?php inputsenha(); ?>
         </h1>
         <h1 class ="senha">Tipo de login: <br></h1>
-        <div class="form-check">
-            <input class="form-check-input" type="radio" value="1" name="tipologin" id="flexRadioDefault1">
-            <label class="form-check-label" for="flexRadioDefault1">
+        <?php 
+    if ($tipo == 1) {
+        echo "<div class='form-check'>
+            <input class='form-check-input' type='radio' value='1' name='tipologin' id='flexRadioDefault1' checked>
+            <label class='form-check-label' for='flexRadioDefault1'>
                 Administrador
             </label>
-        </div>
-        <div class="form-check">
-            <input class="form-check-input" type="radio" value="0" name="tipologin" id="flexRadioDefault2" checked>
-            <label class="form-check-label" for="flexRadioDefault2">
+             </div>
+        <div class='form-check'>
+            <input class='form-check-input' type='radio' value='0' name='tipologin' id='flexRadioDefault2' >
+            <label class='form-check-label' for='flexRadioDefault2'>
                 Usuário
             </label>
-        </div>
-
+        </div>";
+    } else {
+        echo "<div class='form-check'>
+            <input class='form-check-input' type='radio' value='1' name='tipologin' id='flexRadioDefault1' >
+            <label class='form-check-label' for='flexRadioDefault1'>
+                Administrador
+            </label>
+             </div>
+        <div class='form-check'>
+            <input class='form-check-input' type='radio' value='0' name='tipologin' id='flexRadioDefault2' checked>
+            <label class='form-check-label' for='flexRadioDefault2'>
+                Usuário
+            </label>
+        </div>";
+    }
+        
+    ?>
         <button type= "submit" class="botao" name = "entrar">
-            CADASTRAR
+            SALVAR
         </button>
-        <a class = "voltar" href="./admin.php">Volte para o menu aqui!</a>
+        <a class = "voltar" href="./escolhaeditarusuario.php">Volte para o menu anterior!</a>
         <br>
         <?php 
      if(isset($_POST['entrar'])){
-        
+        salvardados();
      }
      ?>
     </form>

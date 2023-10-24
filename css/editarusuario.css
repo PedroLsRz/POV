@@ -1,0 +1,170 @@
+body {
+    
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif ;
+    
+}
+.fundo {
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(../img/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.forms {
+    background-color: rgba(255, 255, 255, 0.503);
+    padding: 35px 35px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.tituloform{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(0, 31, 84);
+    font-weight: 500;
+}
+.user {
+    color: rgb(0, 31, 84);
+    font-size: 11pt;
+    margin: 2px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+.user > input {
+
+    padding-right: 60px;
+    background-color: rgba(18, 95, 57, 0);
+    border: none;
+    color: rgb(0, 31, 84);
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(26, 68, 31);
+    outline: none;
+}
+.descricao {
+    font-size: 11px;
+    margin: 2px;
+    color: rgb(0, 31, 84);
+    margin-bottom: 20px;
+}
+.nome{
+    color: rgb(0, 31, 84);
+    font-size: 11pt;
+    margin: 2px;
+    margin-top: 10px;
+    font-weight: 500;
+    
+}
+.nome > input {
+    
+    padding-right: 60px;
+    background-color: rgba(18, 95, 57, 0);
+    border: none;
+    color: rgb(0, 31, 84);
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgb(26, 68, 31);
+    outline: none;
+}
+.senha {
+    color: rgb(0, 31, 84);
+    font-size: 11pt;
+    margin: 2px;
+    margin-bottom: 3px;
+    font-weight: 500;
+    
+}
+.senha > input{
+    
+    padding-right: 60px;
+    background-color: rgba(18, 95, 57, 0);
+    border: none;
+    color: rgb(0, 31, 84);
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(26, 68, 31);
+    outline: none;
+}
+.botao{
+    display: flex;
+    width: 100%;
+    padding: 20px 0px;
+    border: none;
+    border-radius: 35px;
+    background-color: rgb(66, 3, 130);
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    justify-content: center;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
+.botao:hover{
+    background-color: rgb(96, 10, 181);
+    transition: 0.3s;
+    color: rgb(227, 230, 230);
+}
+.errocadastro{
+    color: rgb(173, 4, 4);
+    font-size: 11pt;
+    text-align: center;
+    margin-top: 10px;
+}
+.sucessocadastro{
+    color: rgb(0, 139, 14);
+    font-size: 11pt;
+    text-align: center;
+    margin-top: 10px;
+}
+.voltar{
+    color: rgb(0, 31, 84);
+    font-size: 10pt;
+}
+.navbar{
+    display: flexbox;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.453);
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0px;
+    margin-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;  
+}
+
+.logo{
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.saudacao{
+    text-align: center;
+    text-decoration:none;
+    color: rgb(0, 31, 84);
+}
+
+.sair{
+    display: flex;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(124, 34, 162);
+    font-weight: 500;
+    justify-content: center;
+    letter-spacing: 1px;
+    cursor: pointer;
+    align-items: center;
+    box-shadow: 0px 3px 10px black;
+    text-decoration:none;
+}
+
+.gambiarra{
+    display: none;
+
+}

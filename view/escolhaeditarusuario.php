@@ -33,7 +33,7 @@ if ($_SESSION['admin'] <> 1) {
                 <img class= "logo" onclick='location.href="../rotas/decisaovolta.php"' src="../img/logoNavBar.png" > 
                 <!-- Cabeçalho da barra de navegação printando o nome do 
                 usuário registrado no banco de dados ao se logar com sucesso-->
-                <a class="saudacao">Escolha o usuario<br>que deseja excluir!</a>
+                <a class="saudacao">Escolha o usuario<br>que deseja editar!</a>
                 <!-- Link para encerrar a sessão montada no arquivo declarado abaixo-->
 
                 <a class = "sair" href="../funcoes/logout.php">Sair</a>
