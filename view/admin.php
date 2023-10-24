@@ -39,7 +39,7 @@ if ($_SESSION['admin'] <> 1) {
                  <h1 class="usuario">Usuário</h1>
                  <button type="submit" class="botao" name="cadastro" onclick="window.location.href='./cadastroadmin.php'">Criar Usuário</button>
                  <button type="submit" class="botao" name="excluir" onclick="window.location.href='./excluirusuario.php'">Excluir Usuário</button>
-                 <button type="submit" class="botao" name="edicao">Editar dados <br>de um Usuário</button>
+                 <button type="submit" class="botao" name="edicao" onclick="window.location.href='./escolhaeditarusuario.php'">Editar dados <br>de um Usuário</button>
                  <h1 class="aplicacao">Aplicação</h1>
                  <button type="submit" class="botao" name="editar">Editar salas</button>
                 <button type="submit" class="botao" name="Testar">Testar aplicação</button>
