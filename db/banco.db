@@ -7,6 +7,7 @@ id int auto_increment primary key,
 nome varchar(300),
 login varchar(100) unique key NOT NULL,
 senha varchar(100),
+senha2 varchar(100),
 tipo integer not null
 );
 
