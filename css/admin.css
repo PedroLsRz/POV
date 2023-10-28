@@ -84,7 +84,7 @@ body {
     display: flex;
     color: white;
     text-shadow: #000 1px 1px 2px;
-    background-color: rgb(96, 10, 181);
+    background-color: rgb(136, 64, 207);
     border: none;
     margin-top: 15px;
     border-radius: 7px;
@@ -93,7 +93,7 @@ body {
 }
 .botao:hover {
     
-    background-color: rgb(125, 41, 209);
+    background-color: rgb(158, 84, 233);
     transition: 0.3s;
 }
 

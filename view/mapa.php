@@ -39,10 +39,15 @@ if ($_SESSION['logado'] <> true) {
       <div class="bg">
         <!-- <img src="view/img/planta-supermercado.png" id="bg"> -->
         <div class="bg-scroll" id="bg-scroll">
-            <img src="../img/planta.png" id="bg-mobile">
-            <div id="entrada" class="diventrada"></div>
-        </div>
         
+            <!-- <img src="../img/planta.png" id="bg-mobile"> -->
+            <div id="entrada" class="diventrada"></div>
+            <div class= "linhabase">
+            <svg class= "svg">
+            <polyline class="linha" points="740,5000 740,4900 1600,4900 1600,4330 1720,4330 1720,4000 1550,4000"/>
+            </svg>
+            </div>
+        </div>
       </div>
       
     </div>

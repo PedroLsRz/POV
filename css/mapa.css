@@ -88,7 +88,7 @@ body {
 .bg img {
     display:block;
     min-height: 100vh;
-    width: 600%;
+    width: 2000px;
     align-items: center;
     justify-content: center;
 }
@@ -99,4 +99,24 @@ body {
     position:relative;
     top: -150px;
     left:500px;
+}
+.svg{
+    height: 5200px;
+    width: 3000px;
+    align-items: center;
+    justify-content: center;
+    display:block;
+    position:relative;
+    background-image: url(../img/planta.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.linha{
+    fill:none;
+    stroke: rgb(83, 10, 152);
+    stroke-width:10px;
+    opacity: 0.8;
+    border-width: 30px; 
+    border-style: solid;
+    border-color:  blue; 
 }
