@@ -5,6 +5,7 @@ session_start();
 if ($_SESSION['logado'] <> true) {
   header('Location: login.php');
 }
+require_once "../funcoes/definerota.php";
 ?>
 
 <!DOCTYPE html>
@@ -44,7 +45,7 @@ if ($_SESSION['logado'] <> true) {
             <div id="entrada" class="diventrada"></div>
             <div class= "linhabase">
             <svg class= "svg">
-            <polyline class="linha" points="740,5000 740,4900 1600,4900 1600,4330 1720,4330 1720,4000 1550,4000"/>
+            <?php definerota(); ?>
             </svg>
             </div>
         </div>
