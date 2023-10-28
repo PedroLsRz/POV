@@ -13,5 +13,10 @@ tipo integer not null
 create table salas (
 id int auto_increment primary key,
 nome varchar(100) unique key not null,
+codsala varchar (10) unique key not null,
+area varchar(1) not null,
 descricao varchar(400) not null
 );
+
+insert into salas (nome,codsala,area,descricao)
+values ("Central de Atendimento ao Aluno","b1","b", "sala comum"), ("Núcleo de Apoio Fiscal e Contábil","b2","b","sala comum"),("Sala Misteriosa","b3","b", "laboratório de informática");
