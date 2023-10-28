@@ -30,7 +30,7 @@ require_once "../funcoes/definerota.php";
       
       <!-- Link para encerrar a sessão montada no arquivo declarado abaixo-->
       
-        <button class="mudartrajeto" type="submit">Mudar Trajeto</button>
+        <a class="mudartrajeto" type="submit" href="opcaomudartrajeto.php">Mudar Trajeto</a>
         <a class = "sair" href="../funcoes/logout.php">Sair</a>
     
   </nav>
