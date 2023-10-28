@@ -28,9 +28,14 @@ if ($_SESSION['logado'] <> true) {
                 usuário registrado no banco de dados ao se logar com sucesso-->
                 <a class="saudacao">Olá, <?php echo $_SESSION['nome'] ?><br>Seja bem-vindo!</a>
                 <!-- Link para encerrar a sessão montada no arquivo declarado abaixo-->
+                
+                <a class= "botaodeteste" href="../rotas/localiza.php?loc=entradafpb">Entrada</a>
+                <a class= "botaodeteste" href="../rotas/localiza.php?loc=refeitoriofpb">Refeitorio</a>
+                <a class= "botaodeteste" href="../rotas/localiza.php?loc=coordenacaofpb">Coordenação</a>
 
                 <a class = "sair" href="../funcoes/logout.php">Sair</a>
-
+                
+            
             </nav>
 
         <div class= "format">
