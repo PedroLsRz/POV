@@ -41,13 +41,13 @@ function definerota(){
                     $final = "";
                     break;
                 case "e3":
-                    $final = "";
+                    $final = "2355,2590 2465,2590";
                     break;
                 case "e4":
-                    $final = "";
+                    $final = "2355,3130 2240,3130";
                     break;
                 case "e5":
-                    $final = "2355,3130 2240,3130";
+                    $final = "2355,3055 2240,3055";
                     break;
                 case "e6":
                     $final = "2355,2720 2240,2720";
@@ -59,7 +59,7 @@ function definerota(){
                     $final = "2355,1990 2465,1990";
                     break;
                 case "e9":
-                    $final = "2355,1420 2475,1420";
+                    $final = "2355,1410 2475,1410";
                     break;
                 case "e10":
                     $final = "2355,1300 2495,1300";
