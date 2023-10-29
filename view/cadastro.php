@@ -27,6 +27,9 @@
         <h1 class ="senha">Senha: <br>
             <input type = "password" name="senhatexto" required>
         </h1>
+        <h1 class ="senha2">Confirme a senha: <br>
+            <input type = "password" name="senhatexto2" required>
+        </h1>
         <button type= "submit" class="botao" name = "entrar">
             CADASTRAR
         </button>

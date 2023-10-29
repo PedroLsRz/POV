@@ -12,7 +12,6 @@ if ($_SESSION['logado'] <> true) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
     <link href="../css/inicio.css" rel="stylesheet">
     <title>PoV</title>
@@ -29,9 +28,11 @@ if ($_SESSION['logado'] <> true) {
                 <a class="saudacao">Olá, <?php echo $_SESSION['nome'] ?><br>Seja bem-vindo!</a>
                 <!-- Link para encerrar a sessão montada no arquivo declarado abaixo-->
                 
-                <a class= "botaodeteste" href="../rotas/localiza.php?loc=entradafpb">Entrada</a>
-                <a class= "botaodeteste" href="../rotas/localiza.php?loc=refeitoriofpb">Refeitorio</a>
-                <a class= "botaodeteste" href="../rotas/localiza.php?loc=coordenacaofpb">Coordenação</a>
+                <a class= "botaodeteste" href="../rotas/localiza.php?loc=entradafpb">Entrada
+                    <a class= "botaodeteste1" href="../rotas/localiza.php?loc=refeitoriofpb">Refeitorio</a>
+            </a>
+                
+                <a class= "botaodeteste2" href="../rotas/localiza.php?loc=coordenacaofpb">Coordenação</a>
 
                 <a class = "sair" href="../funcoes/logout.php">Sair</a>
                 
