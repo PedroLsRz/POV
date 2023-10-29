@@ -26,19 +26,19 @@ function definerota(){
                     $final = "1720,3900 1620,3900";
                     break;
                 case "c2":
-                    $final = "1720,4010 1830,4010";
+                    $final = "1720,4010 1830,010";
                     break;
                 case "d1":
-                    $final = "";
+                    $final = "2170,3825 2170,3690";
                     break;
                 case "d2":
-                    $final = "";
+                    $final = "2340,3825 2340,3950 ";
                     break;
                 case "e1":
-                    $final = "";
+                    $final = "2355,3725 2540,3725";
                     break;
                 case "e2":
-                    $final = "";
+                    $final = "2350,3300 2520,3300";
                     break;
                 case "e3":
                     $final = "2355,2590 2465,2590";
