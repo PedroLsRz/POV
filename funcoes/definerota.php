@@ -34,6 +34,36 @@ function definerota(){
                 case "d2":
                     $final = "";
                     break;
+                case "e1":
+                    $final = "";
+                    break;
+                case "e2":
+                    $final = "";
+                    break;
+                case "e3":
+                    $final = "";
+                    break;
+                case "e4":
+                    $final = "";
+                    break;
+                case "e5":
+                    $final = "";
+                    break;
+                case "e6":
+                    $final = "";
+                    break;
+                case "e7":
+                    $final = "";
+                    break;
+                case "e8":
+                    $final = "";
+                    break;
+                case "e9":
+                    $final = "";
+                    break;
+                case "e10":
+                    $final = "";
+                    break;
             }
             break;
         case "refeitoriofpb":
@@ -56,6 +86,9 @@ function definerota(){
             break;
         case "d":
             echo "<polyline class='linha' points='".$inicio." 750,4760 1600,4760 1600,4210 1720,4210 1720,3825 ".$final."'/>";
+            break;
+        case "e":
+            echo "<polyline class='linha' points='".$inicio." 750,4760 1600,4760 1600,4210 1720,4210 1720,3825 2355,3825 ".$final."'/>";
             break;
         
     }
