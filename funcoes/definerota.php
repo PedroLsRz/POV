@@ -4,20 +4,38 @@ function definerota(){
     
     switch($_SESSION['loc']){
         case "entradafpb":
-        $inicio = '740,5060';
+            $inicio = '750,4950';
 
-        switch ($_SESSION['sala']) {
-            case "b1":
-                $final = "760,4900 760,4780";
-                break;
-            case "b2":
-                $final = "1440,4900 1440,4780";
-                break;
-            case "b3":
-                $final = "1540,4900 1540,5050";
-                break;
-        }
-        break;
+            switch ($_SESSION['sala']) {
+                case "a1":
+                    $final = "750,4920 900,4920";
+                    break;
+                case "a2":
+                    $final = "750,4760 1700,4760";
+                    break;
+                case "b1":
+                    $final = "800,4760 800,4650";
+                    break;
+                case "b2":
+                    $final = "1450,4760 1450,4650";
+                    break;
+                case "b3":
+                    $final = "1550,4760 1550,4880";
+                    break;
+                case "c1":
+                    $final = "1720,3900 1620,3900";
+                    break;
+                case "c2":
+                    $final = "1720,4010 1830,4010";
+                    break;
+                case "d1":
+                    $final = "";
+                    break;
+                case "d2":
+                    $final = "";
+                    break;
+            }
+            break;
         case "refeitoriofpb":
 
             break;
@@ -26,10 +44,24 @@ function definerota(){
             break;
     }
 
-    if($_SESSION['area'] == "b"){
-    echo "<polyline class='linha' points='".$inicio." 740,4900 ".$final."'/>";
+    switch($_SESSION['area']){
+        case "a":
+            echo "<polyline class='linha' points='".$inicio." ".$final."'/>";
+            break;
+        case "b":
+            echo "<polyline class='linha' points='".$inicio." 750,4760 ".$final."'/>";
+            break;
+        case "c":
+            echo "<polyline class='linha' points='".$inicio." 750,4760 1600,4760 1600,4210 1720,4210 ".$final."'/>";
+            break;
+        case "d":
+            echo "<polyline class='linha' points='".$inicio." 750,4760 1600,4760 1600,4210 1720,4210 1720,3825 ".$final."'/>";
+            break;
+        
     }
 
+
+   
 
 }
 
