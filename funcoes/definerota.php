@@ -64,6 +64,42 @@ function definerota(){
                 case "e10":
                     $final = "2355,1300 2495,1300";
                     break;
+                case "e11":
+                    $final = "2355,2010 1180,2010";
+                    break;
+                case "f1":
+                    $final = "";
+                    break;
+                case "g1":
+                    $final = "";
+                    break;
+                case "g2":
+                    $final = "";
+                    break;
+                case "g3":
+                    $final = "";
+                    break;
+                case "g4":
+                    $final = "";
+                    break;
+                case "g5":
+                    $final = "";
+                    break;
+                case "h1":
+                    $final = "";
+                    break;
+                case "h2":
+                    $final = "";
+                    break;
+                case "i1":
+                    $final = "";
+                    break;
+                case "i2":
+                    $final = "";
+                    break;
+                case "i3":
+                    $final = "";
+                    break;
             }
             break;
         case "refeitoriofpb":
@@ -90,7 +126,18 @@ function definerota(){
         case "e":
             echo "<polyline class='linha' points='".$inicio." 750,4760 1600,4760 1600,4210 1720,4210 1720,3825 2355,3825 ".$final."'/>";
             break;
-        
+        case "f":
+            echo "<polyline class='linha' points='".$inicio." 750,4760 1600,4760 1600,4210 1720,4210 1720,3825 2355,3825 2355,3330".$final."'/>";
+            break;
+        case "g":
+            echo "<polyline class='linha' points='".$inicio." 750,4760 1600,4760 1600,4210 1720,4210 1720,3825 2355,3825 2355,3330 1815,3330 1815,3145 1770,3100 ".$final."'/>";
+            break;
+        case "h":
+            echo "<polyline class='linha' points='".$inicio." 750,4760 1600,4760 1600,4210 1720,4210 1720,3825 2355,3825 2355,3330 1815,3330 1815,3145 1770,3100 1530,3100 ".$final."'/>";
+            break;
+        case "i":
+            echo "<polyline class='linha' points='".$inicio." 750,4760 1600,4760 1600,4210 1720,4210 1720,3825 2355,3825 2355,2010 ".$final."'/>";
+            break;
     }
 
 
