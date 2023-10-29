@@ -4,11 +4,8 @@ require_once "../funcoes/bancoconfirmarexclusao.php";
 session_start();
 #Se a sessão LOGADO for diferente de VERDADEIRA, redirecione para a página indicada
 if ($_SESSION['logado'] <> true) {
-  header('Location: ../login.php');
+  header('Location: login.php');
 }
-if ($_SESSION['admin'] <> 1) {
-    header('Location: ../login.php');
-  }
 ?>
 
 <!DOCTYPE html>

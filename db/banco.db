@@ -30,4 +30,10 @@ values ("NSA","c1","c", "Núcleo de Suporte Acadêmico"), ("A1","c2","c","Sala d
 insert into salas (nome,codsala,area,descricao)
 values ("XEROX","f1","f", "Sala de xerox"), ("LIM","g1","g","Laboratório integrado de medicina veterinária"), ("C02","g2","g", "Ateliê"),("C01b","g3","g", "Sala de estudo"),
 	   ("C04","g4","g","Sala de estudo"), ("C03","g5","g","Sala de estudo"),("BF Bloco c","h1","h","Banheiro feminino"), ("BM Bloco c","h2","h", "Banheiro masculino"),
-	   ("D01","e11","e","Sala bar"), ("D02","i1","i",""),("D03","i2","i",""),("D04","i3","i","");
+	   ("D01","e11","e","Sala bar"), ("D02","i1","i","Laboratório de alimentos"),("D03","i2","i","Cozinha pedagógica"),("D04","i3","i","Cozinha pedagógica");
+
+insert into salas (nome,codsala,area,descricao)
+values ("D13","j1","j","Laboratório de performace humana"),("D12","j2","j","Criatividade, inovação e prototipagem"),("D11","j3","j","Laboratório multidisciplinar"),
+	   ("D10","j4","j","Laboratório de conforto ambiental e maquete"),("SM2","j5","j","Sala misteriosa"),("SM3","j6","j","Sala misteriosa"),("Academia","j7","j","Educação Física"),
+	   ("Refeitório","l1","l","Ambiente de lazer"),("Biblioteca","l2","l","Ambiente de estudo");
+
