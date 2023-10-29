@@ -41,7 +41,6 @@ require_once "../funcoes/definerota.php";
         <!-- <img src="view/img/planta-supermercado.png" id="bg"> -->
         <div class="bg-scroll" id="bg-scroll">
         
-            <!-- <img src="../img/planta.png" id="bg-mobile"> -->
             <div id="entrada" class="diventrada"></div>
             <div class= "linhabase">
             <svg class= "svg">
