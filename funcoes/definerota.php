@@ -47,22 +47,22 @@ function definerota(){
                     $final = "";
                     break;
                 case "e5":
-                    $final = "";
+                    $final = "2355,3130 2240,3130";
                     break;
                 case "e6":
-                    $final = "";
+                    $final = "2355,2720 2240,2720";
                     break;
                 case "e7":
-                    $final = "";
+                    $final = "2355,2640 2240,2640";
                     break;
                 case "e8":
-                    $final = "";
+                    $final = "2355,1990 2465,1990";
                     break;
                 case "e9":
-                    $final = "";
+                    $final = "2355,1420 2475,1420";
                     break;
                 case "e10":
-                    $final = "";
+                    $final = "2355,1300 2495,1300";
                     break;
             }
             break;
