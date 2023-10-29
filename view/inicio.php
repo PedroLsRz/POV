@@ -25,15 +25,14 @@ if ($_SESSION['logado'] <> true) {
                 <img class= "logo" src="../img/logoNavBar.png" > 
                 <!-- Cabeçalho da barra de navegação printando o nome do 
                 usuário registrado no banco de dados ao se logar com sucesso-->
-                <a class="saudacao">Olá, <?php echo $_SESSION['nome'] ?><br>Seja bem-vindo!</a>
+                <!-- <a class="saudacao">Olá, <?php echo $_SESSION['nome'] ?><br>Seja bem-vindo!</a> -->
                 <!-- Link para encerrar a sessão montada no arquivo declarado abaixo-->
                 
-                <a class= "botaodeteste" href="../rotas/localiza.php?loc=entradafpb">Entrada
-                    <a class= "botaodeteste1" href="../rotas/localiza.php?loc=refeitoriofpb">Refeitorio</a>
-            </a>
-                
-                <a class= "botaodeteste2" href="../rotas/localiza.php?loc=coordenacaofpb">Coordenação</a>
-
+                    <div class= "botaodeteste">
+                        <a class= "botaodeteste" href="../rotas/localiza.php?loc=entradafpb">Entrada</a>
+                        <a class= "botaodeteste" href="../rotas/localiza.php?loc=refeitoriofpb">Refeitorio</a>
+                        <a class= "botaodeteste" href="../rotas/localiza.php?loc=coordenacaofpb">Coordenação</a>
+                    </div>
                 <a class = "sair" href="../funcoes/logout.php">Sair</a>
                 
             
