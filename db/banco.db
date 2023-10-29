@@ -26,3 +26,8 @@ values ("NSA","c1","c", "Núcleo de Suporte Acadêmico"), ("A1","c2","c","Sala d
 	   ("B01","e1","e","Laboratório de informática"), ("B02","e2","e","Laboratório de informática"),("B03","e3","e","Laboratório de informática"), ("Vv","e4","e", "Loja Uniforme"),
 	   ("BF","e5","e","Banheiro feminino"), ("BM","e6","e","Banheiro Masculino"),("VG","e7","e","Vestiário de gastronomia"),
        ("D05","e8","e","Laboratório de construção civil e segurança do trabalho"), ("D06","e9","e","Laboratório de física e elétrica"),("D07","e10","e","Laboratório de química");
+
+insert into salas (nome,codsala,area,descricao)
+values ("XEROX","f1","f", "Sala de xerox"), ("LIM","g1","g","Laboratório integrado de medicina veterinária"), ("C02","g2","g", "Ateliê"),("C01b","g3","g", "Sala de estudo"),
+	   ("C04","g4","g","Sala de estudo"), ("C03","g5","g","Sala de estudo"),("BF Bloco c","h1","h","Banheiro feminino"), ("BM Bloco c","h2","h", "Banheiro masculino"),
+	   ("D01","e11","e","Sala bar"), ("D02","i1","i",""),("D03","i2","i",""),("D04","i3","i","");
