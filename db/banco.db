@@ -20,4 +20,10 @@ descricao varchar(400) not null
 );
 
 insert into salas (nome,codsala,area,descricao)
-values ("Central de Atendimento ao Aluno","b1","b", "sala comum"), ("Núcleo de Apoio Fiscal e Contábil","b2","b","sala comum"),("Sala Misteriosa","b3","b", "laboratório de informática");
+values ("CAA","b1","b", "Central de Atendimento ao Aluno"), ("NAF","b2","b","Núcleo de Apoio Fiscal e Contábil"), ("CAC","a1","a", "Central de Atendimento ao Candidato"),("SM","b3","b", "Sala Misteriosaa"),("EAD","a2","a", "Educação a Distância");
+
+insert into salas (nome,codsala,area,descricao)
+values ("NSA","c1","c", "Núcleo de Suporte Acadêmico"), ("A1","c2","c","Sala de estudo em grupo e pesquisa virtual"), ("A2","d1","d", "laboratório de informática"),("Elevador","d2","d", "Elevador de acesso"),
+	   ("B01","e1","e","Laboratório de informática"), ("B02","e2","e","Laboratório de informática"),("B03","e3","e","Laboratório de informática"), ("Vv","e4","e", "Loja Uniforme"),
+	   ("BF","e5","e","Banheiro feminino"), ("BM","e6","e","Banheiro Masculino"),("VG","e7","e","Vestiário de gastronomia"),
+       ("D05","e8","e","Laboratório de construção civil e segurança do trabalho"), ("D06","e9","e","Laboratório de física e elétrica"),("D07","e10","e","Laboratório de química");
