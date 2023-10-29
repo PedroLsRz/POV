@@ -11,10 +11,12 @@ $senha2= $_POST ['senhatexto2'];
 
 
 #fazendo uma variável que recebe o SELECT
-$select = "INSERT into usuarios (nome, login, senha, senha2 ,tipo) values ('$nome', '$user', '$senha', '$senha2', 0)";
+
 
 if($senha == $senha2) { 
      
+    $select = "INSERT into usuarios (nome, login, senha ,tipo) values ('$nome', '$user', '$senha', 0)";
+
     try{
     #executa a $conexao e o $select dentro dela
     $query = mysqli_query($conexao, $select);

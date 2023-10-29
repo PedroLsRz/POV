@@ -13,7 +13,6 @@ if ($_SESSION['logado'] <> true) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
     <link href="../css/escolhasala.css" rel="stylesheet">
     <title>PoV</title>

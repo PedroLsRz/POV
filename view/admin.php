@@ -16,7 +16,7 @@ if ($_SESSION['admin'] <> 1) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
+   <!-- Barra de navegação <link href="../css/bootstrap.min.css" rel="stylesheet">--> 
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
     <link href="../css/admin.css" rel="stylesheet">
     <title>PoV</title>

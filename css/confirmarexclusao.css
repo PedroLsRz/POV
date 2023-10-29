@@ -82,30 +82,20 @@ body {
     color: rgb(227, 230, 230);
 }
 .navbar{
-    display: flexbox;
-    width: 100%;
+    display: flex;
+    width: 100vw;
     background-color: rgba(255, 255, 255, 0.453);
     align-items: center;
+    justify-content: center;
     justify-content: space-between;
-    flex-wrap: wrap;
-    top: 0px;
-    margin-top: 0px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;  
 }
 
 .logo{
     height: 50px;
     margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 1vw;
 }
-
-.saudacao{
-    text-align: center;
-    text-decoration:none;
-    color: rgb(0, 31, 84);
-}
-
 .sair{
     display: flex;
     padding: 10px;
@@ -120,4 +110,5 @@ body {
     align-items: center;
     box-shadow: 0px 3px 10px black;
     text-decoration:none;
+    margin-right: 1vw;
 }

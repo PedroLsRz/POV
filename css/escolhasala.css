@@ -13,20 +13,18 @@ body {
     
 }
 .navbar{
-    display: flexbox;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.453);
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    
+  display: flex;
+  width: 100vw;
+  background-color: rgba(255, 255, 255, 0.453);
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
 }
 .logo{
-    height: 50px;
-    margin-bottom: 10px;
+  height: 50px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 1vw;
 }
 .saudacao{
     text-align: center;
@@ -34,7 +32,7 @@ body {
     color: rgb(0, 31, 84);
 }
 .sair{
-    display: flex;
+  display: flex;
     padding: 10px;
     border: none;
     border-radius: 20px;
@@ -47,6 +45,7 @@ body {
     align-items: center;
     box-shadow: 0px 3px 10px black;
     text-decoration:none;
+    margin-right: 1vw;
 }
 .sair:hover{
     background-color: rgb(96, 10, 181);
