@@ -68,22 +68,22 @@ function definerota(){
                     $final = "2355,2010 1180,2010";
                     break;
                 case "f1":
-                    $final = "";
+                    $final = "1970,3330 1970,3450";
                     break;
                 case "g1":
-                    $final = "";
+                    $final = "1620,3100 1620,3250";
                     break;
                 case "g2":
-                    $final = "";
+                    $final = "1430,3100 1430,2970";
                     break;
                 case "g3":
-                    $final = "";
+                    $final = "1260,3100 1260,3250";
                     break;
                 case "g4":
-                    $final = "";
+                    $final = "1160,3100 1160,3250";
                     break;
                 case "g5":
-                    $final = "";
+                    $final = "1160,3100 1160,2960";
                     break;
                 case "h1":
                     $final = "";
@@ -127,7 +127,7 @@ function definerota(){
             echo "<polyline class='linha' points='".$inicio." 750,4760 1600,4760 1600,4210 1720,4210 1720,3825 2355,3825 ".$final."'/>";
             break;
         case "f":
-            echo "<polyline class='linha' points='".$inicio." 750,4760 1600,4760 1600,4210 1720,4210 1720,3825 2355,3825 2355,3330".$final."'/>";
+            echo "<polyline class='linha' points='".$inicio." 750,4760 1600,4760 1600,4210 1720,4210 1720,3825 2355,3825 2355,3330 ".$final."'/>";
             break;
         case "g":
             echo "<polyline class='linha' points='".$inicio." 750,4760 1600,4760 1600,4210 1720,4210 1720,3825 2355,3825 2355,3330 1815,3330 1815,3145 1770,3100 ".$final."'/>";
