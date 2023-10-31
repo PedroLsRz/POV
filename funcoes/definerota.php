@@ -86,19 +86,19 @@ function definerota(){
                     $final = "";
                     break;
                 case "h1":
-                    $final = "";
+                    $final = "1530,2880 1590,2880";
                     break;
                 case "h2":
-                    $final = "";
+                    $final = "1530,2760";
                     break;
                 case "i1":
-                    $final = "";
+                    $final = "1280,2010 1280,2110";
                     break;
                 case "i2":
-                    $final = "";
+                    $final = "1895,2010 1895,2110";
                     break;
                 case "i3":
-                    $final = "";
+                    $final = "2015,2010 2015,2110";
                     break;
                 case "j1":
                     $final = "1385,460";
