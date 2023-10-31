@@ -101,25 +101,25 @@ function definerota(){
                     $final = "";
                     break;
                 case "j1":
-                    $final = "";
+                    $final = "1385,460";
                     break;
                 case "j2":
-                    $final = "";
+                    $final = "1710,460 1710,370";
                     break;
                 case "j3":
-                    $final = "";
+                    $final = "2110,460 2110,370";
                     break;
                 case "j4":
-                    $final = "";
+                    $final = "2205,460 2205,370";
                     break;
                 case "j5":
-                    $final = "";
+                    $final = "2515,460 2515,370";
                     break;
                 case "j6":
-                    $final = "";
+                    $final = "2770,460 2770,370";
                     break;
                 case "j7":
-                    $final = "";
+                    $final = "2555,460 2555,545";
                     break;
                 case "l1":
                     $final = "2255,1310";
