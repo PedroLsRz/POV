@@ -46,9 +46,6 @@ function definerota(){
                 case "a1":
                     $final = "750,4920 900,4920";
                     break;
-                case "a2":
-                    $final = "750,4760 1700,4760";
-                    break;
                 case "b1":
                     $final = "800,4760 800,4650";
                     break;
@@ -57,6 +54,9 @@ function definerota(){
                     break;
                 case "b3":
                     $final = "1550,4760 1550,4880";
+                    break;
+                case "b4":
+                    $final = "1680,4760";
                     break;
                 case "c1":
                     $final = "1720,3900 1620,3900";
@@ -100,9 +100,6 @@ function definerota(){
                 case "e10":
                     $final = "2355,1300 2495,1300";
                     break;
-                case "e11":
-                    $final = "2355,2010 1180,2010";
-                    break;
                 case "f1":
                     $final = "1970,3330 1970,3450";
                     break;
@@ -136,6 +133,9 @@ function definerota(){
                 case "i3":
                     $final = "2015,2010 2015,2110";
                     break;
+                case "i4":
+                    $final = "1190,2010";
+                    break;
                 case "j1":
                     $final = "1385,460";
                     break;
@@ -165,11 +165,333 @@ function definerota(){
                     break;
             }
             break;
+
         case "refeitoriofpb":
 
+            $inicio = '2180,1400';
+
+            switch($_SESSION['area']){
+                case "a":
+                    $trajeto = " ";
+                    break;
+                case "b":
+                    $trajeto ="  ";
+                    break;
+                case "c":
+                    $trajeto = "  ";
+                    break;
+                case "d":
+                    $trajeto = "  ";
+                    break;
+                case "e":
+                    $trajeto = "  ";
+                    break;
+                case "f":
+                    $trajeto = "  ";
+                    break;
+                case "g":
+                    $trajeto = "  ";
+                    break;
+                case "h":
+                    $trajeto = "  ";
+                    break;
+                case "i":
+                    $trajeto = "  ";
+                    break;
+                case "j":
+                    $trajeto = "  ";
+                    break;
+                case "l":
+                    $trajeto = "  ";
+                    break;
+            }
+
+            switch ($_SESSION['sala']) {
+                case "a1":
+                    $final = "";
+                    break;
+                case "b1":
+                    $final = "";
+                    break;
+                case "b2":
+                    $final = "";
+                    break;
+                case "b3":
+                    $final = "";
+                    break;
+                case "b4":
+                    $final = "";
+                    break;
+                case "c1":
+                    $final = "";
+                    break;
+                case "c2":
+                    $final = "";
+                    break;
+                case "d1":
+                    $final = "";
+                    break;
+                case "d2":
+                    $final = "";
+                    break;
+                case "e1":
+                    $final = "";
+                    break;
+                case "e2":
+                    $final = "";
+                    break;
+                case "e3":
+                    $final = "";
+                    break;
+                case "e4":
+                    $final = "";
+                    break;
+                case "e5":
+                    $final = "";
+                    break;
+                case "e6":
+                    $final = "";
+                    break;
+                case "e7":
+                    $final = "";
+                    break;
+                case "e8":
+                    $final = "";
+                    break;
+                case "e9":
+                    $final = "";
+                    break;
+                case "e10":
+                    $final = "";
+                    break;
+                case "f1":
+                    $final = "";
+                    break;
+                case "g1":
+                    $final = "";
+                    break;
+                case "g2":
+                    $final = "";
+                    break;
+                case "g3":
+                    $final = "";
+                    break;
+                case "g4":
+                    $final = "";
+                    break;
+                case "g5":
+                    $final = "";
+                    break;
+                case "h1":
+                    $final = "";
+                    break;
+                case "h2":
+                    $final = "";
+                    break;
+                case "i1":
+                    $final = "";
+                    break;
+                case "i2":
+                    $final = "";
+                    break;
+                case "i3":
+                    $final = "";
+                    break;
+                case "i4":
+                    $final = "";
+                    break;
+                case "j1":
+                    $final = "";
+                    break;
+                case "j2":
+                    $final = "";
+                    break;
+                case "j3":
+                    $final = "";
+                    break;
+                case "j4":
+                    $final = "";
+                    break;
+                case "j5":
+                    $final = "";
+                    break;
+                case "j6":
+                    $final = "";
+                    break;
+                case "j7":
+                    $final = "";
+                    break;
+                case "l1":
+                    $final = "";
+                    break;
+                case "l2":
+                    $final = "";
+                    break;
+            }
             break;
         case "coodenacaofpb":
 
+            $inicio = '';
+
+            switch($_SESSION['area']){
+                case "a":
+                    $trajeto = " ";
+                    break;
+                case "b":
+                    $trajeto ="  ";
+                    break;
+                case "c":
+                    $trajeto = "  ";
+                    break;
+                case "d":
+                    $trajeto = "  ";
+                    break;
+                case "e":
+                    $trajeto = "  ";
+                    break;
+                case "f":
+                    $trajeto = "  ";
+                    break;
+                case "g":
+                    $trajeto = "  ";
+                    break;
+                case "h":
+                    $trajeto = "  ";
+                    break;
+                case "i":
+                    $trajeto = "  ";
+                    break;
+                case "j":
+                    $trajeto = "  ";
+                    break;
+                case "l":
+                    $trajeto = "  ";
+                    break;
+            }
+
+            switch ($_SESSION['sala']) {
+                case "a1":
+                    $final = "";
+                    break;
+                case "b1":
+                    $final = "";
+                    break;
+                case "b2":
+                    $final = "";
+                    break;
+                case "b3":
+                    $final = "";
+                    break;
+                case "b4":
+                    $final = "";
+                    break;
+                case "c1":
+                    $final = "";
+                    break;
+                case "c2":
+                    $final = "";
+                    break;
+                case "d1":
+                    $final = "";
+                    break;
+                case "d2":
+                    $final = "";
+                    break;
+                case "e1":
+                    $final = "";
+                    break;
+                case "e2":
+                    $final = "";
+                    break;
+                case "e3":
+                    $final = "";
+                    break;
+                case "e4":
+                    $final = "";
+                    break;
+                case "e5":
+                    $final = "";
+                    break;
+                case "e6":
+                    $final = "";
+                    break;
+                case "e7":
+                    $final = "";
+                    break;
+                case "e8":
+                    $final = "";
+                    break;
+                case "e9":
+                    $final = "";
+                    break;
+                case "e10":
+                    $final = "";
+                    break;
+                    break;
+                case "f1":
+                    $final = "";
+                    break;
+                case "g1":
+                    $final = "";
+                    break;
+                case "g2":
+                    $final = "";
+                    break;
+                case "g3":
+                    $final = "";
+                    break;
+                case "g4":
+                    $final = "";
+                    break;
+                case "g5":
+                    $final = "";
+                    break;
+                case "h1":
+                    $final = "";
+                    break;
+                case "h2":
+                    $final = "";
+                    break;
+                case "i1":
+                    $final = "";
+                    break;
+                case "i2":
+                    $final = "";
+                    break;
+                case "i3":
+                    $final = "";
+                    break;
+                case "i4":
+                    $final = "";
+                    break;
+                case "j1":
+                    $final = "";
+                    break;
+                case "j2":
+                    $final = "";
+                    break;
+                case "j3":
+                    $final = "";
+                    break;
+                case "j4":
+                    $final = "";
+                    break;
+                case "j5":
+                    $final = "";
+                    break;
+                case "j6":
+                    $final = "";
+                    break;
+                case "j7":
+                    $final = "";
+                    break;
+                case "l1":
+                    $final = "";
+                    break;
+                case "l2":
+                    $final = "";
+                    break;
+            }
             break;
     }
 
