@@ -6,6 +6,42 @@ function definerota(){
         case "entradafpb":
             $inicio = '750,4950';
 
+            switch($_SESSION['area']){
+                case "a":
+                    $trajeto = " ";
+                    break;
+                case "b":
+                    $trajeto =" 750,4760 ";
+                    break;
+                case "c":
+                    $trajeto = " 750,4760 1600,4760 1600,4210 1720,4210 ";
+                    break;
+                case "d":
+                    $trajeto = " 750,4760 1600,4760 1600,4210 1720,4210 1720,3825 ";
+                    break;
+                case "e":
+                    $trajeto = " 750,4760 1600,4760 1600,4210 1720,4210 1720,3825 2355,3825 ";
+                    break;
+                case "f":
+                    $trajeto = " 750,4760 1600,4760 1600,4210 1720,4210 1720,3825 2355,3825 2355,3330 ";
+                    break;
+                case "g":
+                    $trajeto = " 750,4760 1600,4760 1600,4210 1720,4210 1720,3825 2355,3825 2355,3330 1815,3330 1815,3145 1770,3100 ";
+                    break;
+                case "h":
+                    $trajeto = " 750,4760 1600,4760 1600,4210 1720,4210 1720,3825 2355,3825 2355,3330 1815,3330 1815,3145 1770,3100 1530,3100 ";
+                    break;
+                case "i":
+                    $trajeto = " 750,4760 1600,4760 1600,4210 1720,4210 1720,3825 2355,3825 2355,2010 ";
+                    break;
+                case "j":
+                    $trajeto = " 750,4760 1600,4760 1600,4210 1720,4210 1720,3825 2355,3825 2355,460 ";
+                    break;
+                case "l":
+                    $trajeto = " 750,4760 1600,4760 1600,4210 1720,4210 1720,3825 2355,3825 2355,1310 ";
+                    break;
+            }
+
             switch ($_SESSION['sala']) {
                 case "a1":
                     $final = "750,4920 900,4920";
@@ -137,44 +173,7 @@ function definerota(){
             break;
     }
 
-    switch($_SESSION['area']){
-        case "a":
-            echo "<polyline class='linha' points='".$inicio." ".$final."'/>";
-            break;
-        case "b":
-            echo "<polyline class='linha' points='".$inicio." 750,4760 ".$final."'/>";
-            break;
-        case "c":
-            echo "<polyline class='linha' points='".$inicio." 750,4760 1600,4760 1600,4210 1720,4210 ".$final."'/>";
-            break;
-        case "d":
-            echo "<polyline class='linha' points='".$inicio." 750,4760 1600,4760 1600,4210 1720,4210 1720,3825 ".$final."'/>";
-            break;
-        case "e":
-            echo "<polyline class='linha' points='".$inicio." 750,4760 1600,4760 1600,4210 1720,4210 1720,3825 2355,3825 ".$final."'/>";
-            break;
-        case "f":
-            echo "<polyline class='linha' points='".$inicio." 750,4760 1600,4760 1600,4210 1720,4210 1720,3825 2355,3825 2355,3330 ".$final."'/>";
-            break;
-        case "g":
-            echo "<polyline class='linha' points='".$inicio." 750,4760 1600,4760 1600,4210 1720,4210 1720,3825 2355,3825 2355,3330 1815,3330 1815,3145 1770,3100 ".$final."'/>";
-            break;
-        case "h":
-            echo "<polyline class='linha' points='".$inicio." 750,4760 1600,4760 1600,4210 1720,4210 1720,3825 2355,3825 2355,3330 1815,3330 1815,3145 1770,3100 1530,3100 ".$final."'/>";
-            break;
-        case "i":
-            echo "<polyline class='linha' points='".$inicio." 750,4760 1600,4760 1600,4210 1720,4210 1720,3825 2355,3825 2355,2010 ".$final."'/>";
-            break;
-        case "j":
-            echo "<polyline class='linha' points='".$inicio." 750,4760 1600,4760 1600,4210 1720,4210 1720,3825 2355,3825 2355,460 ".$final."'/>";
-            break;
-        case "l":
-            echo "<polyline class='linha' points='".$inicio." 750,4760 1600,4760 1600,4210 1720,4210 1720,3825 2355,3825 2355,1310 ".$final."'/>";
-            break;
-    }
-
-
-   
+    echo "<polyline class='linha' points='".$inicio.$trajeto.$final."'/>";
 
 }
 
