@@ -85,6 +85,7 @@ body {
     overflow-x: auto;
     align-items: center;
     justify-content: center;
+    
 }
 .bg img {
     display:block;
@@ -96,10 +97,26 @@ body {
 .diventrada{
     width: 50px;
     height: 50px;
-    background-color: blueviolet;
+    background-color: none;
     position:relative;
-    top: -150px;
-    left:500px;
+    top: -450px;
+    left:930px;
+}
+.divrefeitorio{
+    width: 50px;
+    height: 50px;
+    background-color: none;
+    position:relative;
+    top: -4100px;
+    left:2300px;
+}
+.divcoordenacao{
+    width: 50px;
+    height: 50px;
+    background-color: none;
+    position:relative;
+    top: -1700px;
+    left: 1700px;
 }
 .svg{
     height: 5200px;
@@ -115,9 +132,19 @@ body {
 .linha{
     fill:none;
     stroke: rgb(83, 10, 152);
-    stroke-width:10px;
+    stroke-width:30px;
     opacity: 0.8;
     border-width: 30px; 
     border-style: solid;
     border-color:  blue;
+}
+.linhatracada{
+    fill:none;
+    stroke: rgb(235, 213, 255);
+    stroke-width:7px;
+    opacity: 0.8;
+    border-width: 30px; 
+    border-style: solid;
+    border-color:  blue;
+    stroke-dasharray: 20px;
 }

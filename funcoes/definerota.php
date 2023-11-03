@@ -84,43 +84,43 @@ function definerota(){
             }
             break;
 
-        case "coodenacaofpb":
+        case "coordenacaofpb":
 
-            $inicio = '';
+            $inicio = '1620,3900 1720,3900';
 
             switch($_SESSION['area']){
                 case "a":
-                    $trajeto = " ";
+                    $trajeto = " 1720,4210 1600,4210 1600,4760 750,4760 ";
                     break;
                 case "b":
-                    $trajeto ="  ";
+                    $trajeto =" 1720,4210 1600,4210 1600,4760 ";
                     break;
                 case "c":
                     $trajeto = "  ";
                     break;
                 case "d":
-                    $trajeto = "  ";
+                    $trajeto = " 1720,3825 ";
                     break;
                 case "e":
-                    $trajeto = "  ";
+                    $trajeto = " 1720,3825 2355,3825 ";
                     break;
                 case "f":
-                    $trajeto = "  ";
+                    $trajeto = " 1720,3825 2355,3825 2355,3330 ";
                     break;
                 case "g":
-                    $trajeto = "  ";
+                    $trajeto = " 1720,3825 2355,3825 2355,3330 1815,3330 1815,3145 1770,3100 ";
                     break;
                 case "h":
-                    $trajeto = "  ";
+                    $trajeto = " 1720,3825 2355,3825 2355,3330 1815,3330 1815,3145 1770,3100 1530,3100 ";
                     break;
                 case "i":
-                    $trajeto = "  ";
+                    $trajeto = " 1720,3825 2355,3825 2355,2010 ";
                     break;
                 case "j":
-                    $trajeto = "  ";
+                    $trajeto = " 1720,3825 2355,3825 2355,460 ";
                     break;
                 case "l":
-                    $trajeto = "  ";
+                    $trajeto = " 1720,3825 2355,3825 2355,1310 ";
                     break;
             }
             break;
@@ -248,7 +248,8 @@ function definerota(){
             break;
     }
 
-    echo "<polyline class='linha' points='".$inicio.$trajeto.$final."'/>";
+    echo "<polyline class='linha' points='".$inicio.$trajeto.$final."'/>
+          <polyline class='linhatracada' points='".$inicio.$trajeto.$final."'/>  ";
 
 }
 

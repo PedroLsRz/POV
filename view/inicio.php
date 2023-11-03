@@ -29,8 +29,8 @@ if ($_SESSION['logado'] <> true) {
                 <!-- Link para encerrar a sessão montada no arquivo declarado abaixo-->
                 
                     <div class= "botaodeteste">
-                        <a class= "botaodeteste" href="../rotas/localiza.php?loc=entradafpb">Entrada</a>
-                        <a class= "botaodeteste" href="../rotas/localiza.php?loc=refeitoriofpb">Refeitorio</a>
+                        <a class= "botaodeteste" href="../rotas/localiza.php?loc=entradafpb">Entrada</a><br>
+                        <a class= "botaodeteste" href="../rotas/localiza.php?loc=refeitoriofpb">Refeitorio</a><br>
                         <a class= "botaodeteste" href="../rotas/localiza.php?loc=coordenacaofpb">Coordenação</a>
                     </div>
                 <a class = "sair" href="../funcoes/logout.php">Sair</a>

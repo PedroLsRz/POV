@@ -6,6 +6,7 @@ if ($_SESSION['logado'] <> true) {
   header('Location: login.php');
 }
 require_once "../funcoes/definerota.php";
+require_once "../funcoes/defineposicaomapa.php";
 ?>
 
 <!DOCTYPE html>
@@ -17,7 +18,6 @@ require_once "../funcoes/definerota.php";
     <link href="../css/mapa.css" rel="stylesheet">
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
     <title>PoV- Mapa</title>
-    
 </head>
 
 <body>
@@ -26,25 +26,27 @@ require_once "../funcoes/definerota.php";
   <nav class="navbar">
 
      <img class= "logo" src="../img/logoNavBar.png" > 
-      
-      <!-- Link para encerrar a sessão montada no arquivo declarado abaixo-->
-      
         <a class="mudartrajeto" type="submit" href="opcaomudartrajeto.php">Mudar Trajeto</a>
+         <!-- Link para encerrar a sessão montada no arquivo declarado abaixo-->
         <a class = "sair" href="../funcoes/logout.php">Sair</a>
-    
+        
   </nav>
-      
+  <a href="#entrada" id="linkentrada"></a>
+  <a href="#refeitorio" id="linkrefeitorio"></a>
+  <a href="#coordenacao" id="linkcoordenacao"></a>
+  <?php posicaomapa(); ?>
       
     <div class= "format">
       <div class="bg">
-        <!-- <img src="view/img/planta-supermercado.png" id="bg"> -->
+          
         <div class="bg-scroll" id="bg-scroll">
-        
-            <div id="entrada" class="diventrada"></div>
             <div class= "linhabase">
             <svg class= "svg">
             <?php definerota(); ?>
             </svg>
+            <div id="entrada" class="diventrada"></div>
+            <div id="refeitorio" class="divrefeitorio"></div>
+            <div id="coordenacao" class="divcoordenacao"></div>
             </div>
         </div>
       </div>
