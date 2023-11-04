@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../css/cadastro.css" rel="stylesheet">
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
-    <title>PoV-Cadastro</title>
+    <title>PoV - Cadastro</title>
 </head>
 <body>
     

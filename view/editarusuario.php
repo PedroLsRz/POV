@@ -19,7 +19,7 @@ if ($_SESSION['admin'] <> 1) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../css/editarusuario.css" rel="stylesheet">
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
-    <title>PoV-Cadastro</title>
+    <title>PoV - Editar usuário</title>
 </head>
 <body>
         

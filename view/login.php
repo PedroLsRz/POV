@@ -11,7 +11,7 @@
     <link href="../css/login.css" rel="stylesheet">
     
   <!--  <link href="./css/bootstrap.min.css" rel="stylesheet">  -->
-    <title>PoV-Página de login</title>
+    <title>PoV - Login</title>
 </head>
 
 <body>
