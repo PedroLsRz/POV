@@ -20,7 +20,7 @@ if ($_SESSION['admin'] <> 1) {
     <link href="../css/cadastroadmin.css" rel="stylesheet">
         
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
-    <title>PoV-Cadastro</title>
+    <title>PoV - Cadastro</title>
 </head>
 <body>
         

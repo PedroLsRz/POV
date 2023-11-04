@@ -19,7 +19,7 @@ if ($_SESSION['admin'] <> 1) {
    <!-- Barra de navegação <link href="../css/bootstrap.min.css" rel="stylesheet">--> 
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
     <link href="../css/admin.css" rel="stylesheet">
-    <title>PoV</title>
+    <title>PoV - Admin</title>
 </head>
 <body>
     <div class="fundo">

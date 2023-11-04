@@ -21,7 +21,7 @@ if ($_SESSION['admin'] <> 1) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
     <link href="../css/excluirusuario.css" rel="stylesheet">
-    <title>PoV</title>
+    <title>PoV - Editar usuário</title>
 </head>
 <body>
     <div class="fundo">

@@ -17,7 +17,7 @@ require_once "../funcoes/defineposicaomapa.php";
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../css/mapa.css" rel="stylesheet">
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
-    <title>PoV- Mapa</title>
+    <title>PoV- Rota</title>
 </head>
 
 <body>

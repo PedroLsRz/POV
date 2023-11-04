@@ -19,7 +19,7 @@ if ($_SESSION['logado'] <> true) {
     <link href="../css/opcaomudartrajeto.css" rel="stylesheet">
     
   <!--  <link href="./css/bootstrap.min.css" rel="stylesheet">  -->
-    <title>PoV-Escolha o trajeto</title>
+    <title>PoV - Escolher trajeto</title>
 </head>
 
 <body>

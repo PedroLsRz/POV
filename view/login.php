@@ -11,7 +11,7 @@
     <link href="../css/login.css" rel="stylesheet">
     
   <!--  <link href="./css/bootstrap.min.css" rel="stylesheet">  -->
-    <title>PoV-Página de login</title>
+    <title>PoV- Login</title>
 </head>
 
 <body>
@@ -20,7 +20,7 @@
 <div class="fundo">
     <!-- Logo da aplicação -->
     
-    <img class= "logo" src="../img/novalogoPov.png" >
+    <img class= "logo" src="../img/logoPov.png" >
                         <!-- Formuláro de cadastro-->
     <form class= "forms" action="" id="form-login" method = "POST" >
     
