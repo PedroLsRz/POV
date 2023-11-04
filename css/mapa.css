@@ -134,17 +134,11 @@ body {
     stroke: rgb(83, 10, 152);
     stroke-width:30px;
     opacity: 0.8;
-    border-width: 30px; 
-    border-style: solid;
-    border-color:  blue;
 }
 .linhatracada{
     fill:none;
     stroke: rgb(235, 213, 255);
-    stroke-width:7px;
-    opacity: 0.8;
-    border-width: 30px; 
-    border-style: solid;
-    border-color:  blue;
-    stroke-dasharray: 20px;
+    stroke-width:4px;
+    opacity: 0.8;   
+    stroke-dasharray: 10px 50px;
 }
