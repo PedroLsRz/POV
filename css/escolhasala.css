@@ -10,10 +10,8 @@ body {
     background-image: url(../img/fundo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    
 }
 .navbar{
-  position:absolute;
   display: flex;
   width: 100vw;
   background-color: rgba(255, 255, 255, 0.453);
@@ -55,14 +53,13 @@ body {
 }
 .format {
     flex-direction: column;
-    justify-content: baseline;
     display: flex;
     align-items: center;
 }
 .inputsalas{
     width: 200px;
     height: 30px;
-    margin-top: 100px; 
+    margin-top: 30px; 
     border-radius: 3px;
     border: 2px solid  rgba(72, 177, 189, 0.158);
     outline: 1px solid rgba(72, 177, 189, 0.158);
@@ -96,7 +93,6 @@ body {
     text-decoration:none;
     color: rgb(255, 255, 255);
     transition: 0.3s;
-    padding: 10px;
   }
   .botaovoltar{
     height: 70px;
