@@ -38,7 +38,7 @@ body {
     font-size: 11pt;
     margin: 2px;
     font-weight: 500;
-   
+    
 }
 .user > i{
 
@@ -51,12 +51,20 @@ body {
 
     padding-right: 58px;
     margin-left: 3px;
-    background-color: rgba(18, 95, 57, 0);
+    background-color: transparent;
     border: none;
     color: rgb(0, 31, 84);
     margin-bottom: 10px;
     border-bottom: 1px solid rgb(26, 68, 31);
     outline: none;
+    
+}
+.user > input:-webkit-autofill,
+.user > input:-webkit-autofill:focus {
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+    -webkit-box-shadow: 0 0 0px 1000px rgba(0, 255, 255, 0.192) inset;
+    
 }
 .senha {
 
