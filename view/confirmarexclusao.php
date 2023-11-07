@@ -22,7 +22,7 @@ if ($_SESSION['admin'] <> 1) {
     <link href="../css/confirmarexclusao.css" rel="stylesheet">
     
   <!--  <link href="./css/bootstrap.min.css" rel="stylesheet">  -->
-    <title>PoV-Excluir usuário</title>
+    <title>PoV - Excluir usuário</title>
 </head>
 
 <body>
