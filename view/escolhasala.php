@@ -44,7 +44,8 @@ if ($_SESSION['logado'] <> true) {
             ?>
             </ul>
         </div>
-        <img class= "botaovoltar" onclick='location.href="../view/inicio.php"' src="../img/voltar.png" >
+        <img class= "botaovoltar" onclick='location.href="../rotas/destinosalas.php"' src="../img/voltar.png" >
+        
         <script>
             let inputElement = document.querySelector("input")
             let listElement = document.querySelector("ul")
