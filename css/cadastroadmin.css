@@ -67,7 +67,6 @@ body {
     
 }
 .nome > input {
-    
     padding-right: 60px;
     background-color: rgba(18, 95, 57, 0);
     border: none;
@@ -85,7 +84,6 @@ body {
     
 }
 .sobrenome > input {
-    
     padding-right: 60px;
     background-color: rgba(18, 95, 57, 0);
     border: none;
@@ -98,19 +96,16 @@ body {
 .nome > input:-webkit-autofill:focus {
     -webkit-animation-name: autofill;
     -webkit-animation-fill-mode: both;
-    -webkit-box-shadow: 0 0 0px 1000px rgba(0, 255, 255, 0.192) inset;
-    
+    -webkit-box-shadow: 0 0 0px 1000px rgba(0, 255, 255, 0.192) inset;   
 }
 .senha {
     color: rgb(0, 31, 84);
     font-size: 11pt;
     margin: 2px;
     margin-bottom: 3px;
-    font-weight: 500;
-    
+    font-weight: 500;  
 }
 .senha > input{
-    
     padding-right: 60px;
     background-color: rgba(18, 95, 57, 0);
     border: none;
@@ -131,8 +126,7 @@ body {
     justify-content: center;
     letter-spacing: 1px;
     cursor: pointer;
-    margin-top: 20px;
-    
+    margin-top: 20px;  
 }
 .botao:hover{
     background-color: rgb(96, 10, 181);
@@ -191,6 +185,5 @@ body {
     align-items: center;
     box-shadow: 0px 3px 10px black;
     text-decoration:none;
-    margin-right: 1vw;
-    
+    margin-right: 1vw;   
 }
