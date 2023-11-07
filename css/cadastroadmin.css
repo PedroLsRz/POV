@@ -71,9 +71,15 @@ body {
     background-color: rgba(18, 95, 57, 0);
     border: none;
     color: rgb(0, 31, 84);
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     border-bottom: 1px solid rgb(26, 68, 31);
     outline: none;
+}
+.nome > input:-webkit-autofill,
+.nome > input:-webkit-autofill:focus {
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+    -webkit-box-shadow: 0 0 0px 1000px rgba(0, 255, 255, 0.192) inset;   
 }
 .sobrenome{
     color: rgb(0, 31, 84);
@@ -88,12 +94,12 @@ body {
     background-color: rgba(18, 95, 57, 0);
     border: none;
     color: rgb(0, 31, 84);
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     border-bottom: 1px solid rgb(26, 68, 31);
     outline: none;
 }
-.nome > input:-webkit-autofill,
-.nome > input:-webkit-autofill:focus {
+.sobrenome > input:-webkit-autofill,
+.sobrenome > input:-webkit-autofill:focus {
     -webkit-animation-name: autofill;
     -webkit-animation-fill-mode: both;
     -webkit-box-shadow: 0 0 0px 1000px rgba(0, 255, 255, 0.192) inset;   

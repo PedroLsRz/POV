@@ -74,6 +74,13 @@ body {
     border-bottom: 1px solid rgb(26, 68, 31);
     outline: none;
 }
+.nome > input:-webkit-autofill,
+.nome > input:-webkit-autofill:focus {
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+    -webkit-box-shadow: 0 0 0px 1000px rgba(0, 255, 255, 0.192) inset;
+    
+}
 .sobrenome {
     color: rgb(0, 31, 84);
     font-size: 11pt;
@@ -90,12 +97,11 @@ body {
     border-bottom: 1px solid rgb(26, 68, 31);
     outline: none;
 }
-.nome > input:-webkit-autofill,
-.nome > input:-webkit-autofill:focus {
+.sobrenome > input:-webkit-autofill,
+.sobrenome > input:-webkit-autofill:focus {
     -webkit-animation-name: autofill;
     -webkit-animation-fill-mode: both;
-    -webkit-box-shadow: 0 0 0px 1000px rgba(0, 255, 255, 0.192) inset;
-    
+    -webkit-box-shadow: 0 0 0px 1000px rgba(0, 255, 255, 0.192) inset;   
 }
 .senha {
     color: rgb(0, 31, 84);
