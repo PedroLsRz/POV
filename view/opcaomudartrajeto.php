@@ -42,7 +42,7 @@ if ($_SESSION['logado'] <> true) {
             <h1 class ="texto">Você quer mudar sua localização?<br><br>
             </h1>
         
-            <a class= "botao" name= "excluir" href= "inicio.php">Sim</a>
+            <a class= "botao" name= "excluir" href= "../rotas/destinomudartrajeto.php">Sim</a>
             
           <a class= "botao2" name= "cancelar" href= "escolhasala.php">Não</a>
         
