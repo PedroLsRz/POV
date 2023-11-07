@@ -46,6 +46,8 @@ if ($_SESSION['admin'] <> 1) {
             </h1>
         <h1 class ="dado">Nome: <?php echo $_SESSION['nomeexclusao']; ?><br><br>
         </h1>
+        <h1 class ="dado">Sobrenome: <?php echo $_SESSION['sobrenomeexclusao']; ?><br><br>
+        </h1>
         <h1 class ="dado">Ra: <?php echo $_SESSION['raexclusao']; ?><br><br>
         </h1>
             <button type= "submit" class= "botao" name= "excluir">

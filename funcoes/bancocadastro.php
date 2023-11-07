@@ -5,6 +5,7 @@ include ('conexao.php');
 
 #variáves, cada uma corresponde aos inputs do arquivo cadastro
 $nome= $_POST ['nometexto'];
+$sobrenome= $_POST ['sobrenometexto'];
 $user= $_POST ['logintexto'];
 $senha= $_POST ['senhatexto'];
 $senha2= $_POST ['senhatexto2'];
@@ -15,7 +16,7 @@ $senha2= $_POST ['senhatexto2'];
 
 if($senha == $senha2) { 
      
-    $select = "INSERT into usuarios (nome, login, senha ,tipo) values ('$nome', '$user', '$senha', 0)";
+    $select = "INSERT into usuarios (nome, sobrenome, login, senha ,tipo) values ('$nome', '$sobrenome', '$user', '$senha', 0)";
 
     try{
     #executa a $conexao e o $select dentro dela

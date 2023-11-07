@@ -13,6 +13,7 @@ function excluirusuario() {
     
     $_SESSION['raexclusao'] = null;
     $_SESSION['nomeexclusao'] = null;
+    $_SESSION['sobrenomeexclusao'] = null;
 
     header('Location: ../view/excluirusuario.php');
 }

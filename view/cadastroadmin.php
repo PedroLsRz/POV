@@ -44,6 +44,9 @@ if ($_SESSION['admin'] <> 1) {
         <h1 class ="nome">Nome: <br>
             <input type = "text" name = "nometexto" required>
         </h1>
+        <h1 class ="sobrenome">Sobrenome: <br>
+            <input type = "text" name = "sobrenometexto" required>
+        </h1>
         <h1 class ="senha">Senha: <br>
             <input type = "password" name="senhatexto" required>
         </h1>

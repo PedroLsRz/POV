@@ -69,6 +69,24 @@ body {
     border-bottom: 1px solid rgb(26, 68, 31);
     outline: none;
 }
+.sobrenome{
+    color: rgb(0, 31, 84);
+    font-size: 11pt;
+    margin: 2px;
+    margin-top: 10px;
+    font-weight: 500;
+    
+}
+.sobrenome > input {
+    
+    padding-right: 60px;
+    background-color: rgba(18, 95, 57, 0);
+    border: none;
+    color: rgb(0, 31, 84);
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgb(26, 68, 31);
+    outline: none;
+}
 .senha {
     color: rgb(0, 31, 84);
     font-size: 11pt;
