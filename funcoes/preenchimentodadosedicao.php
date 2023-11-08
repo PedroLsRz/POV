@@ -8,6 +8,10 @@ function inputnome(){
     
     echo "<input type = 'text' name = 'sobrenometexto' value = '".$_SESSION['edicaosobrenome']."' required>";
         }
+function inputemail(){
+    
+    echo "<input type = 'text' name = 'emailtexto' value = '".$_SESSION['edicaoemail']."' required>";
+        }
 function inputra(){
     
     echo "<input type = 'text' name = 'logintexto' value = '".$_SESSION['edicaora']."' required>";
@@ -25,13 +29,14 @@ function inputsenha(){
             #variáves, cada uma corresponde aos inputs do arquivo cadastro
             $nome= $_POST ['nometexto'];
             $sobrenome= $_POST ['sobrenometexto'];
+            $email = $_POST ['emailtexto'];
             $ra= $_POST ['logintexto'];
             $senha= $_POST ['senhatexto'];
             $tipo= $_POST ['tipologin'];
             $id= $_POST ['id'];
 
             #fazendo uma variável que recebe o SELECT
-            $select = " UPDATE usuarios SET nome= '$nome', sobrenome= '$sobrenome', login='$ra', senha='$senha',tipo='$tipo' WHERE id='$id' ";
+            $select = " UPDATE usuarios SET nome= '$nome', sobrenome= '$sobrenome', email= '$email', login='$ra', senha='$senha',tipo='$tipo' WHERE id='$id' ";
             
             try{
             #executa a $conexao e o $select dentro dela

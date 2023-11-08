@@ -27,6 +27,9 @@
         <h1 class ="sobrenome">Sobrenome: <br>
             <input type = "text" name = "sobrenometexto" required>
         </h1>
+        <h1 class ="sobrenome">Email: <br>
+            <input type = "text" name = "emailtexto" required>
+        </h1>
         <h1 class ="senha">Senha: <br>
             <input type = "password" name="senhatexto" required>
         </h1>

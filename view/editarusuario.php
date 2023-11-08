@@ -53,6 +53,9 @@ if ($_SESSION['admin'] <> 1) {
         <h1 class ="nome">Sobrenome: <br>
             <?php inputsobrenome(); ?>
         </h1>
+        <h1 class ="nome">Email: <br>
+            <?php inputemail(); ?>
+        </h1>
         <h1 class ="senha">Senha: <br>
             <?php inputsenha(); ?>
         </h1>
