@@ -27,15 +27,17 @@
         <h1 class ="sobrenome">Sobrenome: <br>
             <input type = "text" name = "sobrenometexto" required>
         </h1>
-        <h1 class ="sobrenome">Email: <br>
+        <h1 class ="email">Email: <br>
             <input type = "text" name = "emailtexto" required>
         </h1>
         <h1 class ="senha">Senha: <br>
-            <input type = "password" name="senhatexto" required>
+            <input type = "password" name="senhatexto" minlength="8" required>
         </h1>
+        <h1 class= "descricao">Mínimo oito dígitos</h1>
         <h1 class ="senha2">Confirme a senha: <br>
-            <input type = "password" name="senhatexto2" required>
+            <input type = "password" name="senhatexto2" minlength="8" required>
         </h1>
+        <h1 class= "descricao">Mínimo oito dígitos</h1><br>
         <button type= "submit" class="botao" name = "entrar">
             CADASTRAR
         </button>
