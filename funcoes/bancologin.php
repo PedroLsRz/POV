@@ -4,12 +4,12 @@ function login(){
 #include adiciona as funcionalidades do arquivo incluído
 include ('conexao.php');
 
-$user= $_POST ['login'];
+$login= $_POST ['login'];
 $senha= $_POST ['senha'];
 
 #fazendo uma variável que recebe o SELECT
-$select = "SELECT nome, login, senha, tipo FROM usuarios
-WHERE login = '$user' AND senha = '$senha'";
+$select = "SELECT nome, login, senha, permissao FROM administradores
+WHERE login = '$login' AND senha = '$senha'";
 
 #executa a $conexao e o $select dentro dela
 $query = mysqli_query($conexao, $select);
@@ -19,22 +19,15 @@ $dado = mysqli_fetch_row($query);
 
 #Se $user for igual à $dado[1] e $senha for igual à $dado[2], comece 
 #a sessão e redirecione o usuário para a página indicada
-if ($user == isset($dado[1]) && $senha == isset($dado[2])) {
+if ($login == isset($dado[1]) && $senha == isset($dado[2])) {
     session_start();
-    $_SESSION['nome'] = $dado[0];
     $_SESSION['logado'] = true;
-    $_SESSION['admin'] = $dado[3];
-    if($dado[3] == 0) {
-        header('Location: ../view/inicio.php');
-    } else {
-        header('Location: ../view/admin.php');
-    }
-exit();
+    $_SESSION['permissao'] = $dado[3];
+    header('Location: ../view/admin.php');
 }
-#Se não for igual ou se forem nulos os valores, alerte o que foi declarado e redirecione
-#o usuário para a página indicada.
+#Se não for igual ou se forem nulos os valores exiba a mensagem  de erro
 else { 
-    echo '<div class="errologin">RA ou Senha Incorretos!</div>';
+    echo '<div class="errologin">Login ou Senha Incorretos!</div>';
     
 }
 
