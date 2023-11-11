@@ -29,6 +29,7 @@ body {
     flex-direction: column;
     color: rgb(0, 31, 84);
     font-weight: 500;
+    margin-bottom: 30px;
 
 }
 .user {
@@ -127,8 +128,8 @@ body {
 }
 .logo{
     display: flex;
-    height: 60vw;
+    height: 200px;
     min-height: 130px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     
 }

@@ -11,7 +11,7 @@
     <link href="../css/login.css" rel="stylesheet">
     
   <!--  <link href="./css/bootstrap.min.css" rel="stylesheet">  -->
-    <title>PoV - Login</title>
+    <title>PoV - Acesso Administrativo</title>
 </head>
 
 <body>
@@ -24,8 +24,9 @@
                         <!-- Formuláro de cadastro-->
     <form class= "forms" action="" id="form-login" method = "POST" >
     
-        <h1 class = "tituloform">LOGIN</h1>
-            <h1 class ="user">RA<br><br>
+        <!-- Deixei o título do formulário de login comentado pra decidir se coloca algo depois ou deixa sem -->
+        <!-- <h1 class = "tituloform">LOGIN</h1> -->
+            <h1 class ="user">Login<br><br>
             <i></i>
                 <input type = "text" name = "login" required> 
             </h1>
@@ -37,7 +38,6 @@
             <button type= "submit" class= "botao" name= "entrar">
                 ENTRAR
         </button>
-        <a class = "cadastrar" href="./cadastro.php">Crie sua conta aqui!</a>
         <br>
 
         <?php 
