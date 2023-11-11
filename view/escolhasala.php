@@ -25,7 +25,7 @@ session_start();
                 <a class="saudacao">Escolha a sala<br>que deseja ir!</a>
                 <!-- Link para encerrar a sessão montada no arquivo declarado abaixo-->
 
-                <a class = "sair" href="../funcoes/logout.php">Sair</a>
+                <a></a>
 
             </nav>
             

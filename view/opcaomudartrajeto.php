@@ -28,7 +28,7 @@ session_start();
 <img class= "logo" src="../img/logoNavBar.png" > 
 
 <!-- Link para encerrar a sessão montada no arquivo declarado abaixo-->
-<a class = "sair" href="../funcoes/logout.php">Sair</a>
+<a></a>
 </nav>
 
                         <!-- Formuláro de cadastro-->

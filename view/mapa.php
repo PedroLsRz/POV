@@ -25,7 +25,7 @@ require_once "../funcoes/defineposicaomapa.php";
      <img class= "logo" src="../img/logoNavBar.png" > 
         <a class="mudartrajeto" type="submit" href="opcaomudartrajeto.php">Mudar Trajeto</a>
          <!-- Link para encerrar a sessão montada no arquivo declarado abaixo-->
-        <a class = "sair" href="../funcoes/logout.php">Sair</a>
+        <a></a>
         
   </nav>
   <a href="#entrada" id="linkentrada"></a>

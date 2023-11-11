@@ -29,7 +29,7 @@ session_start();
                         <a class= "botaodeteste" href="../rotas/localiza.php?loc=refeitoriofpb">Refeitorio</a><br>
                         <a class= "botaodeteste" href="../rotas/localiza.php?loc=coordenacaofpb">Coordenação</a>
                     </div>
-                <a class = "sair" href="../funcoes/logout.php">Sair</a>
+                <a></a>
                 
             
             </nav>
