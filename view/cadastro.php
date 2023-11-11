@@ -18,18 +18,26 @@
     <form class= "forms" id=" form-cadastro" action = "" method = "POST" >
         <h1 class = "tituloform">CADASTRO</h1>
         <h1 class ="user">RA: <br>
-            <input type = "text" name = "logintexto" required> 
+            <input type = "number" name = "logintexto" required> 
         </h1>
         <h1 class= "descricao">Não é preciso digitar @ulife.com.br</h1>
         <h1 class ="nome">Nome: <br>
             <input type = "text" name = "nometexto" required>
         </h1>
+        <h1 class ="sobrenome">Sobrenome: <br>
+            <input type = "text" name = "sobrenometexto" required>
+        </h1>
+        <h1 class ="email">Email: <br>
+            <input type = "email" name = "emailtexto" required>
+        </h1>
         <h1 class ="senha">Senha: <br>
-            <input type = "password" name="senhatexto" required>
+            <input type = "password" name="senhatexto" minlength="8" required>
         </h1>
+        <h1 class= "descricao">Mínimo oito dígitos</h1>
         <h1 class ="senha2">Confirme a senha: <br>
-            <input type = "password" name="senhatexto2" required>
+            <input type = "password" name="senhatexto2" minlength="8" required>
         </h1>
+        <h1 class= "descricao">Mínimo oito dígitos</h1><br>
         <button type= "submit" class="botao" name = "entrar">
             CADASTRAR
         </button>

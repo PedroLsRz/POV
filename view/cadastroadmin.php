@@ -44,8 +44,14 @@ if ($_SESSION['admin'] <> 1) {
         <h1 class ="nome">Nome: <br>
             <input type = "text" name = "nometexto" required>
         </h1>
+        <h1 class ="sobrenome">Sobrenome: <br>
+            <input type = "text" name = "sobrenometexto" required>
+        </h1>
+        <h1 class ="email">Email: <br>
+            <input type = "email" name = "emailtexto" required>
+        </h1>
         <h1 class ="senha">Senha: <br>
-            <input type = "password" name="senhatexto" required>
+            <input type = "password" name="senhatexto" minlength="8" required>
         </h1>
         <h1 class ="senha">Tipo de login: <br></h1>
         <div class="form-check">

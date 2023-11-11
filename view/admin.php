@@ -42,7 +42,7 @@ if ($_SESSION['admin'] <> 1) {
                  <button type="submit" class="botao" name="edicao" onclick="window.location.href='./escolhaeditarusuario.php'">Editar dados <br>de um Usuário</button>
                  <h1 class="aplicacao">Aplicação</h1>
                  <button type="submit" class="botao" name="editar">Editar salas</button>
-                <button type="submit" class="botao" name="Testar">Testar aplicação</button>
+                <button type="submit" class="botao" name="Testar" onclick="window.location.href='./testedoadmin.php'">Testar aplicação</button>
                 </div>
         
     </div>
