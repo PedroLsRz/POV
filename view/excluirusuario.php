@@ -7,10 +7,6 @@ session_start();
 if ($_SESSION['logado'] <> true) {
   header('Location: login.php');
 }
-#Se a sessão admin for diferente de 1, redirecione para a página indicada
-if ($_SESSION['admin'] <> 1) {
-    header('Location: login.php');
-  }
 ?>
 
 

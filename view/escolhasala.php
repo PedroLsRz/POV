@@ -2,10 +2,6 @@
 require_once "../funcoes/bancosalas.php";
 #Iniciar sessão
 session_start();
-#Se a sessão LOGADO for diferente de VERDADEIRA, redirecione para a página indicada
-if ($_SESSION['logado'] <> true) {
-  header('Location: login.php');
-}
 ?>
 
 <!DOCTYPE html>
