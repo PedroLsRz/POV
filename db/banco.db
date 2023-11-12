@@ -2,15 +2,16 @@ create database bancopov;
 
 use bancopov;
 
-create table usuarios (
+create table administradores (
 id int auto_increment primary key,
-nome varchar(120) not null,
-sobrenome varchar(120) not null,
+nome varchar(300) not null,
 login varchar(100) unique key NOT NULL,
-email varchar(70) not null,
 senha varchar(100) not null,
-tipo integer not null
+permissao integer not null
 );
+
+insert into administradores (nome,login, senha, permissao)
+values ("Administrador", "admin","admin", 1);
 
 create table salas (
 id int auto_increment primary key,
