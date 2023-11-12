@@ -1,20 +1,16 @@
 <?php
 
 $nome = $_GET['nome'];
-$sobrenome = $_GET['sobrenome'];
-$email = $_GET['email'];
-$ra = $_GET['ra'];
+$login = $_GET['login'];
 $senha = $_GET['senha'];
-$tipo = $_GET['tipo'];
 $id = $_GET['id'];
+$permissao = $_GET['permissao'];
 
 session_start();
 $_SESSION['edicaonome'] = $nome;
-$_SESSION['edicaosobrenome'] = $sobrenome;
-$_SESSION['edicaoemail'] = $email;
-$_SESSION['edicaora'] = $ra;
+$_SESSION['edicaologin'] = $login;
 $_SESSION['edicaosenha'] = $senha;
-$_SESSION['edicaotipo'] = $tipo;
+$_SESSION['edicaopermissao'] = $permissao;
 $_SESSION['edicaoid'] = $id;
 
 header('Location: ../view/editarusuario.php');

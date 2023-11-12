@@ -16,8 +16,8 @@ body {
 }
 .forms {
     background-color: rgba(255, 255, 255, 0.503);
-    padding: 60px 30px;
-    border-radius: 5px;
+    padding: 50px 20px;
+    border-radius: 10px;
     
     
 }
@@ -128,8 +128,7 @@ body {
 }
 .logo{
     display: flex;
-    height: 200px;
+    height: 180px;
     min-height: 130px;
     margin-bottom: 20px;
-    
 }

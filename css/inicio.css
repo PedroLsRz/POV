@@ -61,7 +61,7 @@ body {
 }
 .camera{
     margin-top: 20px;
-    width: 80%;
+    width: 200px;
     
 }
 .guia{
@@ -69,7 +69,7 @@ body {
     justify-content: baseline;
     display: flex;
     align-items: center;
-    width: 70%;
+    width: 220px;
     margin-top: 20px;
 }
 .botaodeteste{

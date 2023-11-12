@@ -16,7 +16,7 @@ body {
 }
 .forms {
     background-color: rgba(255, 255, 255, 0.503);
-    padding: 35px 35px;
+    padding: 35px 25px;
     border-radius: 5px;
     margin-top: 30px;
 }
@@ -32,7 +32,6 @@ body {
     color: rgb(0, 31, 84);
     font-size: 11pt;
     margin: 2px;
-    margin-top: 30px;
     font-weight: 500;
 }
 .user > input {
@@ -52,17 +51,11 @@ body {
     -webkit-box-shadow: 0 0 0px 1000px rgba(0, 255, 255, 0.192) inset;
     
 }
-.descricao {
-    font-size: 11px;
-    margin: 2px;
-    color: rgb(0, 31, 84);
-    margin-bottom: 20px;
-}
 .nome{
     color: rgb(0, 31, 84);
     font-size: 11pt;
     margin: 2px;
-    margin-top: 10px;
+    margin-top: 30px;
     font-weight: 500;
     
 }
@@ -71,8 +64,8 @@ body {
     background-color: rgba(18, 95, 57, 0);
     border: none;
     color: rgb(0, 31, 84);
-    margin-bottom: 20px;
     border-bottom: 1px solid rgb(26, 68, 31);
+    margin-bottom: 20px;
     outline: none;
 }
 .nome > input:-webkit-autofill,
@@ -80,51 +73,6 @@ body {
     -webkit-animation-name: autofill;
     -webkit-animation-fill-mode: both;
     -webkit-box-shadow: 0 0 0px 1000px rgba(0, 255, 255, 0.192) inset;   
-}
-.sobrenome{
-    color: rgb(0, 31, 84);
-    font-size: 11pt;
-    margin: 2px;
-    margin-top: 10px;
-    font-weight: 500;
-    
-}
-.sobrenome > input {
-    padding-right: 60px;
-    background-color: rgba(18, 95, 57, 0);
-    border: none;
-    color: rgb(0, 31, 84);
-    margin-bottom: 20px;
-    border-bottom: 1px solid rgb(26, 68, 31);
-    outline: none;
-}
-.sobrenome > input:-webkit-autofill,
-.sobrenome > input:-webkit-autofill:focus {
-    -webkit-animation-name: autofill;
-    -webkit-animation-fill-mode: both;
-    -webkit-box-shadow: 0 0 0px 1000px rgba(0, 255, 255, 0.192) inset;   
-}
-.email {
-    color: rgb(0, 31, 84);
-    font-size: 11pt;
-    margin: 2px;
-    margin-top: 10px;
-    font-weight: 500;
-}
-.email > input {
-    padding-right: 60px;
-    background-color: rgba(18, 95, 57, 0);
-    border: none;
-    color: rgb(0, 31, 84);
-    margin-bottom: 20px;
-    border-bottom: 1px solid rgb(26, 68, 31);
-    outline: none;
-}
-.email > input:-webkit-autofill,
-.email > input:-webkit-autofill:focus {
-    -webkit-animation-name: autofill;
-    -webkit-animation-fill-mode: both;
-    -webkit-box-shadow: 0 0 0px 1000px rgba(0, 255, 255, 0.192) inset; 
 }
 .senha {
     color: rgb(0, 31, 84);

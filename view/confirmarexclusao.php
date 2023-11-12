@@ -4,7 +4,7 @@ require_once "../funcoes/bancoconfirmarexclusao.php";
 session_start();
 #Se a sessão LOGADO for diferente de VERDADEIRA, redirecione para a página indicada
 if ($_SESSION['logado'] <> true) {
-  header('Location: ../login.php');
+  header('Location: acessoadmin.php');
 }
 ?>
 
@@ -19,7 +19,7 @@ if ($_SESSION['logado'] <> true) {
     <link href="../css/confirmarexclusao.css" rel="stylesheet">
     
   <!--  <link href="./css/bootstrap.min.css" rel="stylesheet">  -->
-    <title>PoV - Excluir usuário</title>
+    <title>PoV - Excluir Administrador</title>
 </head>
 
 <body>
@@ -43,11 +43,7 @@ if ($_SESSION['logado'] <> true) {
             </h1>
         <h1 class ="dado">Nome: <?php echo $_SESSION['nomeexclusao']; ?><br><br>
         </h1>
-        <h1 class ="dado">Sobrenome: <?php echo $_SESSION['sobrenomeexclusao']; ?><br><br>
-        </h1>
-        <h1 class ="dado">Email: <?php echo $_SESSION['emailexclusao']; ?><br><br>
-        </h1>
-        <h1 class ="dado">Ra: <?php echo $_SESSION['raexclusao']; ?><br><br>
+        <h1 class ="dado">Login: <?php echo $_SESSION['loginexclusao']; ?><br><br>
         </h1>
             <button type= "submit" class= "botao" name= "excluir">
                 Excluir

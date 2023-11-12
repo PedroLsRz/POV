@@ -9,21 +9,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
     <link href="../css/login.css" rel="stylesheet">
-    
-  <!--  <link href="./css/bootstrap.min.css" rel="stylesheet">  -->
     <title>PoV - Acesso Administrativo</title>
 </head>
 
 <body>
-
 <!-- Classe para manipular o fundo da pagina-->
 <div class="fundo">
     <!-- Logo da aplicação -->
-    
     <img class= "logo" src="../img/logoPov.png" >
                         <!-- Formuláro de cadastro-->
     <form class= "forms" action="" id="form-login" method = "POST" >
-    
         <!-- Deixei o título do formulário de login comentado pra decidir se coloca algo depois ou deixa sem -->
         <!-- <h1 class = "tituloform">LOGIN</h1> -->
             <h1 class ="user">Login<br><br>

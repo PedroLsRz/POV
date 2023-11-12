@@ -5,7 +5,7 @@ require_once "../funcoes/bancoescolhaeditarusuario.php";
 session_start();
 #Se a sessão LOGADO for diferente de VERDADEIRA, redirecione para a página indicada
 if ($_SESSION['logado'] <> true) {
-  header('Location: login.php');
+  header('Location: acessoadmin.php');
 }
 ?>
 

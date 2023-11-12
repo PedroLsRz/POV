@@ -3,7 +3,7 @@
 session_start();
 #Se a sessão LOGADO for diferente de VERDADEIRA, redirecione para a página indicada
 if ($_SESSION['logado'] <> true) {
-  header('Location: login.php');
+  header('Location: acessoadmin.php');
 }
 ?>
 
@@ -28,7 +28,7 @@ if ($_SESSION['logado'] <> true) {
                 <!-- <a class="saudacao">Olá, <?php echo $_SESSION['nome'] ?><br>Seja bem-vindo!</a> -->
                 <!-- Link para encerrar a sessão montada no arquivo declarado abaixo-->
                 
-                <a class="saudacao">Olá, <?php echo $_SESSION['nome'] ?><br>Teste sua aplicação aqui!</a> 
+                <a class="saudacao">Teste sua aplicação aqui!</a> 
                 <a class = "sair" href="../funcoes/logout.php">Sair</a>
                 
             
