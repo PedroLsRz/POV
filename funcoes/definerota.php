@@ -127,16 +127,16 @@ function definerota(){
     }
     switch ($_SESSION['sala']) {
         case "a1":
-            $final = "470,3080 550,3080";
+            $final = "470,3080 550,2990";
             break;
         case "b1":
-            $final = "";
+            $final = "510,2990 510,2945";
             break;
         case "b2":
-            $final = "";
+            $final = "915,2990 915,2945";
             break;
         case "b3":
-            $final = "";
+            $final = "470,2990";
             break;
         case "b4":
             $final = "";
