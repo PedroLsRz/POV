@@ -4,14 +4,14 @@ function definerota(){
     
     switch($_SESSION['loc']){
         case "entradafpb":
-            $inicio = '750,4950';
+            $inicio = '470,3150';
 
             switch($_SESSION['area']){
                 case "a":
                     $trajeto = " ";
                     break;
                 case "b":
-                    $trajeto =" 750,4760 ";
+                    $trajeto =" 470,2990 ";
                     break;
                 case "c":
                     $trajeto = " 750,4760 1600,4760 1600,4210 1720,4210 ";
@@ -127,124 +127,124 @@ function definerota(){
     }
     switch ($_SESSION['sala']) {
         case "a1":
-            $final = "750,4920 900,4920";
+            $final = "470,3080 550,3080";
             break;
         case "b1":
-            $final = "800,4760 800,4650";
+            $final = "";
             break;
         case "b2":
-            $final = "1450,4760 1450,4650";
+            $final = "";
             break;
         case "b3":
-            $final = "1550,4760 1550,4880";
+            $final = "";
             break;
         case "b4":
-            $final = "1680,4760";
+            $final = "";
             break;
         case "c1":
-            $final = "1720,3900 1620,3900";
+            $final = "";
             break;
         case "c2":
-            $final = "1720,4010 1830,4010";
+            $final = "";
             break;
         case "d1":
-            $final = "2170,3825 2170,3690";
+            $final = "";
             break;
         case "d2":
-            $final = "2340,3825 2340,3950 ";
+            $final = "";
             break;
         case "e1":
-            $final = "2355,3725 2540,3725";
+            $final = "";
             break;
         case "e2":
-            $final = "2350,3300 2520,3300";
+            $final = "";
             break;
         case "e3":
-            $final = "2355,2590 2465,2590";
+            $final = "";
             break;
         case "e4":
-            $final = "2355,3130 2240,3130";
+            $final = "";
             break;
         case "e5":
-            $final = "2355,3055 2240,3055";
+            $final = "";
             break;
         case "e6":
-            $final = "2355,2720 2240,2720";
+            $final = "";
             break;
         case "e7":
-            $final = "2355,2640 2240,2640";
+            $final = "";
             break;
         case "e8":
-            $final = "2355,1990 2465,1990";
+            $final = "";
             break;
         case "e9":
-            $final = "2355,1410 2475,1410";
+            $final = "";
             break;
         case "e10":
-            $final = "2355,1300 2495,1300";
+            $final = "";
             break;
         case "f1":
-            $final = "1970,3330 1970,3450";
+            $final = "";
             break;
         case "g1":
-            $final = "1620,3100 1620,3250";
+            $final = "";
             break;
         case "g2":
-            $final = "1430,3100 1430,2970";
+            $final = "";
             break;
         case "g3":
-            $final = "1260,3100 1260,3250";
+            $final = "";
             break;
         case "g4":
-            $final = "1160,3100 1160,3250";
+            $final = "";
             break;
         case "g5":
-            $final = "1160,3100 1160,2960";
+            $final = "";
             break;
         case "h1":
-            $final = "1530,2880 1590,2880";
+            $final = "";
             break;
         case "h2":
-            $final = "1530,2760";
+            $final = "";
             break;
         case "i1":
-            $final = "1280,2010 1280,2110";
+            $final = "";
             break;
         case "i2":
-            $final = "1895,2010 1895,2110";
+            $final = "";
             break;
         case "i3":
-            $final = "2015,2010 2015,2110";
+            $final = "";
             break;
         case "i4":
-            $final = "1190,2010";
+            $final = "";
             break;
         case "j1":
-            $final = "1385,460";
+            $final = "";
             break;
         case "j2":
-            $final = "1710,460 1710,370";
+            $final = "";
             break;
         case "j3":
-            $final = "2110,460 2110,370";
+            $final = "";
             break;
         case "j4":
-            $final = "2205,460 2205,370";
+            $final = "";
             break;
         case "j5":
-            $final = "2515,460 2515,370";
+            $final = "";
             break;
         case "j6":
-            $final = "2770,460 2770,370";
+            $final = "";
             break;
         case "j7":
-            $final = "2555,460 2555,545";
+            $final = "";
             break;
         case "l1":
-            $final = "2255,1310";
+            $final = "";
             break;
         case "l2":
-            $final = "305,1310 305,460";
+            $final = "";
             break;
     }
 

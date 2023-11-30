@@ -99,28 +99,28 @@ body {
     height: 50px;
     background-color: none;
     position:relative;
-    top: -450px;
-    left:930px;
+    top: -150px;
+    left:630px;
 }
 .divrefeitorio{
     width: 50px;
     height: 50px;
     background-color: none;
     position:relative;
-    top: -4100px;
-    left:2300px;
+    top: -2550px;
+    left:1470px;
 }
 .divcoordenacao{
     width: 50px;
     height: 50px;
     background-color: none;
     position:relative;
-    top: -1700px;
-    left: 1700px;
+    top: -1050px;
+    left: 1100px;
 }
 .svg{
-    height: 5200px;
-    width: 3000px;
+    height: 3200px;
+    width: 1900px;
     align-items: center;
     justify-content: center;
     display:block;
@@ -132,13 +132,13 @@ body {
 .linha{
     fill:none;
     stroke: rgb(83, 10, 152);
-    stroke-width:30px;
+    stroke-width:8px;
     opacity: 0.8;
 }
 .linhatracada{
     fill:none;
     stroke: rgb(235, 213, 255);
-    stroke-width:4px;
+    stroke-width:2px;
     opacity: 0.8;   
-    stroke-dasharray: 10px 50px;
+    stroke-dasharray: 10px 20px;
 }
