@@ -4,6 +4,7 @@ session_start();
 #Se a sessão LOGADO for diferente de VERDADEIRA, redirecione para a página indicado
 require_once "../funcoes/definerota.php";
 require_once "../funcoes/defineposicaomapa.php";
+require_once "../funcoes/buscanomesala.php";
 ?>
 
 <!DOCTYPE html>
@@ -31,6 +32,7 @@ require_once "../funcoes/defineposicaomapa.php";
   <a href="#entrada" id="linkentrada"></a>
   <a href="#refeitorio" id="linkrefeitorio"></a>
   <a href="#coordenacao" id="linkcoordenacao"></a>
+  <?php buscarnomes(); ?>
   <?php posicaomapa(); ?>
       
     <div class= "format">
@@ -44,6 +46,10 @@ require_once "../funcoes/defineposicaomapa.php";
             <div id="entrada" class="diventrada"></div>
             <div id="refeitorio" class="divrefeitorio"></div>
             <div id="coordenacao" class="divcoordenacao"></div>
+            <div id="a1" class="a1"><?php echo $_SESSION["a1"]; ?></div>
+            <div id="a1" class="b1"><?php echo $_SESSION["b1"]; ?></div>
+            <div id="a1" class="b2"><?php echo $_SESSION["b2"]; ?></div>
+            <div id="a1" class="b4"><?php echo $_SESSION["b4"]; ?></div>
             </div>
         </div>
       </div>
