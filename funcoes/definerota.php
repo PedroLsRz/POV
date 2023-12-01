@@ -32,7 +32,7 @@ function definerota(){
                     $trajeto = " 470,2990 990,2990 990,2650 1080,2650 1080,2405 1470,2405 1470,2095 1135,2095 1135,1980 1105,1955 955,1955 ";
                     break;
                 case "i":
-                    $trajeto = " 470,2990 990,2990 990,2650 1080,2650 1080,2405 1470,2405 1470,1260 ";
+                    $trajeto = " 470,2990 990,2990 990,2650 1080,2650 1080,2405 1470,2405 1470,1255 ";
                     break;
                 case "j":
                     $trajeto = " 470,2990 990,2990 990,2650 1080,2650 1080,2405 1470,2405 1470,285 ";
@@ -73,7 +73,7 @@ function definerota(){
                     $trajeto = " 1470,880 1470,2095 1135,2095 1135,1980 1105,1955 955,1955 ";
                     break;
                 case "i":
-                    $trajeto = " 1470,880 1470,1260 ";
+                    $trajeto = " 1470,880 1470,1255 ";
                     break;
                 case "j":
                     $trajeto = " 1470,880 1470,285";
@@ -114,7 +114,7 @@ function definerota(){
                     $trajeto = " 1080,2405 1470,2405 1470,2095 1135,2095 1135,1980 1105,1955 955,1955 ";
                     break;
                 case "i":
-                    $trajeto = " 1080,2405 1470,2405 1470,1260 ";
+                    $trajeto = " 1080,2405 1470,2405 1470,1255 ";
                     break;
                 case "j":
                     $trajeto = " 1080,2405 1470,2405 1470,285 ";
@@ -136,7 +136,7 @@ function definerota(){
             $final = "915,2990 915,2945";
             break;
         case "b3":
-            $final = "SALA DESATIVADA";
+            $final = "";
             break;
         case "b4":
             $final = "1055,2990";
@@ -202,49 +202,49 @@ function definerota(){
             $final = "735,1955 735,1905";
             break;
         case "h1":
-            $final = "";
+            // $final = "955,1835 ";
             break;
         case "h2":
-            $final = "";
+            $final = "955,1750 ";
             break;
         case "i1":
-            $final = "";
+            $final = "795,1255 795,1315 ";
             break;
         case "i2":
-            $final = "";
+            $final = "1190,1255 1190,1315";
             break;
         case "i3":
-            $final = "";
+            $final = "1255,1255 1255,1315";
             break;
         case "i4":
-            $final = "";
+            $final = "755,1255 ";
             break;
         case "j1":
-            $final = "";
+            $final = "890,285";
             break;
         case "j2":
-            $final = "";
+            $final = "1070,285 1070,235";
             break;
         case "j3":
-            $final = "";
+            $final = "1320,285 1320,235 ";
             break;
         case "j4":
-            $final = "";
+            $final = "1380,285 1380,235";
             break;
         case "j5":
-            $final = "";
+            $final = "1580,285 1580,235";
             break;
         case "j6":
             $final = "";
             break;
         case "j7":
-            $final = "";
+            $final = "1600,285 1600,335";
             break;
         case "l1":
-            $final = "";
+            $final = "1370,880";
             break;
         case "l2":
-            $final = "";
+            $final = "190,880 190,315 ";
             break;
     }
 
