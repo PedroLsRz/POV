@@ -136,70 +136,70 @@ function definerota(){
             $final = "915,2990 915,2945";
             break;
         case "b3":
-            $final = "470,2990";
+            $final = "SALA DESATIVADA";
             break;
         case "b4":
-            $final = "";
+            $final = "1055,2990";
             break;
         case "c1":
-            $final = "";
+            $final = "1080,2460 1040,2460";
             break;
         case "c2":
-            $final = "";
+            $final = "1080,2520 1120,2520";
             break;
         case "d1":
-            $final = "";
+            $final = "1360,2405 1360,2360";
             break;
         case "d2":
-            $final = "";
+            $final = "1460,2405 1460,2445";
             break;
         case "e1":
-            $final = "";
+            $final = "1470,2330 1530,2330";
             break;
         case "e2":
-            $final = "";
+            $final = "1470,2060 1530,2060";
             break;
-        case "e3":
-            $final = "";
+        case "e3": 
+            $final = "1470,1630 1530,1630";
             break;
         case "e4":
-            $final = "";
+            $final = "1470,1970 1425,1970";
             break;
         case "e5":
-            $final = "";
+            $final = "1470,1920 1425,1920";
             break;
         case "e6":
-            $final = "";
+            $final = "1470,1710 1425,1710";
             break;
         case "e7":
-            $final = "";
+            $final = "1470,1655 1425,1655";
             break;
         case "e8":
-            $final = "";
+            $final = "1470,1245 1530,1245";
             break;
         case "e9":
-            $final = "";
+            $final = "1470,880 1530,880";
             break;
         case "e10":
-            $final = "";
+            $final = "1470,825 1530,825";
             break;
         case "f1":
-            $final = "";
+            $final = "1190,2095 1190,2140";
             break;
         case "g1":
-            $final = "";
+            $final = " 1010,1955 1010,2000";
             break;
         case "g2":
-            $final = "";
+            $final = "900,1955 900,1905";
             break;
         case "g3":
-            $final = "";
+            $final = "780,1955 780,2000";
             break;
         case "g4":
-            $final = "";
+            $final = "735,1955 735,2000";
             break;
         case "g5":
-            $final = "";
+            $final = "735,1955 735,1905";
             break;
         case "h1":
             $final = "";
