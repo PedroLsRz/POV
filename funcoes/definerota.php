@@ -178,28 +178,28 @@ function definerota(){
             $final = "1470,1245 1530,1245";
             break;
         case "e9":
-            $final = "";
+            $final = "1470,880 1530,880";
             break;
         case "e10":
-            $final = "";
+            $final = "1470,825 1530,825";
             break;
         case "f1":
-            $final = "";
+            $final = "1190,2095 1190,2140";
             break;
         case "g1":
-            $final = "";
+            $final = " 1010,1955 1010,2000";
             break;
         case "g2":
-            $final = "";
+            $final = "900,1955 900,1905";
             break;
         case "g3":
-            $final = "";
+            $final = "780,1955 780,2000";
             break;
         case "g4":
-            $final = "";
+            $final = "735,1955 735,2000";
             break;
         case "g5":
-            $final = "";
+            $final = "735,1955 735,1905";
             break;
         case "h1":
             $final = "";
