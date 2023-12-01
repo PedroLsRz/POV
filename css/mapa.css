@@ -142,3 +142,65 @@ body {
     opacity: 0.8;   
     stroke-dasharray: 10px 20px;
 }
+.divcoordenacao{
+    width: 50px;
+    height: 50px;
+    background-color: none;
+    position:relative;
+    top: -1050px;
+    left: 1100px;
+}
+
+ /* Nomes das salas no mapa*/
+.a1{
+    width: 120px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -290px;
+    left:545px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.b1{
+    width: 150px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -570px;
+    left:420px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.b2{
+    width: 140px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -690px;
+    left:820px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.b4{
+    width: 70px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -740px;
+    left: 1070px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
