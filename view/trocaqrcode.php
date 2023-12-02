@@ -2,9 +2,6 @@
 #Iniciar sessão
 session_start();
 #Se a sessão LOGADO for diferente de VERDADEIRA, redirecione para a página indicada
-if ($_SESSION['logado'] <> true) {
-  header('Location: acessoadmin.php');
-}
 ?>
 
 <!DOCTYPE html>
@@ -30,18 +27,16 @@ if ($_SESSION['logado'] <> true) {
 
 <img class= "logo" src="../img/logoNavBar.png" > 
 
-<!-- Link para encerrar a sessão montada no arquivo declarado abaixo-->
-<a class = "sair" href="../funcoes/logout.php">Sair</a>
 </nav>
 
                         <!-- Formuláro de cadastro-->
     <form class= "forms" action="" method = "POST" >
 
         <h1 class = "tituloform">ATENÇÃO</h1>
-            <h1 class ="texto">O QrCode lido não é válido. Leia novamente.<br><br>
+            <h1 class ="texto">O QrCode lido não é válido.<br><br>
         </h1>
             <button type= "submit" class= "botao" name= "ler">
-                Ler
+                Ler novamente
         </button>
        
         <?php 
