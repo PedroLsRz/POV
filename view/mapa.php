@@ -84,6 +84,7 @@ require_once "../funcoes/buscanomesala.php";
             <div id="j7" class="j7"><?php echo $_SESSION["j7"]; ?></div>
             <div id="l1" class="l1"><?php echo $_SESSION["l1"]; ?></div>
             <div id="l2" class="l2"><?php echo $_SESSION["l2"]; ?></div>
+            <div id="l3" class="l3"><?php echo $_SESSION["l3"]; ?></div>
             </div>
         </div>
       </div>

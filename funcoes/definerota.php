@@ -246,6 +246,9 @@ function definerota(){
         case "l2":
             $final = "190,880 190,315 ";
             break;
+        case "l3":
+            $final = "595,880 595,320 ";
+            break;
     }
 
     echo "<polyline class='linha' points='".$inicio.$trajeto.$final."'/>
