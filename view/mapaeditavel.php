@@ -31,6 +31,12 @@ require_once "../funcoes/buscanomesala.php";
         
   </nav>
   <a href="#entrada" id="linkentrada"></a>
+  <script type='text/javascript'>  
+            window.onload = function(){  
+            document.getElementById('linkentrada').click();  
+            }  
+          </script>
+          
   <?php buscarnomes(); ?>
  
       
