@@ -37,7 +37,7 @@ if ($_SESSION['logado'] <> true) {
                  <button type="submit" class="botao" name="excluir" onclick="window.location.href='./excluirusuario.php'">Excluir Usuário</button>
                  <button type="submit" class="botao" name="edicao" onclick="window.location.href='./escolhaeditarusuario.php'">Editar dados <br>de um Usuário</button>
                  <h1 class="aplicacao">Aplicação</h1>
-                 <button type="submit" class="botao" name="editar">Editar salas</button>
+                 <button type="submit" class="botao" name="editar" onclick="window.location.href='./mapaeditavel.php'">Editar salas</button>
                 <button type="submit" class="botao" name="Testar" onclick="window.location.href='./testedoadmin.php'">Testar aplicação</button>
                 </div>
         

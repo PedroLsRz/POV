@@ -70,7 +70,7 @@ if ($_SESSION['logado'] <> true) {
 
             </nav>
                            
-        <img class= "botaovoltar" onclick='location.href="../rotas/destinosalas.php"' src="../img/voltar.png" >
+        <img class= "botaovoltar" onclick='location.href="../view/admin.php"' src="../img/voltar.png" >
     </div>
 </body>
 </html>
