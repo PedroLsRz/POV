@@ -27,6 +27,16 @@ body {
     margin-top: 10px;
     margin-left: 1vw;
 }
+.bemvindo{
+    width: 260px;
+    margin-top: 20px;
+}
+.botaoiniciar{
+    width: 90px;
+    margin-top: 20px;
+    
+    margin-left: 150px;
+}
 .saudacao{
     text-align: center;
     text-decoration:none;
