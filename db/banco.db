@@ -43,6 +43,9 @@ values ("D13","j1","j","Laboratório de performace humana"),("D12","j2","j","Cri
 	   ("D10","j4","j","Laboratório de conforto ambiental e maquete"),("SM2","j5","j","Sala misteriosa"),("SM3","j6","j","Sala misteriosa"),("Academia","j7","j","Educação Física"),
 	   ("Refeitório","l1","l","Ambiente de lazer"),("Biblioteca","l2","l","Ambiente de estudo");
 
+insert into salas (nome,codsala,area,descricao)
+values ("CEP","l3","l","Clínica Escola de Psicologia");
+
 
 update salas set codsala = 'b4', area = 'b' where id = '5';
 update salas set codsala = 'i4', area = 'i' where id = '28';

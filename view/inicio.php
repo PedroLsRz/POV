@@ -61,8 +61,6 @@ session_start();
                 
             </script>
             
-            <img class= "guia" src="../img/guia.png" >
-            
         </div>
                     
         

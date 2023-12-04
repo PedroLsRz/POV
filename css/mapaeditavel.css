@@ -151,7 +151,7 @@ body {
     left: 1100px;
 }
 
- /* Nomes das salas no mapa*/
+ /* Nomes das salas no mapa editável*/
 .a1{
     width: 120px;
     height: 120px;
@@ -160,7 +160,7 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -290px;
+    top: -189px;
     left:545px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
@@ -173,7 +173,7 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -570px;
+    top: -470px;
     left:420px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
@@ -186,7 +186,7 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -690px;
+    top: -590px;
     left:820px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
@@ -199,7 +199,7 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -740px;
+    top: -640px;
     left: 1070px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
@@ -212,7 +212,7 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -1415px;
+    top: -1315px;
     left: 960px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
@@ -225,7 +225,7 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -1450px;
+    top: -1350px;
     left: 1120px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
@@ -238,7 +238,7 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -1755px;
+    top: -1655px;
     left: 1290px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
@@ -251,7 +251,7 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -1750px;
+    top: -1650px;
     left: 1425px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
@@ -264,7 +264,7 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -1985px;
+    top: -1885px;
     left: 1535px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
@@ -277,7 +277,7 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -2375px;
+    top: -2275px;
     left: 1535px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
@@ -290,7 +290,7 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -2931px;
+    top: -2831px;
     left: 1535px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
@@ -303,7 +303,7 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -2710px;
+    top: -2610px;
     left: 1335px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
@@ -316,7 +316,7 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -2885px;
+    top: -2785px;
     left: 1345px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
@@ -329,7 +329,7 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -3216px;
+    top: -3116px;
     left: 1345px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
@@ -342,7 +342,7 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -3378px;
+    top: -3278px;
     left: 1333px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
@@ -355,7 +355,7 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -3912px;
+    top: -3812px;
     left: 1535px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
@@ -368,7 +368,7 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -4393px;
+    top: -4293px;
     left: 1532px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
@@ -381,7 +381,7 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -4577px;
+    top: -4477px;
     left: 1535px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
@@ -394,7 +394,7 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: 1305px;
+    top: 1205px;
     left: -370px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
@@ -661,7 +661,5 @@ body {
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
-
-
 
 
