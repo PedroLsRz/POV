@@ -1,0 +1,665 @@
+body {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.fundo {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar{
+    display: flex;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.453);
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+.logo{
+    height: 50px;
+    margin-bottom: 10px;
+     margin-top: 10px;
+    margin-left: 1vw;
+}
+.saudacao{
+    text-align: center;
+    text-decoration:none;
+    color: rgb(0, 31, 84);
+}
+.mudartrajeto{
+    display: flex;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(124, 34, 162);
+    font-weight: 500;
+    justify-content: center;
+    letter-spacing: 1px;
+    cursor: pointer;
+    align-items: center;
+    box-shadow: 0px 3px 10px black;
+    text-decoration:none;
+}
+.mudartrajeto:hover{
+    background-color: rgb(96, 10, 181);
+    transition: 0.3s;
+    color: rgb(227, 230, 230);
+}
+.sair{
+    display: flex;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(124, 34, 162);
+    font-weight: 500;
+    justify-content: center;
+    letter-spacing: 1px;
+    cursor: pointer;
+    align-items: center;
+    box-shadow: 0px 3px 10px black;
+    text-decoration:none;
+    margin-right: 1vw;
+}
+.sair:hover{
+    background-color: rgb(96, 10, 181);
+    transition: 0.3s;
+    color: rgb(227, 230, 230);
+}
+.format {
+    flex-direction: column;
+    justify-content: baseline;
+    display: flex;
+    align-items: center;
+}
+.bg {
+    width: 100%;
+    height: 89vh;
+    overflow-y: auto;
+    overflow-x: auto;
+    align-items: center;
+    justify-content: center;
+    
+}
+.bg img {
+    display:block;
+    min-height: 100vh;
+    width: 2000px;
+    align-items: center;
+    justify-content: center;
+}
+.diventrada{
+    width: 50px;
+    height: 50px;
+    background-color: none;
+    position:relative;
+    top: -400px;
+    left:630px;
+}
+.divrefeitorio{
+    width: 50px;
+    height: 50px;
+    background-color: none;
+    position:relative;
+    top: -2550px;
+    left:1470px;
+}
+.divcoordenacao{
+    width: 50px;
+    height: 50px;
+    background-color: none;
+    position:relative;
+    top: -1050px;
+    left: 1100px;
+}
+.svg{
+    height: 3200px;
+    width: 1900px;
+    align-items: center;
+    justify-content: center;
+    display:block;
+    position:relative;
+    background-image: url(../img/planta.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.linha{
+    fill:none;
+    stroke: rgb(83, 10, 152);
+    stroke-width:8px;
+    opacity: 0.8;
+}
+.linhatracada{
+    fill:none;
+    stroke: rgb(235, 213, 255);
+    stroke-width:2px;
+    opacity: 0.8;   
+    stroke-dasharray: 10px 20px;
+}
+.divcoordenacao{
+    width: 50px;
+    height: 50px;
+    background-color: none;
+    position:relative;
+    top: -1050px;
+    left: 1100px;
+}
+
+ /* Nomes das salas no mapa editável*/
+.a1{
+    width: 120px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -189px;
+    left:545px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.b1{
+    width: 150px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -470px;
+    left:420px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.b2{
+    width: 140px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -590px;
+    left:820px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.b4{
+    width: 70px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -640px;
+    left: 1070px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.c1{
+    width: 70px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -1315px;
+    left: 960px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.c2{
+    width: 100px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -1350px;
+    left: 1120px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.d1{
+    width: 100px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -1655px;
+    left: 1290px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.d2{
+    width: 100px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -1650px;
+    left: 1425px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.e1{
+    width: 100px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -1885px;
+    left: 1535px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.e2{
+    width: 100px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -2275px;
+    left: 1535px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.e3{
+    width: 100px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -2831px;
+    left: 1535px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.e4{
+    width: 100px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -2610px;
+    left: 1335px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.e5{
+    width: 100px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -2785px;
+    left: 1345px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.e6{
+    width: 100px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -3116px;
+    left: 1345px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.e7{
+    width: 100px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -3278px;
+    left: 1333px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.e8{
+    width: 100px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -3812px;
+    left: 1535px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.e9{
+    width: 100px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -4293px;
+    left: 1532px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.e10{
+    width: 70px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -4477px;
+    left: 1535px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.f1{
+    width: 120px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: 1205px;
+    left: -370px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.g1{
+    width: 120px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: 1033px;
+    left: -615px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.g2{
+    width: 120px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: 795px;
+    left: -710px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.g3{
+    width: 120px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: 805px;
+    left: -780px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.g4{
+    width: 120px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: 685px;
+    left: -900px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.g5{
+    width: 120px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: 435px;
+    left: -905px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.h1{
+    width: 70px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: 255px;
+    left: -545px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.h2{
+    width: 70px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: 30px;
+    left: -605px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.i1{
+    width: 100px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -485px;
+    left: -745px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.i2{
+    width: 100px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -605px;
+    left: -405px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.i3{
+    width: 100px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -725px;
+    left: -310px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.i4{
+    width: 100px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -920px;
+    left: -865px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.j1{
+    width: 100px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -2030px;
+    left: -740px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.j2{
+    width: 130px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -2212px;
+    left: -567px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+
+.j3{
+    width: 100px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -2332px;
+    left: -280px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+
+.j4{
+    width: 140px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -2452px;
+    left: -180px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.j5{
+    width: 140px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -2554px;
+    left: -5px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.j7{
+    width: 70px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -2550px;
+    left: 35px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.l1{
+    width: 70px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -2145px;
+    left: -230px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.l2{
+    width: 70px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -2850px;
+    left: -1380px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.l3{
+    width: 130px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -2975px;
+    left: -975px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+
+
