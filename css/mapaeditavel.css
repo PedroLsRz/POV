@@ -160,8 +160,8 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -189px;
-    left:545px;
+    top: -175px;
+    left:538px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
@@ -174,7 +174,7 @@ body {
     color: rgb(0, 73, 73);
     position:relative;
     top: -470px;
-    left:420px;
+    left:410px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
@@ -199,26 +199,26 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -640px;
-    left: 1070px;
+    top: -635px;
+    left: 1050px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
 .c1{
-    width: 70px;
+    width: 140px;
     height: 120px;
     font-size: 12px;
     font-weight: bolder;
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -1315px;
-    left: 960px;
+    top: -1300px;
+    left: 920px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
 .c2{
-    width: 100px;
+    width: 140px;
     height: 120px;
     font-size: 12px;
     font-weight: bolder;
@@ -226,7 +226,7 @@ body {
     color: rgb(0, 73, 73);
     position:relative;
     top: -1350px;
-    left: 1120px;
+    left: 1105px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
@@ -251,13 +251,13 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -1650px;
+    top: -1655px;
     left: 1425px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
 .e1{
-    width: 100px;
+    width: 120px;
     height: 120px;
     font-size: 12px;
     font-weight: bolder;
@@ -265,12 +265,12 @@ body {
     color: rgb(0, 73, 73);
     position:relative;
     top: -1885px;
-    left: 1535px;
+    left: 1525px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
 .e2{
-    width: 100px;
+    width: 120px;
     height: 120px;
     font-size: 12px;
     font-weight: bolder;
@@ -278,12 +278,12 @@ body {
     color: rgb(0, 73, 73);
     position:relative;
     top: -2275px;
-    left: 1535px;
+    left: 1525px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
 .e3{
-    width: 100px;
+    width: 120px;
     height: 120px;
     font-size: 12px;
     font-weight: bolder;
@@ -291,7 +291,7 @@ body {
     color: rgb(0, 73, 73);
     position:relative;
     top: -2831px;
-    left: 1535px;
+    left: 1525px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
@@ -303,8 +303,8 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -2610px;
-    left: 1335px;
+    top: -2620px;
+    left: 1355px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
@@ -317,7 +317,7 @@ body {
     color: rgb(0, 73, 73);
     position:relative;
     top: -2785px;
-    left: 1345px;
+    left: 1340px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
@@ -330,7 +330,7 @@ body {
     color: rgb(0, 73, 73);
     position:relative;
     top: -3116px;
-    left: 1345px;
+    left: 1340px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
@@ -342,51 +342,12 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -3278px;
+    top: -3282px;
     left: 1333px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
 .e8{
-    width: 100px;
-    height: 120px;
-    font-size: 12px;
-    font-weight: bolder;
-    font-family: cursive;
-    color: rgb(0, 73, 73);
-    position:relative;
-    top: -3812px;
-    left: 1535px;
-    text-shadow: 1px 3px 8px rgb(255, 255, 255);
-    text-align: center;
-}
-.e9{
-    width: 100px;
-    height: 120px;
-    font-size: 12px;
-    font-weight: bolder;
-    font-family: cursive;
-    color: rgb(0, 73, 73);
-    position:relative;
-    top: -4293px;
-    left: 1532px;
-    text-shadow: 1px 3px 8px rgb(255, 255, 255);
-    text-align: center;
-}
-.e10{
-    width: 70px;
-    height: 120px;
-    font-size: 12px;
-    font-weight: bolder;
-    font-family: cursive;
-    color: rgb(0, 73, 73);
-    position:relative;
-    top: -4477px;
-    left: 1535px;
-    text-shadow: 1px 3px 8px rgb(255, 255, 255);
-    text-align: center;
-}
-.f1{
     width: 120px;
     height: 120px;
     font-size: 12px;
@@ -394,8 +355,47 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: 1205px;
-    left: -370px;
+    top: -3812px;
+    left: 1525px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.e9{
+    width: 120px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -4293px;
+    left: 1525px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.e10{
+    width: 120px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -4480px;
+    left: 1525px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.f1{
+    width: 100px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: 1300px;
+    left: -350px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
