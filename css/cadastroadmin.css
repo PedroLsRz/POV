@@ -36,7 +36,7 @@ body {
 }
 .user > input {
 
-    padding-right: 60px;
+    width: 55.5vw;
     background-color: rgba(18, 95, 57, 0);
     border: none;
     color: rgb(0, 31, 84);
@@ -60,7 +60,7 @@ body {
     
 }
 .nome > input {
-    padding-right: 60px;
+    width: 55.5vw;
     background-color: rgba(18, 95, 57, 0);
     border: none;
     color: rgb(0, 31, 84);
@@ -82,7 +82,7 @@ body {
     font-weight: 500;  
 }
 .senha > input{
-    padding-right: 60px;
+    width: 55.5vw;
     background-color: rgba(18, 95, 57, 0);
     border: none;
     color: rgb(0, 31, 84);
