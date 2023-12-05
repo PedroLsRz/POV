@@ -40,7 +40,7 @@ session_start();
             ?>
             </ul>
         </div>
-        <img class= "botaovoltar" onclick='location.href="../rotas/destinosalas.php"' src="../img/voltar.png" >
+        <img class= "botaovoltar" onclick='location.href="../rotas/validavolta.php"' src="../img/voltar.png" >
         
         <script>
             let inputElement = document.querySelector("input")

@@ -202,10 +202,16 @@ function definerota(){
             $final = "735,1955 735,1905";
             break;
         case "h1":
-            // $final = "955,1835 ";
+            $final = "955,1845 985,1845";
             break;
         case "h2":
-            $final = "955,1750 ";
+            $final = "955,1750";
+            break;
+        case "h3":
+            $final = "";
+            break;
+        case "h4":
+            $final = "";
             break;
         case "i1":
             $final = "795,1255 795,1315 ";
@@ -241,10 +247,10 @@ function definerota(){
             $final = "1600,285 1600,335";
             break;
         case "l1":
-            $final = "1370,880";
+            $final = "1450,880";
             break;
         case "l2":
-            $final = "190,880 190,315 ";
+            $final = "370,880 370,350 200,350 200,320 ";
             break;
         case "l3":
             $final = "595,880 595,320 ";

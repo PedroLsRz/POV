@@ -20,6 +20,13 @@ body {
     justify-content: space-between;
     
 }
+.botaovoltar{
+    height: 70px;
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+    
+  }
 .logo{
     height: 50px;
     margin-bottom: 10px;
@@ -152,7 +159,7 @@ body {
 }
 
  /* Nomes das salas no mapa editável*/
-.a1{
+ .a1{
     width: 120px;
     height: 120px;
     font-size: 12px;
@@ -161,7 +168,7 @@ body {
     color: rgb(0, 73, 73);
     position:relative;
     top: -175px;
-    left:538px;
+    left:540px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
@@ -174,7 +181,7 @@ body {
     color: rgb(0, 73, 73);
     position:relative;
     top: -470px;
-    left:410px;
+    left:408px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
@@ -199,7 +206,7 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -635px;
+    top: -630px;
     left: 1050px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
@@ -213,12 +220,12 @@ body {
     color: rgb(0, 73, 73);
     position:relative;
     top: -1300px;
-    left: 920px;
+    left: 910px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
 .c2{
-    width: 140px;
+    width: 160px;
     height: 120px;
     font-size: 12px;
     font-weight: bolder;
@@ -226,7 +233,7 @@ body {
     color: rgb(0, 73, 73);
     position:relative;
     top: -1350px;
-    left: 1105px;
+    left: 1110px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
@@ -238,8 +245,8 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -1655px;
-    left: 1290px;
+    top: -1650px;
+    left: 1270px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
@@ -251,7 +258,7 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -1655px;
+    top: -1650px;
     left: 1425px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
@@ -296,7 +303,7 @@ body {
     text-align: center;
 }
 .e4{
-    width: 100px;
+    width: 80px;
     height: 120px;
     font-size: 12px;
     font-weight: bolder;
@@ -304,7 +311,7 @@ body {
     color: rgb(0, 73, 73);
     position:relative;
     top: -2620px;
-    left: 1355px;
+    left: 1360px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
@@ -316,7 +323,7 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -2785px;
+    top: -2788px;
     left: 1340px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
@@ -329,7 +336,7 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -3116px;
+    top: -3118px;
     left: 1340px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
@@ -342,8 +349,8 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -3282px;
-    left: 1333px;
+    top: -3280px;
+    left: 1330px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
@@ -381,7 +388,7 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -4480px;
+    top: -4477px;
     left: 1525px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
@@ -394,8 +401,8 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: 1300px;
-    left: -350px;
+    top: -3268px;
+    left: 1175px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
@@ -407,8 +414,8 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: 1033px;
-    left: -615px;
+    top: -3520px;
+    left: 955px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
@@ -420,38 +427,51 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: 795px;
-    left: -710px;
+    top: -3763px;
+    left: 805px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
 .g3{
-    width: 120px;
+    width: 90px;
     height: 120px;
     font-size: 12px;
     font-weight: bolder;
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: 805px;
-    left: -780px;
+    top: -3763px;
+    left: 755px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
 .g4{
-    width: 120px;
+    width: 80px;
     height: 120px;
     font-size: 12px;
     font-weight: bolder;
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: 685px;
-    left: -900px;
+    top: -3883px;
+    left: 675px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
 .g5{
+    width: 80px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -4140px;
+    left: 670px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.h1{
     width: 120px;
     height: 120px;
     font-size: 12px;
@@ -459,47 +479,34 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: 435px;
-    left: -905px;
-    text-shadow: 1px 3px 8px rgb(255, 255, 255);
-    text-align: center;
-}
-.h1{
-    width: 70px;
-    height: 120px;
-    font-size: 12px;
-    font-weight: bolder;
-    font-family: cursive;
-    color: rgb(0, 73, 73);
-    position:relative;
-    top: 255px;
-    left: -545px;
+    top: -4313px;
+    left: 978px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
 .h2{
-    width: 70px;
+    width: 120px;
     height: 120px;
     font-size: 12px;
     font-weight: bolder;
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: 30px;
-    left: -605px;
+    top: -4532px;
+    left: 928px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
 .i1{
-    width: 100px;
+    width: 120px;
     height: 120px;
     font-size: 12px;
     font-weight: bolder;
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -485px;
-    left: -745px;
+    top: -5050px;
+    left: 790px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
@@ -511,8 +518,8 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -605px;
-    left: -405px;
+    top: -5175px;
+    left: 1100px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
@@ -524,66 +531,25 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -725px;
-    left: -310px;
+    top: -5295px;
+    left: 1245px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
 .i4{
-    width: 100px;
+    width: 70px;
     height: 120px;
     font-size: 12px;
     font-weight: bolder;
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -920px;
-    left: -865px;
+    top: -5485px;
+    left: 685px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
 .j1{
-    width: 100px;
-    height: 120px;
-    font-size: 12px;
-    font-weight: bolder;
-    font-family: cursive;
-    color: rgb(0, 73, 73);
-    position:relative;
-    top: -2030px;
-    left: -740px;
-    text-shadow: 1px 3px 8px rgb(255, 255, 255);
-    text-align: center;
-}
-.j2{
-    width: 130px;
-    height: 120px;
-    font-size: 12px;
-    font-weight: bolder;
-    font-family: cursive;
-    color: rgb(0, 73, 73);
-    position:relative;
-    top: -2212px;
-    left: -567px;
-    text-shadow: 1px 3px 8px rgb(255, 255, 255);
-    text-align: center;
-}
-
-.j3{
-    width: 100px;
-    height: 120px;
-    font-size: 12px;
-    font-weight: bolder;
-    font-family: cursive;
-    color: rgb(0, 73, 73);
-    position:relative;
-    top: -2332px;
-    left: -280px;
-    text-shadow: 1px 3px 8px rgb(255, 255, 255);
-    text-align: center;
-}
-
-.j4{
     width: 140px;
     height: 120px;
     font-size: 12px;
@@ -591,8 +557,49 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -2452px;
-    left: -180px;
+    top: -6588px;
+    left: 755px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.j2{
+    width: 140px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -6770px;
+    left: 935px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+
+.j3{
+    width: 140px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -6890px;
+    left: 1215px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+
+.j4{
+    width: 180px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -7010px;
+    left: 1367px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
@@ -604,62 +611,60 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -2554px;
-    left: -5px;
+    top: -7117px;
+    left: 1547px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
 .j7{
-    width: 70px;
+    width: 100px;
     height: 120px;
     font-size: 12px;
     font-weight: bolder;
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -2550px;
-    left: 35px;
+    top: -7105px;
+    left: 1565px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
 .l1{
-    width: 70px;
+    width: 140px;
     height: 120px;
     font-size: 12px;
     font-weight: bolder;
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -2145px;
-    left: -230px;
+    top: -6705px;
+    left: 1310px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
 .l2{
-    width: 70px;
+    width: 140px;
     height: 120px;
     font-size: 12px;
     font-weight: bolder;
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -2850px;
-    left: -1380px;
+    top: -7405px;
+    left: 103px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
 .l3{
-    width: 130px;
+    width: 120px;
     height: 120px;
     font-size: 12px;
     font-weight: bolder;
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: -2975px;
-    left: -975px;
+    top: -7530px;
+    left: 570px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
-
-

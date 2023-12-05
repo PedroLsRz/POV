@@ -66,7 +66,7 @@ require_once "../funcoes/buscanomesala.php";
             <div id="e7" class="e7" onclick='location.href="../funcoes/idsalas.php?id=e7"'><?php echo $_SESSION["e7"]; ?></div>
             <div id="e8" class="e8" onclick='location.href="../funcoes/idsalas.php?id=e8"'><?php echo $_SESSION["e8"]; ?></div>
             <div id="e9" class="e9" onclick='location.href="../funcoes/idsalas.php?id=e9"'><?php echo $_SESSION["e9"]; ?></div>
-            <div id="e10" class="e10" onclick='location.href="../funcoes/idsalas.php?id=e10"'><?php echo $_SESSION["e10"]; ?><div>
+            <div id="e10" class="e10" onclick='location.href="../funcoes/idsalas.php?id=e10"'><?php echo $_SESSION["e10"]; ?></div>
             <div id="f1" class="f1" onclick='location.href="../funcoes/idsalas.php?id=f1"'><?php echo $_SESSION["f1"]; ?></div>
             <div id="g1" class="g1" onclick='location.href="../funcoes/idsalas.php?id=g1"'><?php echo $_SESSION["g1"]; ?></div>
             <div id="g2" class="g2" onclick='location.href="../funcoes/idsalas.php?id=g2"'><?php echo $_SESSION["g2"]; ?></div>
@@ -94,7 +94,7 @@ require_once "../funcoes/buscanomesala.php";
       
     </div>
 </div>
-
+<img class= "botaovoltar" onclick='location.href="../view/admin.php"' src="../img/voltar.png" >
 </body>
 
 </html>
