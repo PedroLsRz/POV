@@ -15,7 +15,7 @@ values ("Administrador", "admin","admin", 1);
 
 create table salas (
 id int auto_increment primary key,
-nome varchar(100) unique key not null,
+nome varchar(100)  not null,
 codsala varchar (10) unique key not null,
 area varchar(1) not null,
 descricao varchar(400) not null
@@ -25,27 +25,15 @@ insert into usuarios (nome, sobrenome, login, email, senha, tipo)
 values ("Administrador", "01", "admin012", "administrador@gmail.com", "admin012", 1);
 
 insert into salas (nome,codsala,area,descricao)
-values ("CAA","b1","b", "Central de Atendimento ao Aluno"), ("NAF","b2","b","Núcleo de Apoio Fiscal e Contábil"), ("CAC","a1","a", "Central de Atendimento ao Candidato"),("SM","b3","b", "Sala Misteriosaa"),("EAD","a2","a", "Educação a Distância");
-
-insert into salas (nome,codsala,area,descricao)
-values ("NSA","c1","c", "Núcleo de Suporte Acadêmico"), ("A1","c2","c","Sala de estudo em grupo e pesquisa virtual"), ("A2","d1","d", "laboratório de informática"),("Elevador","d2","d", "Elevador de acesso"),
+values ("CAA","b1","b", "Central de Atendimento ao Aluno"), ("NAF","b2","b","Núcleo de Apoio Fiscal e Contábil"), ("CAC","a1","a", "Central de Atendimento ao Candidato"),("EAD","b4","b", "Educação a Distância"),
+	   ("NSA","c1","c", "Núcleo de Suporte Acadêmico"), ("A1","c2","c","Sala de estudo em grupo e pesquisa virtual"), ("A2","d1","d", "laboratório de informática"),("EA","d2","d", "Elevador de Acesso"),
 	   ("B01","e1","e","Laboratório de informática"), ("B02","e2","e","Laboratório de informática"),("B03","e3","e","Laboratório de informática"), ("Vv","e4","e", "Loja Uniforme"),
-	   ("BF","e5","e","Banheiro feminino"), ("BM","e6","e","Banheiro masculino"),("VG","e7","e","Vestiário de gastronomia"),
-       ("D05","e8","e","Laboratório de construção civil e segurança do trabalho"), ("D06","e9","e","Laboratório de física e elétrica"),("D07","e10","e","Laboratório de química");
-
-insert into salas (nome,codsala,area,descricao)
-values ("XEROX","f1","f", "Sala de xerox"), ("LIM","g1","g","Laboratório integrado de medicina veterinária"), ("C02","g2","g", "Ateliê"),("C01b","g3","g", "Sala de estudo"),
+	   ("Bloco B","e5","e","Banheiro feminino"), ("Bloco B","e6","e","Banheiro masculino"),("VG","e7","e","Vestiário de gastronomia"),
+       ("D05","e8","e","Laboratório de construção civil e segurança do trabalho"), ("D06","e9","e","Laboratório de física e elétrica"),("D07","e10","e","Laboratório de química"),
+	   ("XEROX","f1","f", "Sala de xerox"), ("LIM","g1","g","Laboratório integrado de medicina veterinária"), ("C02","g2","g", "Ateliê"),("C01b","g3","g", "Sala de estudo"),
 	   ("C04","g4","g","Sala de estudo"), ("C03","g5","g","Sala de estudo"),("BF Bloco c","h1","h","Banheiro feminino"), ("BM Bloco c","h2","h", "Banheiro masculino"),
-	   ("D01","e11","e","Sala bar"), ("D02","i1","i","Laboratório de alimentos"),("D03","i2","i","Cozinha pedagógica"),("D04","i3","i","Cozinha pedagógica");
+	   ("D01","i4","i","Sala bar"), ("D02","i1","i","Laboratório de alimentos"),("D03","i2","i","Cozinha pedagógica"),("D04","i3","i","Cozinha pedagógica"),
+	   ("D13","j1","j","Laboratório de performace humana"),("D12","j2","j","Criatividade, inovação e prototipagem"),("D11","j3","j","Laboratório multidisciplinar"),
+	   ("D10","j4","j","Laboratório de conforto ambiental e maquete"),("D09","j5","j","Sala de estudo"),("Academia","j7","j","Educação Física"),("CEP","l3","l","Clínica Escola de Psicologia"),
+	   ("Refeitório","l1","l","Ambiente de lazer"),("Biblioteca","l2","l","Ambiente de estudo"),("Bloco c","h3","h","Banheiro Acessivel feminino"), ("Bloco c","h4","h", "Banheiro Acessivel masculino");
 
-insert into salas (nome,codsala,area,descricao)
-values ("D13","j1","j","Laboratório de performace humana"),("D12","j2","j","Criatividade, inovação e prototipagem"),("D11","j3","j","Laboratório multidisciplinar"),
-	   ("D10","j4","j","Laboratório de conforto ambiental e maquete"),("SM2","j5","j","Sala misteriosa"),("SM3","j6","j","Sala misteriosa"),("Academia","j7","j","Educação Física"),
-	   ("Refeitório","l1","l","Ambiente de lazer"),("Biblioteca","l2","l","Ambiente de estudo");
-
-insert into salas (nome,codsala,area,descricao)
-values ("CEP","l3","l","Clínica Escola de Psicologia");
-
-
-update salas set codsala = 'b4', area = 'b' where id = '5';
-update salas set codsala = 'i4', area = 'i' where id = '28';
