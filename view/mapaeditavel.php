@@ -15,7 +15,7 @@ require_once "../funcoes/buscanomesala.php";
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../css/mapa.css" rel="stylesheet">
+    <link href="../css/mapaeditavel.css" rel="stylesheet">
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
     <title>PoV - Rota</title>
 </head>
@@ -94,7 +94,7 @@ require_once "../funcoes/buscanomesala.php";
       
     </div>
 </div>
-
+<img class= "botaovoltar" onclick='location.href="../view/admin.php"' src="../img/voltar.png" >
 </body>
 
 </html>
