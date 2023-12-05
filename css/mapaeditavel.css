@@ -400,33 +400,33 @@ body {
     text-align: center;
 }
 .g1{
-    width: 120px;
+    width: 140px;
     height: 120px;
     font-size: 12px;
     font-weight: bolder;
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: 1033px;
+    top: 1040px;
     left: -615px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
 .g2{
-    width: 120px;
+    width: 100px;
     height: 120px;
     font-size: 12px;
     font-weight: bolder;
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: 795px;
+    top: 800px;
     left: -710px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
 .g3{
-    width: 120px;
+    width: 80px;
     height: 120px;
     font-size: 12px;
     font-weight: bolder;
@@ -434,24 +434,37 @@ body {
     color: rgb(0, 73, 73);
     position:relative;
     top: 805px;
-    left: -780px;
+    left: -750px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
 .g4{
-    width: 120px;
+    width: 80px;
     height: 120px;
     font-size: 12px;
     font-weight: bolder;
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: 685px;
-    left: -900px;
+    top: 680px;
+    left: -860px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
 .g5{
+    width: 80px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: 430px;
+    left: -860px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.h1{
     width: 120px;
     height: 120px;
     font-size: 12px;
@@ -459,34 +472,21 @@ body {
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: 435px;
-    left: -905px;
-    text-shadow: 1px 3px 8px rgb(255, 255, 255);
-    text-align: center;
-}
-.h1{
-    width: 70px;
-    height: 120px;
-    font-size: 12px;
-    font-weight: bolder;
-    font-family: cursive;
-    color: rgb(0, 73, 73);
-    position:relative;
-    top: 255px;
-    left: -545px;
+    top: 253px;
+    left: -550px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
 .h2{
-    width: 70px;
+    width: 120px;
     height: 120px;
     font-size: 12px;
     font-weight: bolder;
     font-family: cursive;
     color: rgb(0, 73, 73);
     position:relative;
-    top: 30px;
-    left: -605px;
+    top: 35px;
+    left: -595px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
