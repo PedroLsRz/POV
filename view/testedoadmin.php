@@ -62,7 +62,7 @@ if ($_SESSION['logado'] <> true) {
             </script>
             
             <a class = "textobotoes">Botões de rotas</a>
-            <nav class="navbar">
+            <nav class="navbar-botoes">
         
                 <a class= "botaodeteste" href="../rotas/localiza.php?loc=entradafpb">Entrada</a>
                 <a class= "botaodeteste" href="../rotas/localiza.php?loc=refeitoriofpb">Refeitorio</a>
