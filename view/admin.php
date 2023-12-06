@@ -5,6 +5,7 @@ session_start();
 if ($_SESSION['logado'] <> true) {
   header('Location: acessoadmin.php');
 }
+require_once "../funcoes/componentesadmin.php";
 ?>
 
 <!DOCTYPE html>
@@ -32,13 +33,12 @@ if ($_SESSION['logado'] <> true) {
                 <a class = "sair" href="../funcoes/logout.php">Sair</a>
             </nav>
                 <div class="menu">
-                 <h1 class="usuario">Usuário</h1>
-                 <button type="submit" class="botao" name="cadastro" onclick="window.location.href='./cadastroadmin.php'">Criar Usuário</button>
-                 <button type="submit" class="botao" name="excluir" onclick="window.location.href='./excluirusuario.php'">Excluir Usuário</button>
-                 <button type="submit" class="botao" name="edicao" onclick="window.location.href='./escolhaeditarusuario.php'">Editar dados <br>de um Usuário</button>
+                
+                <?php ajustesusuario(); ?>
+                 
                  <h1 class="aplicacao">Aplicação</h1>
                  <button type="submit" class="botao" name="editar" onclick="window.location.href='./mapaeditavel.php'">Editar salas</button>
-                <button type="submit" class="botao" name="Testar" onclick="window.location.href='./testedoadmin.php'">Testar aplicação</button>
+                <button type="submit" class="botao" name="Testar" onclick="window.location.href='./inicio.php'">Testar aplicação</button>
                 </div>
         
     </div>

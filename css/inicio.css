@@ -90,3 +90,50 @@ body {
     display: flex;
     align-items: center;
 }
+.textobotoes{
+    display: flex;
+    color: rgb(0, 31, 84);
+    height: 40px;
+    width: 250px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.453);
+    border-radius: 20px;
+    padding: 10px;
+}
+.botaodeteste{
+    margin: 1vw;
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.453);
+    justify-content: center;
+    width: 90px;
+    height: 25px;
+    border-radius: 3px;
+    border: 2px solid  rgba(72, 177, 189, 0.158);
+    outline: 1px solid rgba(72, 177, 189, 0.158);
+    color: rgb(0, 31, 84);
+    box-shadow:1px 2px 3px 1px rgba(72, 177, 189, 0.616);
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+.botaodeteste:hover{
+    background-color: rgb(96, 10, 181);
+    transition: 0.3s;
+    color: rgb(227, 230, 230);
+}
+.botaovoltar{
+    height: 70px;
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+    
+  }
+.botoesteste{
+    display: flex;
+}

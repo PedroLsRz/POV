@@ -1,6 +1,7 @@
 <?php
 #Iniciar sessão
 session_start();
+require_once "../funcoes/componentesadmin.php";
 ?>
 
 <!DOCTYPE html>
@@ -24,12 +25,7 @@ session_start();
                 <!-- <a class="saudacao">Olá, <?php echo $_SESSION['nome'] ?><br>Seja bem-vindo!</a> -->
                 <!-- Link para encerrar a sessão montada no arquivo declarado abaixo-->
                 
-                    <div class= "botaodeteste">
-                        <a class= "botaodeteste" href="../rotas/localiza.php?loc=entradafpb">Entrada</a><br>
-                        <a class= "botaodeteste" href="../rotas/localiza.php?loc=refeitoriofpb">Refeitorio</a><br>
-                        <a class= "botaodeteste" href="../rotas/localiza.php?loc=coordenacaofpb">Coordenação</a>
-                    </div>
-                <a></a>
+                <?php botaosair(); ?>
                 
             
             </nav>
@@ -61,6 +57,8 @@ session_start();
                 
             </script>
             
+                <?php opcoesrota(); ?>
+
         </div>
                     
         

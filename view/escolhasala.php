@@ -1,5 +1,6 @@
 <?php
 require_once "../funcoes/bancosalas.php";
+require_once "../funcoes/componentesadmin.php";
 #Iniciar sessão
 session_start();
 ?>
@@ -24,8 +25,8 @@ session_start();
                 usuário registrado no banco de dados ao se logar com sucesso-->
                 <a class="saudacao">Escolha a sala<br>que deseja ir!</a>
                 <!-- Link para encerrar a sessão montada no arquivo declarado abaixo-->
-
-                <a></a>
+                <?php botaosair(); ?>
+                
 
             </nav>
             

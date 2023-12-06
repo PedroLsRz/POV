@@ -5,6 +5,7 @@ session_start();
 require_once "../funcoes/definerota.php";
 require_once "../funcoes/defineposicaomapa.php";
 require_once "../funcoes/buscanomesala.php";
+require_once "../funcoes/componentesadmin.php";
 ?>
 
 <!DOCTYPE html>
@@ -26,7 +27,7 @@ require_once "../funcoes/buscanomesala.php";
      <img class= "logo" src="../img/logoNavBar.png" > 
         <a class="mudartrajeto" type="submit" href="opcaomudartrajeto.php">Mudar Trajeto</a>
          <!-- Link para encerrar a sessão montada no arquivo declarado abaixo-->
-        <a></a>
+         <?php botaosair(); ?>
         
   </nav>
   <a href="#entrada" id="linkentrada"></a>
@@ -93,5 +94,5 @@ require_once "../funcoes/buscanomesala.php";
 </div>
 
 </body>
-
+<?php botaovoltar(); ?>
 </html>
