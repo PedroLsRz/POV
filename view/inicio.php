@@ -21,7 +21,7 @@ session_start();
                 <img class= "logo" src="../img/logoNavBar.png" > 
                 <!-- Cabeçalho da barra de navegação printando o nome do 
                 usuário registrado no banco de dados ao se logar com sucesso-->
-                <a class="saudacao">Olá, leia o Qr abaixo</a>
+                <a class="saudacao">Leia o QrCode</a>
                 <!-- Link para encerrar a sessão montada no arquivo declarado abaixo-->
                 <h1></h1>
             
