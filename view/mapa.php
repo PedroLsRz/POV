@@ -6,6 +6,9 @@ require_once "../funcoes/definerota.php";
 require_once "../funcoes/defineposicaomapa.php";
 require_once "../funcoes/buscanomesala.php";
 require_once "../funcoes/componentesadmin.php";
+if(isset($_SESSION['sala']) == null){
+  header('Location: escolhasala.php');
+}
 ?>
 
 <!DOCTYPE html>

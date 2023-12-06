@@ -3,6 +3,9 @@ require_once "../funcoes/bancosalas.php";
 require_once "../funcoes/componentesadmin.php";
 #Iniciar sessão
 session_start();
+if(isset($_SESSION['loc']) == null){
+    header('Location: inicio.php');
+}
 ?>
 
 <!DOCTYPE html>
