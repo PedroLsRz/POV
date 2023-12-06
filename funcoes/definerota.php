@@ -76,7 +76,7 @@ function definerota(){
                     $trajeto = " 1470,880 1470,1255 ";
                     break;
                 case "j":
-                    $trajeto = " 1470,880 1470,285";
+                    $trajeto = " 1470,880 1470,285 ";
                     break;
                 case "l":
                     $trajeto = "  ";
