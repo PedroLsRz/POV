@@ -21,16 +21,9 @@ session_start();
                 <img class= "logo" src="../img/logoNavBar.png" > 
                 <!-- Cabeçalho da barra de navegação printando o nome do 
                 usuário registrado no banco de dados ao se logar com sucesso-->
-                <!-- <a class="saudacao">Olá, <?php echo $_SESSION['nome'] ?><br>Seja bem-vindo!</a> -->
+                <a class="saudacao">Olá, leia o Qr abaixo</a>
                 <!-- Link para encerrar a sessão montada no arquivo declarado abaixo-->
-                
-                    <div class= "botaodeteste">
-                        <a class= "botaodeteste" href="../rotas/localiza.php?loc=entradafpb">Entrada</a><br>
-                        <a class= "botaodeteste" href="../rotas/localiza.php?loc=refeitoriofpb">Refeitorio</a><br>
-                        <a class= "botaodeteste" href="../rotas/localiza.php?loc=coordenacaofpb">Coordenação</a>
-                    </div>
-                <a></a>
-                
+                <h1></h1>
             
             </nav>
 
