@@ -88,6 +88,8 @@ require_once "../funcoes/buscanomesala.php";
             <div id="l1" class="l1" onclick='location.href="../funcoes/idsalas.php?id=l1"'><?php echo $_SESSION["l1"]; ?></div>
             <div id="l2" class="l2" onclick='location.href="../funcoes/idsalas.php?id=l2"'><?php echo $_SESSION["l2"]; ?></div>
             <div id="l3" class="l3" onclick='location.href="../funcoes/idsalas.php?id=l3"'><?php echo $_SESSION["l3"]; ?></div>
+            <div id="h3" class="h3" onclick='location.href="../funcoes/idsalas.php?id=h3"'><?php echo $_SESSION["h3"]; ?></div>
+            <div id="h4" class="h4" onclick='location.href="../funcoes/idsalas.php?id=h4"'><?php echo $_SESSION["h4"]; ?></div>
             </div>
         </div>
       </div>

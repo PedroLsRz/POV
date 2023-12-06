@@ -21,8 +21,6 @@ area varchar(1) not null,
 descricao varchar(400) not null
 );
 
-insert into usuarios (nome, sobrenome, login, email, senha, tipo)
-values ("Administrador", "01", "admin012", "administrador@gmail.com", "admin012", 1);
 
 insert into salas (nome,codsala,area,descricao)
 values ("CAA","b1","b", "Central de Atendimento ao Aluno"), ("NAF","b2","b","Núcleo de Apoio Fiscal e Contábil"), ("CAC","a1","a", "Central de Atendimento ao Candidato"),("EAD","b4","b", "Educação a Distância"),

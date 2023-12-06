@@ -208,10 +208,10 @@ function definerota(){
             $final = "955,1750";
             break;
         case "h3":
-            $final = "";
+            $final = "955,1875 985,1875";
             break;
         case "h4":
-            $final = "";
+            $final = "955,1785 985,1785 ";
             break;
         case "i1":
             $final = "795,1255 795,1315 ";
