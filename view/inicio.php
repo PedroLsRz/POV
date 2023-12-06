@@ -1,6 +1,7 @@
 <?php
 #Iniciar sessão
 session_start();
+require_once "../funcoes/componentesadmin.php";
 ?>
 
 <!DOCTYPE html>
@@ -23,7 +24,9 @@ session_start();
                 usuário registrado no banco de dados ao se logar com sucesso-->
                 <a class="saudacao">Leia o QrCode</a>
                 <!-- Link para encerrar a sessão montada no arquivo declarado abaixo-->
-                <h1></h1>
+                
+                <?php botaosair(); ?>
+                
             
             </nav>
 
@@ -54,6 +57,8 @@ session_start();
                 
             </script>
             
+                <?php opcoesrota(); ?>
+
         </div>
                     
         

@@ -27,7 +27,7 @@ require_once "../funcoes/buscanomesala.php";
 
      <img class= "logo" src="../img/logoNavBar.png" > 
          <!-- Link para encerrar a sessão montada no arquivo declarado abaixo-->
-        <a></a>
+         <a class = 'sair' href="../funcoes/logout.php">Sair</a>
         
   </nav>
   <a href="#entrada" id="linkentrada"></a>
@@ -96,7 +96,6 @@ require_once "../funcoes/buscanomesala.php";
       
     </div>
 </div>
-<img class= "botaovoltar" onclick='location.href="../view/admin.php"' src="../img/voltar.png" >
 </body>
-
+<img class= "botaovoltar" onclick='location.href="../view/admin.php"' src="../img/voltar.png" >
 </html>
