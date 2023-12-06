@@ -318,7 +318,7 @@ body {
 .e5{
     width: 100px;
     height: 120px;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: bolder;
     font-family: cursive;
     color: rgb(0, 73, 73);
@@ -331,7 +331,7 @@ body {
 .e6{
     width: 100px;
     height: 120px;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: bolder;
     font-family: cursive;
     color: rgb(0, 73, 73);
@@ -494,6 +494,32 @@ body {
     position:relative;
     top: -4532px;
     left: 928px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.h3{
+    width: 120px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -6065px;
+    left: 1000px;
+    text-shadow: 1px 3px 8px rgb(255, 255, 255);
+    text-align: center;
+}
+.h4{
+    width: 120px;
+    height: 120px;
+    font-size: 12px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: rgb(0, 73, 73);
+    position:relative;
+    top: -6285px;
+    left: 1002px;
     text-shadow: 1px 3px 8px rgb(255, 255, 255);
     text-align: center;
 }
